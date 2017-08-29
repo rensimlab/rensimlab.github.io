@@ -2,10 +2,6 @@
 
 ![Density Projection](images/projection_whole.png)
 
-You can use the [editor on GitHub](https://github.com/rensimlab/rensimlab.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Pages
 
 - [Learn](learn.html)
@@ -15,7 +11,22 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - [Showcase](showcase.html)
 - [Documentation](documentation.html)
 
-### Markdown
+### 3D volume rendering movies
+
+- [Void](images/void.webm)
+- [Normal](images/normal.webm)
+- [Rarepeak](images/rarepeak.webm)
+
+### Galaxies in Renaissance Simulations
+
+![alt text](images/projections.png)
+
+
+### Original ghpages docs (REMOVE ME)
+
+You can use the [editor on GitHub](https://github.com/rensimlab/rensimlab.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
