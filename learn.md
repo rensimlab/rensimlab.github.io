@@ -132,7 +132,7 @@ is done using domain decomposition, illustrated at right.
 ## Coping with an infinite universe
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/fig8.png" width="320" style="float: right;"/></a>
+<img src="images/fig8.jpg" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 (credit) (learn more)
 </figcaption>
@@ -168,7 +168,7 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
 ## Initializing the simulation
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/fig10.png" width="320" style="float: right;"/></a>
+<img src="images/fig10.jpg" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 (credit) (learn more)
 </figcaption>
