@@ -45,7 +45,7 @@ The Universe at t=380,000,000 yr (credit) (learn more)
 </figure>
 
 Gravity collects regions of slight overdensity in the early universe into dense
-clumps of gas and dark matter cosmologists call halos. These halos merge and5
+clumps of gas and dark matter cosmologists call halos. These halos merge and
 coalesce to form the first galaxies (protogalaxies). As time goes on,
 protogalaxies merge and coalesce into larger galaxies, and so on, until today we
 have a variety of galaxy types and sizes. These include large spiral galaxies
