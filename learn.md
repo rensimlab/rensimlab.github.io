@@ -206,13 +206,16 @@ you want to simulate, and how finely resolved the simulation is.
 </figcaption>
 </figure>
 
+The physical laws are expressed as differential equations, both ordinary 
+and partial, which govern the time evolution of the matter and energy in
+the simulation. Specifically, the following processes are included:
 * Uniform by time-varying expansion of the universe as a whole
 * Dynamical behavior of dark matter under the action of self-gravity
 * Dynamical, thermodynamical, and ionization behavior of the hydrogen and helium gas left over from the big bang
 * Chemistry and radiative cooling of the gas and condensation of stars out of the coldest gas
 * Feedback of energy, radiation, and heavy elements from stars 
 * Feedback of high energy radiation from accreting stellar remnants 
-* Transport of phtoionizing and photodissociating radiation
+* Transport of photoionizing and photodissociating radiation
 
 ## Ok, so what happens?
 The narrated animation below shows what happens when all this physics is put into a 
