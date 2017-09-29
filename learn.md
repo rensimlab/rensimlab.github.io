@@ -133,8 +133,7 @@ is done using domain decomposition, illustrated at right.
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig8.jpg" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+<figcaption style="display: table-caption; caption-side: bottom;">1(credit) (learn more)
 </figcaption>
 </figure>
 
@@ -168,7 +167,7 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
 ## Initializing the simulation
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/fig10.jpg" width="320" style="float: right;"/></a>
+<img src="images/fig10.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 (credit) (learn more)
 </figcaption>
@@ -183,9 +182,43 @@ fluctuations has been precisely measured by the Planck satellite. Generally, we 
 simulation at t=380,000 yr, but some millions of years later. Using linear perturbation theory, 
 we are able to adjust the amplitude accordingly, however the power spectrum remains the same. 
 
+## Computing what happens next
+<figure style="display: table; float: right; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/fig11.png" width="320" style="float: right;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+(credit) (learn more)
+</figcaption>
+</figure>
 
+Fortunately, the physical laws that governs what happens next are well understood. We program 
+these physical laws into a parallel computer program, and step the physical state of the universe 
+along in a number of discrete steps, called timesteps. A cosmological simulation can have anywhere 
+from a few thousand timesteps to over 100,000 timesteps, depending on how far into cosmic history 
+you want to simulate, and how finely resolved the simulation is. 
 
+## What physical laws are programmed?
+<figure style="display: table; float: right; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/fig12.png" width="320" style="float: right;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+(credit) (learn more)
+</figcaption>
+</figure>
 
-### Extra
+* Uniform by time-varying expansion of the universe as a whole
+* Dynamical behavior of dark matter under the action of self-gravity
+* Dynamical, thermodynamical, and ionization behavior of the hydrogen and helium gas left over from the big bang
+* Chemistry and radiative cooling of the gas and condensation of stars out of the coldest gas
+* Feedback of energy, radiation, and heavy elements from stars 
+* Feedback of high energy radiation from accreting stellar remnants 
+* Transport of phtoionizing and photodissociating radiation
+
+## Ok, so what happens?
+The narrated animation below shows what happens when all this physics is put into a 
+supercomputer, and let loose for millions of cosmic years, and millions of computer-hours. 
+First stars form, which explode as supernovae, setting the stage for the formation of 
+protogalactic building bocks. The merge due to gravity to form the first galaxies in the 
+universe. Voila! 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IKUGyy6DoTE" frameborder="0" allowfullscreen></iframe>
