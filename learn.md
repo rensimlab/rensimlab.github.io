@@ -131,6 +131,8 @@ communicated to neighboring processors in order to maintain physical correctness
 synchronicity. Typically, the subdivision of the big problem into many smaller problems 
 is done using domain decomposition, illustrated at right.  
 
+Adding more
+
 
 ### Extra
 
