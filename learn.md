@@ -46,6 +46,7 @@ The Universe at t=380,000,000 yr (credit) (learn more)
 
 Gravity collects regions of slight overdensity in the early universe into dense
 clumps of gas and dark matter cosmologists call halos. These halos merge and
+
 coalesce to form the first galaxies (protogalaxies). As time goes on,
 protogalaxies merge and coalesce into larger galaxies, and so on, until today we
 have a variety of galaxy types and sizes. These include large spiral galaxies
@@ -91,6 +92,45 @@ redshifted their starlight into the red part of the visible spectrum. They are
 faint because they are distant. And they are very small compared to the Milky
 Way galaxy. A typical size is about 500 parsec, which is 1/50 the size of the
 Milky Way galaxy.
+
+# How we use supercomputers to study the first galaxies
+
+Before we delve into how we use supercomputers to study the first galaxies, we need
+to cover some basics. 
+
+## Supercomputers
+<figure style="display: table; float: right; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/fig5.png" width="320" style="float: right;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+(credit) (learn more)
+</figcaption>
+</figure>
+
+Supercomputers are large clusters of processing “nodes” all connected together by 
+a fast network so that it can act like a single, very powerful computer. Each node 
+can have dozens of processing “cores”. For example, The Blue Waters supercomputer, 
+used for the Renaissance Simulations, has over 22,640 nodes, each with 16 cores, for 
+a total of 362,240  processing elements. 
+
+## Parallel computing
+<figure style="display: table; float: right; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/fig5.png" width="320" style="float: right;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+(credit) (learn more)
+</figcaption>
+</figure>
+
+Supercomputers are programmed using a technique called parallel computing. Quite 
+simply, a large problem (like computing the universe) is subdivided into many smaller 
+problems (like compute this piece of the universe), and each smaller problem is assigned 
+to one of the computing cores or nodes. All these smaller problems are computed 
+simultaneously, or “in parallel”, with information about their state being continuously 
+communicated to neighboring processors in order to maintain physical correctness and 
+synchronicity. Typically, the subdivision of the big problem into many smaller problems 
+is done using domain decomposition, illustrated at right.  
+
 
 ### Extra
 
