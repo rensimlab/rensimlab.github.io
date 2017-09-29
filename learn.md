@@ -167,7 +167,7 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
 ## Initializing the simulation
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/fig10.png" width="320" style="float: right;"/></a>
+ <img src="images/fig10.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 (credit) (learn more)
 </figcaption>
@@ -216,9 +216,9 @@ you want to simulate, and how finely resolved the simulation is.
 
 ## Ok, so what happens?
 The narrated animation below shows what happens when all this physics is put into a 
-supercomputer, and let loose for millions of cosmic years, and millions of computer-hours. 
-First stars form, which explode as supernovae, setting the stage for the formation of 
-protogalactic building bocks. The merge due to gravity to form the first galaxies in the 
-universe. Voila! 
+supercomputer, and let loose for hundreds of millions of cosmic years, and millions of 
+computer-hours. First stars form, which explode as supernovae after a few million years, 
+setting the stage for the formation of protogalactic building bocks. The merge due to gravity 
+to form the first galaxies in the universe. Voila! 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IKUGyy6DoTE" frameborder="0" allowfullscreen></iframe>
