@@ -4,12 +4,15 @@ Data from the Renaissance Simulations can be downloaded directly or analyzed wit
 
 ## Available Data
 
-Simulation | z-inital | z-final | Comments
------------|----------|---------|---------
-Rare Peak  | 100 | 0 | first one
-Rare Peak LWB | 100 | 0 | correct LW background...
-Normal | 100 | 0
-Void | 100 | 0
+Simulation | z inital | z final | Publications | Snapshots | Halo Catalogs | Merger Trees | On RSL | Comments 
+-----------|----------|---------|--------------|-----------|---------------|--------------|--------|---------
+Rarepeak     | 99 | ? | | | | | | no Lyman-Werner background
+Rarepeak_LW  | 99 | ? | | | | | | LW background from Pop III, no LW background from Pop II
+Rarepeak_LWB | 99 | ? | | | | | | LW background from Wise & Abel (2005)
+Normal_BG    | 99 | ? | | | | | | incorrect LW background
+Normal_BG1   | 99 | ? | | | | | | self-consistent LW background
+Void         | 99 | ? | | | | | | no Lyman-Werner background
+Void_BG1     | 99 | ? | | | | | | LW background from Normal region
 
 ## Analyze on the RSL
 
