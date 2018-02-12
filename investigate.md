@@ -6,13 +6,13 @@ Data from the Renaissance Simulations can be downloaded directly or analyzed wit
 
 Simulation | z inital | z final | Publications | Snapshots | Halo Catalogs | Merger Trees | On RSL | Comments 
 -----------|----------|---------|--------------|-----------|---------------|--------------|--------|---------
-Rarepeak     | 99 | ? | | | | | | no Lyman-Werner background
-Rarepeak_LW  | 99 | ? | | | | | | LW background from Pop III, no LW background from Pop II
-Rarepeak_LWB | 99 | ? | | | | | | LW background from Wise & Abel (2005)
-Normal_BG    | 99 | ? | | | | | | incorrect LW background
-Normal_BG1   | 99 | ? | | | | | | self-consistent LW background
-Void         | 99 | ? | | | | | | no Lyman-Werner background
-Void_BG1     | 99 | ? | | | | | | LW background from Normal region
+Rarepeak     | 99 | ?    | | yes | no  | no  | no  | no Lyman-Werner background
+Rarepeak_LW  | 99 | ?    | | yes | no  | no  | no  | LW background from Pop III, no LW background from Pop II
+Rarepeak_LWB | 99 | 15   | | yes | yes | yes | yes | LW background from Wise & Abel (2005)
+Normal_BG    | 99 | ?    | | yes | no  | no  | no  | incorrect LW background
+Normal_BG1   | 99 | 11.6 | | yes | yes | yes | yes | self-consistent LW background
+Void         | 99 |  7.6 | | yes | no  | no  | yes | no Lyman-Werner background
+Void_BG1     | 99 |  9.9 | | yes | yes | yes | yes | LW background from Normal region
 
 ## Analyze on the RSL
 
