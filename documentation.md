@@ -18,6 +18,10 @@ Once you are logged into the RSL, click in the [Collections](https://girder.rens
 
 ### Downloading
 
-From within a folder
+The entire Renaissance Simulation collection can be downloaded by clicking on this ![collection image](images/collection.png) dropdown menu on the right and selecting `Download collection`.
+
+From within a folder, the contents of that folder can be downloaded by clicking on the ![folder image](images/folder.png) folder dropdown menu on the right and selecting `Download folder`.
 
 ## Running the tutorial
+
+To run the merger tree tutorial, click on the [![Rafts](images/rafts.png)](https://girder.rensimlab.xyz/#rafts) link in the menu on the left. Select [Merger Tree Tutorial](https://girder.rensimlab.xyz/#raft/5a860be19f31db0001782590/run) and follow the instructions there.
