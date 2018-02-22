@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Documentation
 
 Below are instructions for working with the data on the [Renaissance Simulation Laboratory](https://girder.rensimlab.xyz/). A brief listing of the data available on the RSL can be found at [Investigate](investigate.html).

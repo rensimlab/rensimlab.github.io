@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Investigate
 
 Data from the Renaissance Simulations can be downloaded directly or analyzed with Jupyter notebooks here on the RSL.

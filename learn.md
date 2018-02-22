@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Learn
 
 This is where you can learn about the first galaxies in the universe, how we can

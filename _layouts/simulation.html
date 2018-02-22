@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{{page.content}}
+
+<TABLE>
+  <TR><TH>Snapshot</TH>
+      <TH>Redshift</TH>
+      <TH>Available</TH>
+      <TH>Halo Catalogs</TH>
+      <TH>Halo Count</TH>
+  </TR>
+{% for v in site.data.simulations[page.sim_name] %}
+<TR><TD>{{v['snapshot']}}</TD>
+    <TD>{{v['z']}}</TD>
+    <TD>{{v['on_rsl']}}</TD>
+    <TD>{{v['halo_catalogs']}}</TD>
+    <TD>{{v['num_halos']}}</TD>
+</TR>
+{% endfor %}
+</TABLE>
