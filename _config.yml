@@ -11,7 +11,7 @@ github_username:  rensimlab
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
   - jekyll-youtube
