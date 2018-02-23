@@ -8,8 +8,8 @@ Data from the Renaissance Simulations can be downloaded directly or analyzed wit
 
 ## Available Data
 
-Simulation | z inital | z final | LWB | Pop III LW | Pop II LW | Publications | Snapshots | Halo Catalogs | Merger Trees | on RSL | Comments
------------|----------|---------|-----|------------|-----------|--------------|-----------|---------------|--------------|--------|---------
+Simulation | z inital | z final | LWB | Pop III LW | Pop II LW | Publications | Snapshots | Halo Catalogs | Merger Trees | Comments
+-----------|----------|---------|-----|------------|-----------|--------------|-----------|---------------|--------------|------------
 [Rarepeak](simulations/rarepeak.html)         | 99 | 14.7 | no                    | yes | underestimated | | yes | no  | no  |
 [Rarepeak_LW](simulations/rarepeak_lw.html)   | 99 | 15   | no                    | yes | yes            | | yes | no  | no  |
 [Rarepeak_LWB](simulations/rarepeak_lwb.html) | 99 | 15   | yes                   | yes | yes            | | yes | yes | yes | LWB from Wise & Abel (2005) with updated cosmology
