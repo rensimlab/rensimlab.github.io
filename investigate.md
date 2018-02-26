@@ -13,10 +13,10 @@ Simulation | z inital | z final | LWB | Pop III LW | Pop II LW | Publications | 
 [Rarepeak](simulations/rarepeak.html)         | 99 | 14.7 | no                    | yes | underestimated | | yes | no  | no  |
 [Rarepeak_LW](simulations/rarepeak_lw.html)   | 99 | 15   | no                    | yes | yes            | | yes | no  | no  |
 [Rarepeak_LWB](simulations/rarepeak_lwb.html) | 99 | 15   | yes                   | yes | yes            | | yes | yes | yes | LWB from Wise & Abel (2005) with updated cosmology
-[Normal_BG](simulations/normal_bg.html)       | 99 | 11.9 |                     ? |   ? |              ? | 2? | yes | no  | no  | incorrect LW background
-[Normal_BG1](simulations/normal_bg1.html)     | 99 | 11.6 |                     ? |   ? |              ? | 2? | yes | yes | yes | self-consistent LW background
-[Void](simulations/void.html)                 | 99 |  7.6 | no                    | no  |              ? | 1, 2? | yes | no  | no  |
-[Void_BG1](simulations/void_bg1.html)         | 99 |  9.9 | yes, from Normal sim. |   ? |   ? | | yes | yes | yes | LW background from Normal region
+[Normal_BG](simulations/normal_bg.html)       | 99 | 11.9 |                     ? | yes |              ? | 2? | yes | no  | no  | incorrect LW background
+[Normal_BG1](simulations/normal_bg1.html)     | 99 | 11.6 |                     ? | yes |              ? | 2? | yes | yes | yes | self-consistent LW background
+[Void](simulations/void.html)                 | 99 |  7.6 | no                    | yes |              ? | 1, 2? | yes | no  | no  |
+[Void_BG1](simulations/void_bg1.html)         | 99 |  9.9 | yes, from Normal sim. | yes |              ? | | yes | yes | yes | LW background from Normal region
 
 References:
 
