@@ -21,6 +21,7 @@ Simulation | z inital | z final | LWB | Pop III LW | Pop II LW | Publications | 
 References:
 
 1 - [Xu, H., Norman, M.L., O'Shea, B.W., & Wise, J.H. 2016, ApJ, 823, 140](http://adsabs.harvard.edu/abs/2016ApJ...823..140X)
+
 2 - [Xu, H., Ahn, K., Norman, M.L., Wise, J.H., & O'Shea, B.W. 2016, ApJL, 832, L5](http://adsabs.harvard.edu/abs/2016ApJ...832L...5X)
 
 ## Analyze on the RSL
