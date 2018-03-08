@@ -152,6 +152,7 @@ period boundary conditions in all three dimensions to mimic the presence of matt
 the box we are simulating. 
 
 ## Coping with an expanding universe
+
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig9.png" width="320" style="float: right;"/></a>
@@ -164,6 +165,7 @@ Hubble discovered the universe is expanding in 1929. What that means is that eve
 the universe is moving away from every other point in the universe with uniform speed. That 
 speed varies with time, and also depends on how far apart the two points are. While this 
 seems a little boggling, just think about the raisins in a lump of raisin bread dough. As the 
+
 dough rises, the raisins behave just as described above. But how to simulate a cube of matter 
 embedded in an expanding universe? Easy. We simulate a cube of the universe that expands at 
 exactly the rate of the expanding universe. We say we simulate a co-moving volume of the universe. 
@@ -229,3 +231,21 @@ setting the stage for the formation of protogalactic building bocks. The merge d
 to form the first galaxies in the universe. Voila! 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IKUGyy6DoTE" frameborder="0" allowfullscreen></iframe>
+
+# About the Renaissance Simulations Laboratory (RSL)
+
+## Purpose
+The RSL is open data resource where the Renaissance Simulations data can be browsed, accessed, and analyzed. The site supports visual data exploration, data download, as well as interactive analysis through the use of Jupyter notebooks. The site is also a place for sharing your scientific analysis and results. 
+
+## How to use
+The RSL is organized into 5 departments according to your goals: 
+ * LEARN – learn about the first galaxies, how we use supercomputers to understand them, and the purpose and uses for the RSL
+ * EXPLORE – visually explore the Renaissance Simulations using a set of pre-built tools
+ * INVESTIGATE – download or analyze the data using the yt tookit
+ * DEVELOP – add new data or tools to the RSL
+ * SHOWCASE – showcase your results through image galleries, animations, or publications
+Click on any link to go there. General documentation can be found here.
+
+# Acknowledgements 
+The RSL is partially supported by NSF CDS&E grant 1615848, with additional resources provided by the San Diego Supercomputer Center and the National Center for Supercomputing Applications. 
+
