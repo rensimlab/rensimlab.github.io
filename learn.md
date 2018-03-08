@@ -9,7 +9,7 @@ use supercomputers to study them, and what this site enables you to do.
 
  * [Learn about the first galaxies in the universe](https://github.com/rensimlab/rensimlab.github.io/blob/master/learn.md#the-first-galaxies-in-the-universe)
 
- * [Learn about how we use supercomputers to study them](https://rensimlab.github.io/learn.html/#supercomputers)
+ * [Learn about how we use supercomputers to study them](https://github.com/rensimlab/rensimlab.github.io/blob/master/learn.md/#how-we-use-supercomputers-to-study-the-first-galaxies)
 
  * [Learn about the Renaissance Simulations Laboratory](https://rensimlab.github.io/learn.html/#renaissance)
 
