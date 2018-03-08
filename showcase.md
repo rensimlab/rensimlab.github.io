@@ -6,21 +6,15 @@ layout: default
 
 ## Publications using the Renaissance Simulations
 
-### Observing the First Galaxies
+### POPULATION III STARS AND REMNANTS IN HIGH-REDSHIFT GALAXIES
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/fig4.png" width="320" style="float: right;"/></a>
+<img src="images/RSimg1.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 (credit) (learn more)
 </figcaption>
 </figure>
 
-Can we observe the first galaxies directly? No. They are too small and too faint
-for the Hubble Space Telescope (HST) to detect them. However the HST can detect
-very faint, distant galaxies which are likely second and third generation
-galaxies. The graphic at right shows how deep the HST has been able to probe.
-The Hubble Ultra Deep Field  has detected galaxies when the universe was only6400-700 million years old, which is only a few percent of its present agThe James Webb Space Telescope, to be launched by NASA in 2018, should be able
-to observe even younger galaxies, pushing into the realm of truly first
-galaxies.
+In [Xu et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...773...83X) the Rarepeak simulation is explored for the occurence of Pop III stars and their stellar remnants. The figure shows the number of Pop III stars and remnants as a fuynction of halo mass at z=15.
 
