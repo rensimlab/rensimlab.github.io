@@ -7,11 +7,11 @@ layout: default
 This is where you can learn about the first galaxies in the universe, how we can
 use supercomputers to study them, and what this site enables you to do.
 
- * Learn about the first galaxies in the universe
+ * [Learn about the first galaxies in the universe](https://github.com/rensimlab/rensimlab.github.io/edit/master/learn.md/#first)
 
- * Learn about how we use supercomputers to study them
+ * [Learn about how we use supercomputers to study them](https://github.com/rensimlab/rensimlab.github.io/edit/master/learn.md/#supercomputers)
 
- * Learn about the Renaissance Simulations Laboratory
+ * [Learn about the Renaissance Simulations Laboratory](https://github.com/rensimlab/rensimlab.github.io/edit/master/learn.md/#renaissance)
 
 # The first galaxies in the universe
 
