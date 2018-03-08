@@ -179,6 +179,7 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
 </figcaption>
 </figure>
 
+
 We have already learned that through detailed observations of the cosmic microwave background, 
 we know what the universe was like 380,000 years after the big bang. We use that information 
 to initialize our simulations. Specifically we know that the matter in the universe was very 
@@ -247,5 +248,6 @@ The RSL is organized into 5 departments according to your goals:
 Click on any link to go there. General documentation can be found here.
 
 # Acknowledgements 
-The RSL is partially supported by NSF CDS&E grant 1615848, with additional resources provided by the San Diego Supercomputer Center and the National Center for Supercomputing Applications. 
+The RSL is partially supported by NSF CDS&E grant 1615848, with additional resources provided by the [San Diego Supercomputer Center](http://www.sdsc.edu) and the [National Center for Supercomputing Applications](http://www.ncsa.illinois.edu). 
+
 
