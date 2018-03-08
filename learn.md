@@ -7,7 +7,7 @@ layout: default
 This is where you can learn about the first galaxies in the universe, how we can
 use supercomputers to study them, and what this site enables you to do.
 
- * [Learn about the first galaxies in the universe](https://rensimlab.github.io/learn.html/#first)
+ * [Learn about the first galaxies in the universe](https://rensimlab.github.io/learn.html/#the-first-galaxies-in-the-universe)
 
  * [Learn about how we use supercomputers to study them](https://rensimlab.github.io/learn.html/#supercomputers)
 
