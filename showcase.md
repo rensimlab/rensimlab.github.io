@@ -8,7 +8,7 @@ layout: default
 
 ### POPULATION III STARS AND REMNANTS IN HIGH-REDSHIFT GALAXIES
 
-<figure style="display: table; float: right; margin: 0 0 20px 20px;">
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/RSimg1.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
