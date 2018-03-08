@@ -10,7 +10,7 @@ layout: default
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/RSimg1.png" width="320" style="float: right;"/></a>
+<img src="images/RSimg1.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 (credit) (learn more)
 </figcaption>
