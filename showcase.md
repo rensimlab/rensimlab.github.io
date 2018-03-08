@@ -21,7 +21,7 @@ In [Xu et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...773...83X) the Rarep
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/RSimg2.PNG" width="320" style="float: right;"/></a>
+<img src="images/RSimg2.PNG" width="160" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
 </figure>
