@@ -30,3 +30,15 @@ In [Xu et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...773...83X) the Rarep
 </figure>
 
 Assuming half of Pop III stars produce high mass x-ray binaries [Xu et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...791..110X) calculate the x-ray feedback on the intergalactic medium in the Rarepeak simulation. 
+
+### SCALING RELATIONS FOR GALAXIES PRIOR TO REIONIZATION
+#### Pengfei Chen, John H. Wise, Michael L. Norman, Hao Xu, and Brian W. O’Shea, ApJ 795:144, 2014
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg3.PNG" width="320" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Chen et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...795..144C) examine statistical correlations amongst many many baryonic and dark matter properties of interest in a sample of high redshift galaxies in the Rarepeak simulation. 
