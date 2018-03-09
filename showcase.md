@@ -30,9 +30,9 @@ Assuming half of Pop III stars produce high mass x-ray binaries [Xu et al. 2014]
 ### SCALING RELATIONS FOR GALAXIES PRIOR TO REIONIZATION
 #### Pengfei Chen, John H. Wise, Michael L. Norman, Hao Xu, and Brian W. O’Shea, ApJ, 795:144, 2014
 
-<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/RSimg3.PNG" width="320" style="float: left;"/></a>
+<img src="images/RSimg3.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
 </figure>
