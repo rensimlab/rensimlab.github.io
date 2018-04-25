@@ -13,7 +13,7 @@
 </figcaption>
 </figure>
 
-In [Xu et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...773...83X) the Rarepeak simulation is explored for the occurence of Pop III stars and their stellar remnants. The figure shows the number of Pop III stars and remnants as a function of halo mass at z=15. The most massive halos contain nearly 100 Pop III stars and remnants. 
+In [Xu et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...773...83X) the Rarepeak simulation is explored for the occurence of Pop III stars and their stellar remnants. The figure shows the number of active Pop III stars and remnants as a function of halo mass at z=15. As expected, the more massive the halo, the more Pop III remnants it contains. The most massive halos contain nearly 100 remnants but only a few active Pop III stars. 
 
 ### HEATING THE INTERGALACTIC MEDIUM BY X-RAYS FROM POPULATION III BINARIES IN HIGH-REDSHIFT GALAXIES
 #### Hao Xu, Kyungjin Ahn, John H. Wise, Michael L. Norman, and Brian W. O’Shea, ApJ, 791:110, 2014
@@ -25,7 +25,7 @@ In [Xu et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...773...83X) the Rarep
 </figcaption>
 </figure>
 
-Assuming half of Pop III stars produce high mass x-ray binaries [Xu et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...791..110X) calculate the x-ray feedback on the intergalactic medium in the Rarepeak simulation. 
+If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [Xu et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...791..110X) calculate the x-ray feedback on the intergalactic medium (IGM) in the Rarepeak simulation. On average, the x-rays heat the IGM by 100 K, but much higher in the vicinity of the Rarepeak.
 
 ### SCALING RELATIONS FOR GALAXIES PRIOR TO REIONIZATION
 #### Pengfei Chen, John H. Wise, Michael L. Norman, Hao Xu, and Brian W. O’Shea, ApJ, 795:144, 2014
@@ -37,7 +37,7 @@ Assuming half of Pop III stars produce high mass x-ray binaries [Xu et al. 2014]
 </figcaption>
 </figure>
 
-[Chen et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...795..144C) examine statistical correlations amongst many many baryonic and dark matter properties of interest in a sample of high redshift galaxies in the Rarepeak simulation. 
+[Chen et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...795..144C) examine statistical correlations amongst many baryonic and dark matter properties of interest in a sample of high redshift galaxies in the Rarepeak simulation. These correlations can be used to build semi-analytic models of the formation of early galaxies. 
 
 ### PROBING THE ULTRAVIOLET LUMINOSITY FUNCTION OF THE EARLIEST GALAXIES WITH THE RENAISSANCE SIMULATIONS
 #### Brian W. O’Shea, John H. Wise, Hao Xu, and Michael L. Norman, ApJLett, 807:L12, 2015
@@ -49,4 +49,4 @@ Assuming half of Pop III stars produce high mass x-ray binaries [Xu et al. 2014]
 </figcaption>
 </figure>
 
-[O'Shea et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...807L..12O) Calculate the ultraviolet luminosity function for thousands of high redshift galaxies in the Rarepeak, Normal, and Void simulations, and predict a flattening at the faint magnitude end. The flattening is caused by the fact that below halo masses of around 3 x 10^8 solar masses, star formation is not continuous. 
+[O'Shea et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...807L..12O) Calculate the ultraviolet luminosity function for thousands of high redshift galaxies in the Rarepeak, Normal, and Void simulations, and predict a flattening at the faint magnitude end. The flattening is caused by the fact that below halo masses of around 3 x 10^8 solar masses, star formation is not continuous, reducing the average amount of UV radiation produced per galaxy at the faint end of the luminosity function.  
