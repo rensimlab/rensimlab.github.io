@@ -62,7 +62,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 </figure>10
 
 [Ahn et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...802....8A) calculate the high redshift 21 cm signal resulting from the x-ray heating of the IGM modeled by Xu et al. (2014) as discussed above. The signal depends on the x-ray source model, but in the most optimistic scenario is detectable with the future Square Kilometer Array (SKA). The figure above shows the z=19 21 cm brightness temperature power spectrum for different x-ray source energies. 
-
 ### LATE POP III STAR FORMATION DURING THE EPOCH OF REIONIZATION: RESULTS FROM THE RENAISSANCE SIMULATIONS
 #### Hao Xu, Michael L. Norman, Brian W. O'Shea, and John H. Wise, ApJ, 823:140, 2016
 
@@ -116,7 +115,7 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 
 <figure style="display: table; float: left; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/RSimg10.PNG" width="320" style="float: left;"/></a>
+<img src="images/RSimg10.PNG" width="240" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
 </figure>
