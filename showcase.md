@@ -49,4 +49,53 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 </figcaption>
 </figure>
 
-[O'Shea et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...807L..12O) Calculate the ultraviolet luminosity function for thousands of high redshift galaxies in the Rarepeak, Normal, and Void simulations, and predict a flattening at the faint magnitude end. The flattening is caused by the fact that below halo masses of around 3 x 10^8 solar masses, star formation is not continuous, reducing the average amount of UV radiation produced per galaxy at the faint end of the luminosity function.  
+[O'Shea et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...807L..12O) calculate the ultraviolet luminosity function for thousands of high redshift galaxies in the Rarepeak, Normal, and Void simulations, and predict a flattening at the faint magnitude end. The flattening is caused by the fact that below halo masses of around 3 x 10^8 solar masses, star formation is not continuous, reducing the average amount of UV radiation produced per galaxy at the faint end of the luminosity function.  
+
+### SPATIALLY EXTENDED 21 cm SIGNAL FROM STRONGLY CLUSTERED UV AND X-RAY SOURCES IN THE EARLY UNIVERSE
+#### Kyungjin Ahn, Hao Xu, Michael L. Norman, Marcelo A. Alvarez, and John H. Wise, ApJ, 802:8, 2015
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg5.PNG" width="320" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Ahn et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...802....8A) calculate the high redshift 21 cm signal resulting from the x-ray heating of the IGM modeled by Xu et al. (2014) as discussed above. The signal depends on the x-ray source model, but in the most optimistic scenario is detectable with the future Square Kilometer Array (SKA). The figure above shows the z=19 21 cm brightness temperature power spectrum for different x-ray source energies. 
+
+### LATE POP III STAR FORMATION DURING THE EPOCH OF REIONIZATION: RESULTS FROM THE RENAISSANCE SIMULATIONS
+#### Hao Xu, Michael L. Norman, Brian W. O'Shea, and John H. Wise, ApJ, 823:140, 2016
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg6.PNG" width="320" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Xu et al. 2016a](http://adsabs.harvard.edu/abs/2016ApJ...823..140X) examine the history of Pop III star formtion in the Void Renaissance Simulation, and find that it continues at a low rate to z=7.6, the lowest redshift achieved. Pop III star formation is able to continue despite the Lyman-Werner radiation from early galaxies in pristine pockets of gas.    
+
+### X-RAY BACKGROUND AT HIGH REDSHIFTS FROM POP III REMNANTS: RESULTS FROM POP III STAR FORMATION RATES IN THE RENAISSANCE SIMULATIONS
+#### Hao Xu, Kyungjin Ahn, Michael L. Norman, John H. Wise, and Brian W. O'Shea, ApJLett, 832:L5, 2016
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg7.PNG" width="320" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Xu et al. 2016b](http://adsabs.harvard.edu/abs/2016ApJ...832L...5X) calculate the x-ray background produced by Pop III stellar remnants, taking as input the extended Pop III star formation history presented in Xu et al. (2016a), and assuming a fair fraction of the stellar remnants are high mass x-ray binaries. It is found that Pop III stars can make a substantial contribution to the x-ray background. 
+
+### GALAXY PROPERTIES AND UV ESCAPE FRACTIONS DURING THE EPOCH OF REIONIZATION: RESULTS FROM THE RENAISSANCE SIMULATIONS
+#### Hao Xu, John H. Wise, Michael L. Norman, Kyungjin Ahn, and Brian W. O'Shea, ApJ, 833:84, 2016
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg7.PNG" width="320" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Xu et al. 2016c](http://adsabs.harvard.edu/abs/2016ApJ...833...84X) present a detailed analysis of the galaxy properties and ionizing escape fraction from the combined Renaissance Simulations galaxy sample (over 10,000 high redshift galaxies).  
+
