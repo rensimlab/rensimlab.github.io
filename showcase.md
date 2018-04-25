@@ -122,3 +122,17 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 
 [Barrow et al. 2018](http://adsabs.harvard.edu/abs/2018MNRAS.474.2617B) continue their exploration of the observable properties of high redshift galaxies as predicted by the renaissance Simulations. Here they focus on the spectroscopic features produced by small clusters of Pop III stars, as well as x-ray binaries they may leave behind as remnants.  
 
+### The Growth of Black Holes from Population III Remnants in the Renaissance Simulations
+#### Britton Smith, John Regan, Turlough Downes, Michael Norman, Brian O'Shea, John Wise, MNRAS, submitted, 2018
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg11.PNG" width="240" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Smith et al. 2018](https://arxiv.org/abs/1804.06477) calculate the growth of Pop III stellar mass black holes by Bondi-Hoyle accretion using the full Renaissance Simulations data sets. They show that growth is negligible due to the low density environments the black holes find themselves in.   
+
+
+
