@@ -61,6 +61,7 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 </figcaption>
 </figure>
 
+
 [Ahn et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...802....8A) calculate the high redshift 21 cm signal resulting from the x-ray heating of the IGM modeled by Xu et al. (2014) as discussed above. The signal depends on the x-ray source model, but in the most optimistic scenario is detectable with the future Square Kilometer Array (SKA). The figure above shows the z=19 21 cm brightness temperature power spectrum for different x-ray source energies. 
 
 ### LATE POP III STAR FORMATION DURING THE EPOCH OF REIONIZATION: RESULTS FROM THE RENAISSANCE SIMULATIONS
@@ -92,10 +93,34 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 
 <figure style="display: table; float: left; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/RSimg7.PNG" width="320" style="float: left;"/></a>
+<img src="images/RSimg8.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
 </figure>
 
 [Xu et al. 2016c](http://adsabs.harvard.edu/abs/2016ApJ...833...84X) present a detailed analysis of the galaxy properties and ionizing escape fraction from the combined Renaissance Simulations galaxy sample (over 10,000 high redshift galaxies).  
+
+### First light: exploring the spectra of high-redshift galaxies in the Renaissance Simulations 
+#### Kirk S. S. Barrow, John H. Wise, Michael L. Norman, Brian W. O'Shea, Hao Xu , MNRAS, 469:4863, 2017
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg9.PNG" width="320" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Barrow et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.469.4863B) explore the photometric and spectroscopic properties of the galaxies in the Rarepeak Renaissance Simulation, in particular, as observed by the upcoming James Webb Space Telescope. 
+
+### First light – II. Emission line extinction, population III stars, and X-ray binaries  
+#### Kirk S S Barrow, John H Wise, Aycin Aykutalp, Brian W O'Shea, Michael L Norman, Hao Xu, MNRAS, 474:2617, 2018
+
+<figure style="display: table; float: left; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/RSimg9.PNG" width="320" style="float: left;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+</figcaption>
+</figure>
+
+[Barrow et al. 2018](http://adsabs.harvard.edu/abs/2018MNRAS.474.2617B) continue their exploration of the observable properties of high redshift galaxies as predicted by the renaissance Simulations. Here they focus on the spectroscopic features produced by small clusters of Pop III stars, as well as higm mass x-ray binary systems they may leave behind as remnants.  
 
