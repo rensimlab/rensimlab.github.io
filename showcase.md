@@ -59,8 +59,7 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 <img src="images/RSimg5.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
-</figure>
-
+</figure>10
 
 [Ahn et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...802....8A) calculate the high redshift 21 cm signal resulting from the x-ray heating of the IGM modeled by Xu et al. (2014) as discussed above. The signal depends on the x-ray source model, but in the most optimistic scenario is detectable with the future Square Kilometer Array (SKA). The figure above shows the z=19 21 cm brightness temperature power spectrum for different x-ray source energies. 
 
@@ -117,10 +116,10 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 
 <figure style="display: table; float: left; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/RSimg9.PNG" width="320" style="float: left;"/></a>
+<img src="images/RSimg10.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
 </figure>
 
-[Barrow et al. 2018](http://adsabs.harvard.edu/abs/2018MNRAS.474.2617B) continue their exploration of the observable properties of high redshift galaxies as predicted by the renaissance Simulations. Here they focus on the spectroscopic features produced by small clusters of Pop III stars, as well as higm mass x-ray binary systems they may leave behind as remnants.  
+[Barrow et al. 2018](http://adsabs.harvard.edu/abs/2018MNRAS.474.2617B) continue their exploration of the observable properties of high redshift galaxies as predicted by the renaissance Simulations. Here they focus on the spectroscopic features produced by small clusters of Pop III stars, as well as x-ray binaries they may leave behind as remnants.  
 
