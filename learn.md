@@ -231,7 +231,7 @@ computer-hours. First stars form, which explode as supernovae after a few millio
 setting the stage for the formation of protogalactic building bocks. The merge due to gravity 
 to form the first galaxies in the universe. Voila! 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IKUGyy6DoTE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe>
 
 # About the Renaissance Simulations Laboratory (RSL)
 
