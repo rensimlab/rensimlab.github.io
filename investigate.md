@@ -1,6 +1,7 @@
 ---
 layout: default
 mainpage: true
+order: 3
 ---
 
 # Investigate

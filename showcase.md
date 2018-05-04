@@ -1,5 +1,6 @@
 ---
 mainpage: true
+order: 5
 ---
 
 # Showcase

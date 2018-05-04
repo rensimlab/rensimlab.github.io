@@ -1,6 +1,7 @@
 ---
 layout: explore
 mainpage: true
+order: 2
 ---
 
 # Explore

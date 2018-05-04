@@ -41,7 +41,8 @@
           </ul>
         {% endif %}
         <ul>
-          {% for page in site.pages %}
+          {% assign sorted_pages = site.pages | sort:"order" %}
+          {% for page in sorted_pages %}
             {% if page.mainpage %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
