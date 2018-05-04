@@ -49,16 +49,29 @@ website in <a href="{{page.girder_url}}">this collection</a>.</p>
 <TABLE>
   <TR><TH>Snapshot</TH>
       <TH>Redshift</TH>
-      <TH>Available</TH>
       <TH>Halo Catalogs</TH>
       <TH>Halo Count</TH>
+      <TH>Actions</TH>
   </TR>
 {% for v in site.data.simulations[page.sim_name] %}
 <TR><TD>{{v['snapshot']}}</TD>
     <TD>{{v['z']}}</TD>
-    <TD>{{v['on_rsl']}}</TD>
-    <TD>{{v['halo_catalogs']}}</TD>
+    <TD>
+      {% if v['halo_catalogs'] %}
+        Yes
+      {% else %}
+        No
+      {% endif %}
+    </TD>
     <TD>{{v['num_halos']}}</TD>
+    <TD>
+      <div id="action-list" style="text-align:center" class="fa">
+        <i class="fa fa-download fa-lg fa-fw" title="Download data"></i>
+        {% if v['on_rsl'] %}
+        <i class="fa fa-external-link fa-lg fa-fw" title="Explore in Jupyter"></i>
+        {% endif %}
+      </div>
+    </TD>
 </TR>
 {% endfor %}
 </TABLE>
