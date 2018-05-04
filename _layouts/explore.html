@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{{page.content | markdownify}}
+
+{% for raft in site.data.rafts %}
+<button class="accordion">{{raft['name']}}</button>
+<div class="panel">
+  {{raft['description'] | markdownify}}
+  <p>
+  Explore it in a Jupyter Notebook:
+  <a href="{{site.data.notebooks.raft_url}}/{{raft['id']}}">
+    <i class="fa fa-external-link fa-lg fa-fw" title="Explore in Jupyter"></i>
+  </a>
+  </p>
+</div>
+{% endfor %}
+
+
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var activeAcc = document.getElementsByClassName("accordion active");
+    for (var j = 0; j < activeAcc.length; j++) {
+      if (!(this === activeAcc[j])) {
+        var current = activeAcc[j]
+        current.classList.toggle("active");
+        var panel = current.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      }
+    }
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>

@@ -1,0 +1,21 @@
+- {description: 'This is a brief tutorial of working with merger tree data using ytree.
+
+
+    ### Instructions
+
+    1. Click the green button that says "Run raft." This will bring you into a file
+    browser inside a running Jupyter.
+
+    1. Click on the file called `Working with Merger Trees.ipynb`.
+
+
+    This will bring you to a Jupyter notebook tutorial of working with the merger
+    tree data. You can read the notebook or make changes and rerun it. This notebook
+    operates on the actual Renaissance Simulation merger trees.
+
+    - To run a notebook cell, type `shift+enter`.
+
+    - To edit a cell, type `enter`.  Type `shift+enter` to run it.
+
+    - To download the notebook, go to the `File` menu and select `Download as`.',
+  id: 5a860be19f31db0001782590, name: Merger Tree Tutorial}
