@@ -351,12 +351,12 @@ Normal_BG:
   z: 12.1
 - halo_catalogs: false
   num_halos: N/A
-  on_rsl: false
+  on_rsl: 5ac4e4226fa68900010efd56
   snapshot: RD0073
   z: 12.0
 - halo_catalogs: false
   num_halos: N/A
-  on_rsl: true
+  on_rsl: 5a83276d9f31db000178048b
   snapshot: RD0074
   z: 11.9
 Normal_BG1:
