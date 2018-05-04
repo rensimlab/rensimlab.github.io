@@ -1,5 +1,6 @@
 ---
 layout: explore
+mainpage: true
 ---
 
 # Explore

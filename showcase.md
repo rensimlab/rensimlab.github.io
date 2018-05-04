@@ -1,3 +1,6 @@
+---
+mainpage: true
+---
 
 # Showcase
 
