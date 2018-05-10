@@ -1,0 +1,32 @@
+data_dir: /mnt/data/renaissance
+temp_dir: /mnt/data/temp
+
+simulations:
+
+    Normal_BG:
+        cloud_object: Renaissance_Normal
+        cloud_directory: normal/BG
+
+    Normal_BG1:
+        cloud_object: Renaissance_Normal
+        cloud_directory: normal/BG1
+
+    Rarepeak:
+        cloud_object: Renaissance_Rarepeak
+        cloud_directory: Rarepeak
+
+    Rarepeak_LW:
+        cloud_object: Renaissance_Rarepeak
+        cloud_directory: Rarepeak_LW
+
+    Rarepeak_LWB:
+        cloud_object: Renaissance_Rarepeak
+        cloud_directory: Rarepeak_LWB
+
+    Void:
+        cloud_object: Renaissance
+        cloud_directory: void
+
+    Void_BG1:
+        cloud_object: Renaissance
+        cloud_directory: void/BG1
