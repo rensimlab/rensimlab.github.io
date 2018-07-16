@@ -1,6 +1,6 @@
 ---
 layout: default
-mainpage: true
+mainpage: false
 order: 4
 ---
 
