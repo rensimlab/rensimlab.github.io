@@ -1,6 +1,6 @@
 ---
 layout: explore
-mainpage: true
+mainpage: False
 order: 2
 ---
 
