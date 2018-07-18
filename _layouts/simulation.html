@@ -50,19 +50,17 @@ website in <a href="{{page.girder_url}}">this collection</a>.</p>
   <TR><TH>Snapshot</TH>
       <TH>Redshift</TH>
       <TH>Halo Count</TH>
-      <TH>File Size (GB)</TH>
       <TH>Actions</TH>
   </TR>
 {% for v in site.data.simulations[page.sim_name] %}
 <TR><TD>{{v['snapshot']}}</TD>
     <TD>{{v['z']}}</TD>
     <TD>{{v['num_halos']}}</TD>
-    <TD>{{v['size']}}</TD>
     <TD>
       <div id="action-list" style="text-align:center" class="fa">
         {% if v['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['on_rsl']}}/download">
-          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['size']}} GB)"></i> ({{v['size'}} GB)
+          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['size']}} GB)"></i> [{{v['size'}} GB]
         </a>
         <a href="{{site.data.notebooks.notebook_url}}/{{v['on_rsl']}}">
           <i class="fa fa-external-link fa-lg fa-fw" title="Explore in Jupyter"></i>
