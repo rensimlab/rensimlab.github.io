@@ -21,7 +21,7 @@ website in <a href="{{page.girder_url}}">this collection</a>.</p>
 	"data": {
 	  "values": [
 		{% for v in site.data.simulations[page.sim_name] %}
-		{% if v['num_halos'] == false %} {% continue %} {% endif %}
+		{% if v['num_halos'] == 0 %} {% continue %} {% endif %}
 		{"z": {{v['z']}}, "num": {{v['num_halos']}}} {% if forloop.last != true %},{%endif%}
         {% endfor %}
 	  ]
