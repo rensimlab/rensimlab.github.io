@@ -9,7 +9,7 @@ import tempfile
 import yaml
 import yt
 
-def calculate_datasets(es, field, val_list, val_range):
+def calculate_datasets(es, field, val_list, val_range, file_list):
     all_vals = es.data[field]
     esfns = es.data["filename"].astype(str)
     fns = []
@@ -30,6 +30,10 @@ def calculate_datasets(es, field, val_list, val_range):
             inc = -1
         rfns = esfns[istart:istop+inc:inc]
         fns.extend([rfn for rfn in rfns if rfn not in fns])
+
+    if file_list is not None:
+        dirs = dict([(os.path.dirname(fn), fn) for fn in esfns])
+        fns.extend([dirs[f] for f in file_list if dirs[f] not in fns])
 
     return fns
 
@@ -62,9 +66,11 @@ def download_dataset(cloud_object, cloud_path, data_path, timeout=None, tempdir=
         sys.exit(0)
 
 def gather_datasets(args, config):
-    if args.redshift_list is None and args.redshift_range is None:
+    if args.redshift_list is None and \
+       args.redshift_range is None and \
+       args.dataset_list is None:
         raise RuntimeError(
-            "Must specify either redshift-list or redshift-range.")
+            "Must specify a dataset-list, redshift-list, or redshift-range.")
     if args.simulation not in config["simulations"]:
         raise RuntimeError(
             "%s not in available simulations: %s." %
@@ -76,8 +82,8 @@ def gather_datasets(args, config):
         raise RuntimeError("Simulation file not found: %s." % esfn)
     es = yt.load(esfn)
 
-    fns = calculate_datasets(es, "redshift",
-                             args.redshift_list, args.redshift_range)
+    fns = calculate_datasets(es, "redshift", args.redshift_list,
+                             args.redshift_range, args.dataset_list)
     for fn in fns:
         dsfn = os.path.join(config["data_dir"], args.simulation, fn)
         if os.path.exists(dsfn):
@@ -99,6 +105,8 @@ if __name__ == "__main__":
         description="Retrieve Renaissance simulation data from SDSC Cloud.")
     parser.add_argument("simulation", type=str,
                         help="The target simulation.")
+    parser.add_argument("--dataset-list", type=str, nargs="+", metavar="files",
+                        help="List of datasets to retrieve. Example: RD0013 RD0020")
     parser.add_argument("--redshift-list", type=float, nargs="+", metavar="z",
                         help="List of redshifts to retrieve. Example: 15 16 17")
     parser.add_argument("--redshift-range", type=float, nargs=2, metavar="z",
