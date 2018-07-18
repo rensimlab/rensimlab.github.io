@@ -9,6 +9,9 @@ import tempfile
 import yaml
 import yt
 
+rsl_page_root = os.environ.get(
+    'RSL_PAGE_ROOT', '/home/britton/rensimlab.github.io')
+
 def calculate_datasets(es, field, val_list, val_range, file_list):
     all_vals = es.data[field]
     esfns = es.data["filename"].astype(str)
@@ -98,7 +101,8 @@ def gather_datasets(args, config):
                 tempdir=config["temp_dir"], dryrun=args.dryrun)
 
 if __name__ == "__main__":
-    with open("renaissance.yml") as f:
+    cfgfn = os.path.join(rsl_page_root, "_data", "cloud.yaml")
+    with open(cfgfn) as f:
         config = yaml.load(f)
 
     parser = argparse.ArgumentParser(
