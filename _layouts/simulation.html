@@ -49,21 +49,15 @@ website in <a href="{{page.girder_url}}">this collection</a>.</p>
 <TABLE>
   <TR><TH>Snapshot</TH>
       <TH>Redshift</TH>
-      <TH>Halo Catalogs</TH>
       <TH>Halo Count</TH>
+      <TH>File Size (GB)</TH>
       <TH>Actions</TH>
   </TR>
 {% for v in site.data.simulations[page.sim_name] %}
 <TR><TD>{{v['snapshot']}}</TD>
     <TD>{{v['z']}}</TD>
-    <TD>
-      {% if v['halo_catalogs'] %}
-        Yes
-      {% else %}
-        No
-      {% endif %}
-    </TD>
     <TD>{{v['num_halos']}}</TD>
+    <TD>{{v['size]}}</TD>
     <TD>
       <div id="action-list" style="text-align:center" class="fa">
         {% if v['on_rsl'] %}
