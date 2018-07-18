@@ -36,7 +36,7 @@ for sim_name, sim in simulation_data.items():
             pos = next((i for i, _ in enumerate(sim)
                         if folder['name'] == _['snapshot']))
             sim[pos]['on_rsl'] = folder['_id']
-            sim[pos]['size'] = "%.2f" % (folder['size']/1024**3)
+            sim[pos]['size'] = float("%.2f" % (folder['size']/1024**3))
         except StopIteration:
             pass
 yaml.dump(
