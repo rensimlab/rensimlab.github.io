@@ -1,147 +1,147 @@
 Normal_BG:
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0003,
+- {halo_catalogs: true, num_halos: 90, on_rsl: false, size: N/A, snapshot: RD0003,
   z: 25.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0004,
+- {halo_catalogs: true, num_halos: 124, on_rsl: false, size: N/A, snapshot: RD0004,
   z: 24.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0005,
+- {halo_catalogs: true, num_halos: 172, on_rsl: false, size: N/A, snapshot: RD0005,
   z: 24.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0006,
+- {halo_catalogs: true, num_halos: 245, on_rsl: false, size: N/A, snapshot: RD0006,
   z: 23.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0007,
+- {halo_catalogs: true, num_halos: 334, on_rsl: false, size: N/A, snapshot: RD0007,
   z: 23.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0008,
+- {halo_catalogs: true, num_halos: 465, on_rsl: false, size: N/A, snapshot: RD0008,
   z: 22.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e41c6fa68900010ef38e, size: 117620453171,
+- {halo_catalogs: true, num_halos: 618, on_rsl: 5ac4e41c6fa68900010ef38e, size: '109.54',
   snapshot: RD0009, z: 22.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0010,
+- {halo_catalogs: true, num_halos: 829, on_rsl: false, size: N/A, snapshot: RD0010,
   z: 21.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0011,
+- {halo_catalogs: true, num_halos: 1098, on_rsl: false, size: N/A, snapshot: RD0011,
   z: 21.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0012,
+- {halo_catalogs: true, num_halos: 1423, on_rsl: false, size: N/A, snapshot: RD0012,
   z: 20.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0013,
+- {halo_catalogs: true, num_halos: 1858, on_rsl: false, size: N/A, snapshot: RD0013,
   z: 20.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0014,
+- {halo_catalogs: true, num_halos: 2088, on_rsl: false, size: N/A, snapshot: RD0014,
   z: 19.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0015,
+- {halo_catalogs: true, num_halos: 2302, on_rsl: false, size: N/A, snapshot: RD0015,
   z: 19.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0016,
+- {halo_catalogs: true, num_halos: 2601, on_rsl: false, size: N/A, snapshot: RD0016,
   z: 19.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0017,
+- {halo_catalogs: true, num_halos: 2836, on_rsl: false, size: N/A, snapshot: RD0017,
   z: 19.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0018,
+- {halo_catalogs: true, num_halos: 3226, on_rsl: false, size: N/A, snapshot: RD0018,
   z: 19.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0019,
+- {halo_catalogs: true, num_halos: 3534, on_rsl: false, size: N/A, snapshot: RD0019,
   z: 18.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0020,
+- {halo_catalogs: true, num_halos: 3931, on_rsl: false, size: N/A, snapshot: RD0020,
   z: 18.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0021,
+- {halo_catalogs: true, num_halos: 4345, on_rsl: false, size: N/A, snapshot: RD0021,
   z: 18.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0022,
+- {halo_catalogs: true, num_halos: 4831, on_rsl: false, size: N/A, snapshot: RD0022,
   z: 18.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4246fa68900010f0163, size: 128273081652,
+- {halo_catalogs: true, num_halos: 5322, on_rsl: 5ac4e4246fa68900010f0163, size: '119.46',
   snapshot: RD0023, z: 18.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0024,
+- {halo_catalogs: true, num_halos: 5904, on_rsl: false, size: N/A, snapshot: RD0024,
   z: 17.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0025,
+- {halo_catalogs: true, num_halos: 6486, on_rsl: false, size: N/A, snapshot: RD0025,
   z: 17.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0026,
+- {halo_catalogs: true, num_halos: 7087, on_rsl: false, size: N/A, snapshot: RD0026,
   z: 17.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0027,
+- {halo_catalogs: true, num_halos: 7794, on_rsl: false, size: N/A, snapshot: RD0027,
   z: 17.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0028,
+- {halo_catalogs: true, num_halos: 8646, on_rsl: false, size: N/A, snapshot: RD0028,
   z: 17.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0029,
+- {halo_catalogs: true, num_halos: 9512, on_rsl: false, size: N/A, snapshot: RD0029,
   z: 16.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0030,
+- {halo_catalogs: true, num_halos: 10269, on_rsl: false, size: N/A, snapshot: RD0030,
   z: 16.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0031,
+- {halo_catalogs: true, num_halos: 11223, on_rsl: false, size: N/A, snapshot: RD0031,
   z: 16.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0032,
+- {halo_catalogs: true, num_halos: 0, on_rsl: false, size: N/A, snapshot: RD0032,
   z: 16.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e41d6fa68900010ef59b, size: 137488234569,
+- {halo_catalogs: true, num_halos: 13405, on_rsl: 5ac4e41d6fa68900010ef59b, size: '128.05',
   snapshot: RD0033, z: 16.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0034,
+- {halo_catalogs: true, num_halos: 13932, on_rsl: false, size: N/A, snapshot: RD0034,
   z: 15.9}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0035,
+- {halo_catalogs: true, num_halos: 14590, on_rsl: false, size: N/A, snapshot: RD0035,
   z: 15.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0036,
+- {halo_catalogs: true, num_halos: 15145, on_rsl: false, size: N/A, snapshot: RD0036,
   z: 15.7}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0037,
+- {halo_catalogs: true, num_halos: 15871, on_rsl: false, size: N/A, snapshot: RD0037,
   z: 15.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0038,
+- {halo_catalogs: true, num_halos: 16412, on_rsl: false, size: N/A, snapshot: RD0038,
   z: 15.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0039,
+- {halo_catalogs: true, num_halos: 17100, on_rsl: false, size: N/A, snapshot: RD0039,
   z: 15.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0040,
+- {halo_catalogs: true, num_halos: 17816, on_rsl: false, size: N/A, snapshot: RD0040,
   z: 15.3}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0041,
+- {halo_catalogs: true, num_halos: 18648, on_rsl: false, size: N/A, snapshot: RD0041,
   z: 15.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0042,
+- {halo_catalogs: true, num_halos: 19284, on_rsl: false, size: N/A, snapshot: RD0042,
   z: 15.1}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4176fa68900010eed67, size: 143645967917,
+- {halo_catalogs: true, num_halos: 19940, on_rsl: 5ac4e4176fa68900010eed67, size: '133.78',
   snapshot: RD0043, z: 15.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0044,
+- {halo_catalogs: true, num_halos: 20666, on_rsl: false, size: N/A, snapshot: RD0044,
   z: 14.9}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0045,
+- {halo_catalogs: true, num_halos: 21463, on_rsl: false, size: N/A, snapshot: RD0045,
   z: 14.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0046,
+- {halo_catalogs: true, num_halos: 22538, on_rsl: false, size: N/A, snapshot: RD0046,
   z: 14.7}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0047,
+- {halo_catalogs: true, num_halos: 23356, on_rsl: false, size: N/A, snapshot: RD0047,
   z: 14.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0048,
+- {halo_catalogs: true, num_halos: 24209, on_rsl: false, size: N/A, snapshot: RD0048,
   z: 14.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0049,
+- {halo_catalogs: true, num_halos: 25272, on_rsl: false, size: N/A, snapshot: RD0049,
   z: 14.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0050,
+- {halo_catalogs: true, num_halos: 26088, on_rsl: false, size: N/A, snapshot: RD0050,
   z: 14.3}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0051,
+- {halo_catalogs: true, num_halos: 27154, on_rsl: false, size: N/A, snapshot: RD0051,
   z: 14.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0052,
+- {halo_catalogs: true, num_halos: 27998, on_rsl: false, size: N/A, snapshot: RD0052,
   z: 14.1}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e41a6fa68900010ef181, size: 150940556901,
+- {halo_catalogs: true, num_halos: 28945, on_rsl: 5ac4e41a6fa68900010ef181, size: '140.57',
   snapshot: RD0053, z: 14.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0054,
+- {halo_catalogs: true, num_halos: 30143, on_rsl: false, size: N/A, snapshot: RD0054,
   z: 13.9}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0055,
+- {halo_catalogs: true, num_halos: 31396, on_rsl: false, size: N/A, snapshot: RD0055,
   z: 13.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0056,
+- {halo_catalogs: true, num_halos: 32426, on_rsl: false, size: N/A, snapshot: RD0056,
   z: 13.7}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0057,
+- {halo_catalogs: true, num_halos: 33566, on_rsl: false, size: N/A, snapshot: RD0057,
   z: 13.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0058,
+- {halo_catalogs: true, num_halos: 34691, on_rsl: false, size: N/A, snapshot: RD0058,
   z: 13.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0059,
+- {halo_catalogs: true, num_halos: 35903, on_rsl: false, size: N/A, snapshot: RD0059,
   z: 13.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0060,
+- {halo_catalogs: true, num_halos: 37036, on_rsl: false, size: N/A, snapshot: RD0060,
   z: 13.3}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0061,
+- {halo_catalogs: true, num_halos: 38423, on_rsl: false, size: N/A, snapshot: RD0061,
   z: 13.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0062,
+- {halo_catalogs: true, num_halos: 39803, on_rsl: false, size: N/A, snapshot: RD0062,
   z: 13.1}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0063,
+- {halo_catalogs: true, num_halos: 40889, on_rsl: false, size: N/A, snapshot: RD0063,
   z: 13.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0064,
+- {halo_catalogs: true, num_halos: 42244, on_rsl: false, size: N/A, snapshot: RD0064,
   z: 12.9}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0065,
+- {halo_catalogs: true, num_halos: 43410, on_rsl: false, size: N/A, snapshot: RD0065,
   z: 12.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0066,
+- {halo_catalogs: true, num_halos: 44912, on_rsl: false, size: N/A, snapshot: RD0066,
   z: 12.7}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0067,
+- {halo_catalogs: true, num_halos: 46366, on_rsl: false, size: N/A, snapshot: RD0067,
   z: 12.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4186fa68900010eef74, size: 164502541637,
+- {halo_catalogs: true, num_halos: 47732, on_rsl: 5ac4e4186fa68900010eef74, size: '153.20',
   snapshot: RD0068, z: 12.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0069,
+- {halo_catalogs: true, num_halos: 49130, on_rsl: false, size: N/A, snapshot: RD0069,
   z: 12.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0070,
+- {halo_catalogs: true, num_halos: 50777, on_rsl: false, size: N/A, snapshot: RD0070,
   z: 12.3}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0071,
+- {halo_catalogs: true, num_halos: 52142, on_rsl: false, size: N/A, snapshot: RD0071,
   z: 12.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0072,
+- {halo_catalogs: true, num_halos: 53463, on_rsl: false, size: N/A, snapshot: RD0072,
   z: 12.1}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4226fa68900010efd56, size: 169930132057,
+- {halo_catalogs: true, num_halos: 55295, on_rsl: 5ac4e4226fa68900010efd56, size: '158.26',
   snapshot: RD0073, z: 12.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5a83276d9f31db000178048b, size: 170980945404,
+- {halo_catalogs: true, num_halos: 56757, on_rsl: 5a83276d9f31db000178048b, size: '159.24',
   snapshot: RD0074, z: 11.9}
 Normal_BG1:
 - {halo_catalogs: true, num_halos: 90, on_rsl: false, size: N/A, snapshot: RD0003,
@@ -224,7 +224,7 @@ Normal_BG1:
   z: 15.2}
 - {halo_catalogs: true, num_halos: 19410, on_rsl: false, size: N/A, snapshot: RD0042,
   z: 15.1}
-- {halo_catalogs: true, num_halos: 20123, on_rsl: 5ac4e40b6fa68900010edd43, size: 143961171299,
+- {halo_catalogs: true, num_halos: 20123, on_rsl: 5ac4e40b6fa68900010edd43, size: '134.07',
   snapshot: RD0043, z: 15.0}
 - {halo_catalogs: true, num_halos: 20815, on_rsl: false, size: N/A, snapshot: RD0044,
   z: 14.9}
@@ -274,7 +274,7 @@ Normal_BG1:
   z: 12.7}
 - {halo_catalogs: true, num_halos: 46379, on_rsl: false, size: N/A, snapshot: RD0067,
   z: 12.6}
-- {halo_catalogs: true, num_halos: 48035, on_rsl: 5ac4e4106fa68900010ee550, size: 166049510065,
+- {halo_catalogs: true, num_halos: 48035, on_rsl: 5ac4e4106fa68900010ee550, size: '154.65',
   snapshot: RD0068, z: 12.5}
 - {halo_catalogs: true, num_halos: 49380, on_rsl: false, size: N/A, snapshot: RD0069,
   z: 12.4}
@@ -292,12 +292,12 @@ Normal_BG1:
   z: 11.8}
 - {halo_catalogs: true, num_halos: 59921, on_rsl: false, size: N/A, snapshot: RD0076,
   z: 11.7}
-- {halo_catalogs: true, num_halos: 61707, on_rsl: 5a8327679f31db000177fc91, size: 176332570336,
+- {halo_catalogs: true, num_halos: 61707, on_rsl: 5a8327679f31db000177fc91, size: '164.22',
   snapshot: RD0077, z: 11.6}
 Rarepeak:
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4426fa68900010f2bc9, size: 120093500711,
+- {halo_catalogs: true, num_halos: 585, on_rsl: 5ac4e4426fa68900010f2bc9, size: '111.85',
   snapshot: RD0001, z: 25.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4376fa68900010f1bbb, size: 165553632299,
+- {halo_catalogs: true, num_halos: 47793, on_rsl: 5ac4e4376fa68900010f1bbb, size: '154.18',
   snapshot: RD0002, z: 24.0}
 - {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0003,
   z: 23.5}
@@ -378,7 +378,7 @@ Rarepeak:
 - {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0041,
   z: 15.0}
 Rarepeak_LWB:
-- {halo_catalogs: true, num_halos: 1076, on_rsl: 5ac4e42f6fa68900010f0f97, size: 110612449376,
+- {halo_catalogs: true, num_halos: 1076, on_rsl: 5ac4e42f6fa68900010f0f97, size: '103.02',
   snapshot: RD0002, z: 24.0}
 - {halo_catalogs: true, num_halos: 1485, on_rsl: false, size: N/A, snapshot: RD0003,
   z: 23.5}
@@ -394,13 +394,13 @@ Rarepeak_LWB:
   z: 21.0}
 - {halo_catalogs: true, num_halos: 7008, on_rsl: false, size: N/A, snapshot: RD0009,
   z: 20.5}
-- {halo_catalogs: true, num_halos: 8883, on_rsl: 5b3bff75fc25ce0001988c24, size: 134211909578,
+- {halo_catalogs: true, num_halos: 8883, on_rsl: 5b3bff75fc25ce0001988c24, size: '124.99',
   snapshot: RD0010, z: 20.0}
 - {halo_catalogs: true, num_halos: 10968, on_rsl: false, size: N/A, snapshot: RD0011,
   z: 19.5}
 - {halo_catalogs: true, num_halos: 13550, on_rsl: false, size: N/A, snapshot: RD0012,
   z: 19.0}
-- {halo_catalogs: true, num_halos: 16543, on_rsl: 5ac4e4326fa68900010f13a6, size: 138788102633,
+- {halo_catalogs: true, num_halos: 16543, on_rsl: 5ac4e4326fa68900010f13a6, size: '129.26',
   snapshot: RD0013, z: 18.5}
 - {halo_catalogs: true, num_halos: 19972, on_rsl: false, size: N/A, snapshot: RD0014,
   z: 18.0}
@@ -426,7 +426,7 @@ Rarepeak_LWB:
   z: 16.7}
 - {halo_catalogs: true, num_halos: 32612, on_rsl: false, size: N/A, snapshot: RD0025,
   z: 16.6}
-- {halo_catalogs: true, num_halos: 33785, on_rsl: 5b4e508afc25ce000198a473, size: 155071006768,
+- {halo_catalogs: true, num_halos: 33785, on_rsl: 5b4e508afc25ce000198a473, size: '144.42',
   snapshot: RD0026, z: 16.5}
 - {halo_catalogs: true, num_halos: 34674, on_rsl: false, size: N/A, snapshot: RD0027,
   z: 16.4}
@@ -436,7 +436,7 @@ Rarepeak_LWB:
   z: 16.2}
 - {halo_catalogs: true, num_halos: 38473, on_rsl: false, size: N/A, snapshot: RD0030,
   z: 16.1}
-- {halo_catalogs: true, num_halos: 39625, on_rsl: 5b4e507cfc25ce0001989464, size: 160072540090,
+- {halo_catalogs: true, num_halos: 39625, on_rsl: 5b4e507cfc25ce0001989464, size: '149.08',
   snapshot: RD0031, z: 16.0}
 - {halo_catalogs: true, num_halos: 40649, on_rsl: false, size: N/A, snapshot: RD0032,
   z: 15.9}
@@ -446,7 +446,7 @@ Rarepeak_LWB:
   z: 15.7}
 - {halo_catalogs: true, num_halos: 44374, on_rsl: false, size: N/A, snapshot: RD0035,
   z: 15.6}
-- {halo_catalogs: true, num_halos: 45351, on_rsl: 5b4e5075fc25ce0001989055, size: 163139828596,
+- {halo_catalogs: true, num_halos: 45351, on_rsl: 5b4e5075fc25ce0001989055, size: '151.94',
   snapshot: RD0036, z: 15.5}
 - {halo_catalogs: true, num_halos: 46770, on_rsl: false, size: N/A, snapshot: RD0037,
   z: 15.4}
@@ -456,78 +456,78 @@ Rarepeak_LWB:
   z: 15.2}
 - {halo_catalogs: true, num_halos: 50738, on_rsl: false, size: N/A, snapshot: RD0040,
   z: 15.1}
-- {halo_catalogs: true, num_halos: 52174, on_rsl: 5a8327779f31db0001781235, size: 167565269877,
+- {halo_catalogs: true, num_halos: 52174, on_rsl: 5a8327779f31db0001781235, size: '156.06',
   snapshot: RD0041, z: 15.0}
 Void:
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0000,
+- {halo_catalogs: true, num_halos: 0, on_rsl: false, size: N/A, snapshot: RD0000,
   z: 60.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0001,
+- {halo_catalogs: true, num_halos: 0, on_rsl: false, size: N/A, snapshot: RD0001,
   z: 40.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0002,
+- {halo_catalogs: true, num_halos: 0, on_rsl: false, size: N/A, snapshot: RD0002,
   z: 30.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0003,
+- {halo_catalogs: true, num_halos: 1, on_rsl: false, size: N/A, snapshot: RD0003,
   z: 25.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4056fa68900010ed329, size: 110377913781,
+- {halo_catalogs: true, num_halos: 195, on_rsl: 5ac4e4056fa68900010ed329, size: '102.80',
   snapshot: RD0004, z: 20.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4016fa68900010ece52, size: 120100411723,
+- {halo_catalogs: true, num_halos: 4279, on_rsl: 5ac4e4016fa68900010ece52, size: '111.85',
   snapshot: RD0005, z: 15.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0006,
+- {halo_catalogs: true, num_halos: 6763, on_rsl: false, size: N/A, snapshot: RD0006,
   z: 14.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0007,
+- {halo_catalogs: true, num_halos: 8526, on_rsl: false, size: N/A, snapshot: RD0007,
   z: 13.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0008,
+- {halo_catalogs: true, num_halos: 10456, on_rsl: false, size: N/A, snapshot: RD0008,
   z: 13.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e3ff6fa68900010eca45, size: 129217549008,
+- {halo_catalogs: true, num_halos: 12779, on_rsl: 5ac4e3ff6fa68900010eca45, size: '120.34',
   snapshot: RD0009, z: 12.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e3fc6fa68900010ec638, size: 131778310125,
+- {halo_catalogs: true, num_halos: 15688, on_rsl: 5ac4e3fc6fa68900010ec638, size: '122.73',
   snapshot: RD0010, z: 12.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0011,
+- {halo_catalogs: true, num_halos: 18487, on_rsl: false, size: N/A, snapshot: RD0011,
   z: 11.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0012,
+- {halo_catalogs: true, num_halos: 22060, on_rsl: false, size: N/A, snapshot: RD0012,
   z: 11.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0013,
+- {halo_catalogs: true, num_halos: 25634, on_rsl: false, size: N/A, snapshot: RD0013,
   z: 10.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e4066fa68900010ed536, size: 141786856641,
+- {halo_catalogs: true, num_halos: 29599, on_rsl: 5ac4e4066fa68900010ed536, size: '132.05',
   snapshot: RD0014, z: 10.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0015,
+- {halo_catalogs: true, num_halos: 31499, on_rsl: false, size: N/A, snapshot: RD0015,
   z: 9.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0016,
+- {halo_catalogs: true, num_halos: 33063, on_rsl: false, size: N/A, snapshot: RD0016,
   z: 9.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0017,
+- {halo_catalogs: true, num_halos: 35029, on_rsl: false, size: N/A, snapshot: RD0017,
   z: 9.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0018,
+- {halo_catalogs: true, num_halos: 36702, on_rsl: false, size: N/A, snapshot: RD0018,
   z: 9.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0019,
+- {halo_catalogs: true, num_halos: 38470, on_rsl: false, size: N/A, snapshot: RD0019,
   z: 9.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0020,
+- {halo_catalogs: true, num_halos: 40430, on_rsl: false, size: N/A, snapshot: RD0020,
   z: 8.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0021,
+- {halo_catalogs: true, num_halos: 41412, on_rsl: false, size: N/A, snapshot: RD0021,
   z: 8.7}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0022,
+- {halo_catalogs: true, num_halos: 42408, on_rsl: false, size: N/A, snapshot: RD0022,
   z: 8.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0023,
+- {halo_catalogs: true, num_halos: 43072, on_rsl: false, size: N/A, snapshot: RD0023,
   z: 8.5}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0024,
+- {halo_catalogs: true, num_halos: 44128, on_rsl: false, size: N/A, snapshot: RD0024,
   z: 8.4}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0025,
+- {halo_catalogs: true, num_halos: 45072, on_rsl: false, size: N/A, snapshot: RD0025,
   z: 8.3}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0026,
+- {halo_catalogs: true, num_halos: 46084, on_rsl: false, size: N/A, snapshot: RD0026,
   z: 8.2}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0027,
+- {halo_catalogs: true, num_halos: 46860, on_rsl: false, size: N/A, snapshot: RD0027,
   z: 8.1}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5ac4e3f96fa68900010ec22b, size: 153748082546,
+- {halo_catalogs: true, num_halos: 47840, on_rsl: 5ac4e3f96fa68900010ec22b, size: '143.19',
   snapshot: RD0028, z: 8.0}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0029,
+- {halo_catalogs: true, num_halos: 48853, on_rsl: false, size: N/A, snapshot: RD0029,
   z: 7.9}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0030,
+- {halo_catalogs: true, num_halos: 49634, on_rsl: false, size: N/A, snapshot: RD0030,
   z: 7.8}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0031,
+- {halo_catalogs: true, num_halos: 50068, on_rsl: false, size: N/A, snapshot: RD0031,
   z: 7.7}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0032,
+- {halo_catalogs: true, num_halos: 50733, on_rsl: false, size: N/A, snapshot: RD0032,
   z: 7.7}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: false, size: N/A, snapshot: RD0033,
+- {halo_catalogs: true, num_halos: 50950, on_rsl: false, size: N/A, snapshot: RD0033,
   z: 7.6}
-- {halo_catalogs: false, num_halos: N/A, on_rsl: 5a8327649f31db000177f977, size: 155069450516,
+- {halo_catalogs: true, num_halos: 51499, on_rsl: 5a8327649f31db000177f977, size: '144.42',
   snapshot: RD0034, z: 7.6}
 Void_BG1:
 - {halo_catalogs: true, num_halos: 0, on_rsl: false, size: N/A, snapshot: RD0000,
@@ -556,7 +556,7 @@ Void_BG1:
   z: 21.0}
 - {halo_catalogs: true, num_halos: 137, on_rsl: false, size: N/A, snapshot: RD0012,
   z: 20.5}
-- {halo_catalogs: true, num_halos: 196, on_rsl: 5ac4e42b6fa68900010f0d8a, size: 110140918173,
+- {halo_catalogs: true, num_halos: 196, on_rsl: 5ac4e42b6fa68900010f0d8a, size: '102.58',
   snapshot: RD0013, z: 20.0}
 - {halo_catalogs: true, num_halos: 242, on_rsl: false, size: N/A, snapshot: RD0014,
   z: 19.8}
@@ -616,7 +616,7 @@ Void_BG1:
   z: 15.2}
 - {halo_catalogs: true, num_halos: 4161, on_rsl: false, size: N/A, snapshot: RD0042,
   z: 15.1}
-- {halo_catalogs: true, num_halos: 4410, on_rsl: 5ac4e4296fa68900010f0970, size: 119152870628,
+- {halo_catalogs: true, num_halos: 4410, on_rsl: 5ac4e4296fa68900010f0970, size: '110.97',
   snapshot: RD0043, z: 15.0}
 - {halo_catalogs: true, num_halos: 4613, on_rsl: false, size: N/A, snapshot: RD0044,
   z: 14.9}
@@ -666,7 +666,7 @@ Void_BG1:
   z: 12.7}
 - {halo_catalogs: true, num_halos: 12630, on_rsl: false, size: N/A, snapshot: RD0067,
   z: 12.6}
-- {halo_catalogs: true, num_halos: 13256, on_rsl: 5ac4e42a6fa68900010f0b7d, size: 128384122227,
+- {halo_catalogs: true, num_halos: 13256, on_rsl: 5ac4e42a6fa68900010f0b7d, size: '119.57',
   snapshot: RD0068, z: 12.5}
 - {halo_catalogs: true, num_halos: 13579, on_rsl: false, size: N/A, snapshot: RD0069,
   z: 12.4}
@@ -718,5 +718,5 @@ Void_BG1:
   z: 10.1}
 - {halo_catalogs: true, num_halos: 30249, on_rsl: false, size: N/A, snapshot: RD0093,
   z: 10.0}
-- {halo_catalogs: true, num_halos: 31158, on_rsl: 5a8327709f31db00017808a5, size: 143017892214,
+- {halo_catalogs: true, num_halos: 31158, on_rsl: 5a8327709f31db00017808a5, size: '133.20',
   snapshot: RD0094, z: 9.9}
