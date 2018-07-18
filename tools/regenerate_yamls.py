@@ -16,12 +16,14 @@ simulation_data = yaml.load(
 for sim_name, sim in simulation_data.items():
     for ds in sim:
         ds['on_rsl'] = False
+        ds['size'] = "N/A"
     listing = gc.get('/folder/{}/listing'.format(server_paths[sim_name]))
     for folder in listing['folders']:
         try:
             pos = next((i for i, _ in enumerate(sim)
                         if folder['name'] == _['snapshot']))
             sim[pos]['on_rsl'] = folder['_id']
+            sim[pos]['size'] = folder['size']
         except StopIteration:
             pass
 yaml.dump(
