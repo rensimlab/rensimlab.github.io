@@ -15,31 +15,41 @@ layout: default
 
 <script type="text/javascript">
   var yourVlSpec = {
-	"$schema": "https://vega.github.io/schema/vega-lite/v2.0.json",
-	"description": "A simple bar chart with embedded data.",
-	"data": {
+      "$schema": "https://vega.github.io/schema/vega-lite/v2.0.json",
+      "description": "A simple bar chart with embedded data.",
+      "data": {
 	  "values": [
-		{% for v in site.data.simulations[page.sim_name] %}
-		{% if v['num_halos'] == 0 %} {% continue %} {% endif %}
-		{"z": {{v['z']}}, "num": {{v['num_halos']}}} {% if forloop.last != true %},{%endif%}
-        {% endfor %}
+	      {% for v in site.data.simulations[page.sim_name] %}
+	      {% if v['num_halos'] == 0 %} {% continue %} {% endif %}
+	      {"z": {{v['z']}}, "num": {{v['num_halos']}}} {% if forloop.last != true %},{%endif%}
+              {% endfor %}
 	  ]
-	},
-	"layer": [{
-    	"mark": {"type": "point", "filled": true},
-    	"encoding": {
-      	"x": {"field": "z","type": "quantitative", "scale": {"type": "log"}},
-      	"y": {"field": "num","type": "quantitative", "scale": {"type": "log"}}
-    	}}, {
-		"mark": "line",
-		"encoding": {
-	  	"x": {"field": "z", "axis": {"title": "Redshift (z)"}, "type": "quantitative", "scale": {"type": "log"}},
-        	"y": {"field": "num", "axis": {"title": "Number of Halos"}, "type": "quantitative", "scale": {"type": "log"}}
-		}
-      }]
+      },
+      "layer": [
+          {
+    	      "mark": {"type": "point", "filled": true},
+    	      "encoding": {
+      	          "x": {"field": "z","type": "quantitative", "scale": {"type": "log"}},
+      	          "y": {"field": "num","type": "quantitative", "scale": {"type": "log"}}
+              }
+    	  },
+          {
+	      "mark": "line",
+	      "encoding": {
+	  	  "x": {"field": "z",
+                        "axis": {"title": "Redshift (z)"},
+                        "type": "quantitative",
+                        "scale": {"type": "log", "range": [7, 35]}},
+        	  "y": {"field": "num",
+                        "axis": {"title": "Number of Halos"},
+                        "type": "quantitative",
+                        "scale": {"type": "log", "range": [1, 100000]}}
+	      }
+          }
+      ]
     }
-    vegaEmbed("#vis", yourVlSpec);
-  </script>
+  vegaEmbed("#vis", yourVlSpec);
+</script>
 
 {{page.content}}
 
