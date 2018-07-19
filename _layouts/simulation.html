@@ -29,8 +29,12 @@ layout: default
           {
     	      "mark": {"type": "point", "filled": true},
     	      "encoding": {
-      	          "x": {"field": "z","type": "quantitative", "scale": {"type": "log"}},
-      	          "y": {"field": "num","type": "quantitative", "scale": {"type": "log"}}
+      	          "x": {"field": "z",
+                        "type": "quantitative",
+                        "scale": {"type": "log"}},
+      	          "y": {"field": "num",
+                        "type": "quantitative",
+                        "scale": {"type": "log"}}
               }
     	  },
           {
@@ -39,11 +43,11 @@ layout: default
 	  	  "x": {"field": "z",
                         "axis": {"title": "Redshift (z)"},
                         "type": "quantitative",
-                        "scale": {"type": "log", "range": [7, 35]}},
+                        "scale": {"type": "log"}},
         	  "y": {"field": "num",
                         "axis": {"title": "Number of Halos"},
                         "type": "quantitative",
-                        "scale": {"type": "log", "range": [1, 100000]}}
+                        "scale": {"type": "log"}}
 	      }
           }
       ]
