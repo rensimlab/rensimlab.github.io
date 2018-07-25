@@ -1,7 +1,10 @@
 import os
 import yaml
 import girder_client
+import socket
 import yt
+
+on_gp = socket.gethostname() == "galaxyportal"
 
 data_dir = '/mnt/data/renaissance'
 reset_hc = False
@@ -22,7 +25,7 @@ for sim_name, sim in simulation_data.items():
         ds['on_rsl'] = False
         ds['size'] = "N/A"
 
-        if reset_hc or not ds['halo_catalogs']:
+        if on_gp and (reset_hc or not ds['halo_catalogs']):
             hcfn = os.path.join(data_dir, 'halo_catalogs', sim_name,
                                 "halos_%s.0.bin" % ds['snapshot'])
             if os.path.exists(hcfn):
