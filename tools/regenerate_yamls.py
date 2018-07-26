@@ -96,7 +96,7 @@ def set_rsl_entry(rdict, item):
 on_gp = socket.gethostname() == "galaxyportal"
 
 data_dir = '/mnt/data/renaissance'
-reset_hc = False
+reset_hc = True
 
 rsl_page_root = os.environ.get(
     'RSL_PAGE_ROOT', '/home/xarth/codes/rensimlab/rensimlab.github.io')
@@ -149,7 +149,7 @@ for sim_name, sim in simulation_data.items():
         set_rsl_entry(ds['ascii_halo_catalogs'], my_file)
 
         if on_gp and reset_hc:
-            hcfn = os.path.join(data_dir, 'halo_catalogs', sim_name,
+            hcfn = os.path.join(data_dir, 'halo_catalogs', sim_name, 'binary',
                                 ds['name'], "halos_%s.0.bin" % ds['name'])
             if os.path.exists(hcfn):
                 myhc = yt.load(hcfn)
