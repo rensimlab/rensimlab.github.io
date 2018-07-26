@@ -80,6 +80,7 @@ for sim_name, sim in simulation_data.items():
             sim[pos]['size'] = get_nice_size(folder['size'])
         except StopIteration:
             pass
+
 yaml.dump(
     simulation_data,
     open(os.path.join(rsl_page_root, '_data', 'simulations.yaml'), 'w'))
