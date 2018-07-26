@@ -1,8 +1,46 @@
+import numpy as np
 import os
 import yaml
 import girder_client
 import socket
 import yt
+
+def get_nice_size(my_size, fmt="%.2f"):
+    prefs = ['', 'K', 'M', 'G', 'T',
+             'P', 'E', 'Z', 'Y']
+    exp = max(0, int(np.log(my_size) / np.log(1024)))
+    num = fmt % (my_size / 1024**exp)
+    return "%s %sB" % (num, prefs[exp])
+
+def get_folder_info(gc, foldername):
+    data = {}
+
+    col_info = dict((col['name'], col)
+                    for col in gc.listCollection())
+    ren = col_info.get('Renaissance Simulations')
+    if ren is None:
+        raise RuntimeError("Couldn't get collection id!")
+    parent_id = ren['_id']
+
+    folders = gc.get(
+        "/folder", parameters={'parentType': 'collection',
+                               'parentId': parent_id})
+    fol_info = dict((fol['name'], fol) for fol in folders)
+    if foldername not in fol_info:
+        raise RuntimeError(
+            "Couldn't get folder id for %s." % foldername)
+    fol_id = fol_info[foldername]['_id']
+
+    listing = gc.get('/folder/%s/listing' % fol_id)
+    for fol in listing['folders']:
+        my_sim = fol['name'].split('_')
+        sname = my_sim[0].title()
+        if len(my_sim) > 1:
+            sname += '_' + my_sim[1].upper()
+        data[sname] = \
+          {'on_rsl': fol['_id'],
+           'size': get_nice_size(fol['size'])}
+    return data
 
 on_gp = socket.gethostname() == "galaxyportal"
 
@@ -53,3 +91,8 @@ rafts = [
 yaml.dump(
     rafts,
     open(os.path.join(rsl_page_root, '_data', 'rafts.yaml'), 'w'))
+
+for name in ["halo_catalogs", "merger_trees"]:
+    data = get_folder_info(gc, name)
+    ofn = os.path.join(rsl_page_root, '_data', '%s.yaml' % name)
+    yaml.dump(data, open(ofn, 'w'))
