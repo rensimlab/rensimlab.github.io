@@ -65,20 +65,32 @@ layout: default
  <i class="fa fa-external-link fa-lg fa-fw" title="Explore in Jupyter"></i> - Explore in Jupyter
 
 <TABLE>
-  <TR><TH>Snapshot</TH>
-      <TH>Redshift</TH>
-      <TH>Halo Count</TH>
+  <TR><TH>Redshift</TH>
+      <TH>Halos</TH>
+      <TH>Snapshot</TH>
       <TH>Actions</TH>
   </TR>
 {% for v in site.data.simulations[page.sim_name] %}
-<TR><TD>{{v['snapshot']}}</TD>
-    <TD>{{v['z']}}</TD>
+<TR><TD>{{v['z']}}</TD>
     <TD>{{v['num_halos']}}</TD>
     <TD>
       <div id="action-list" style="text-align:center" class="fa">
         {% if v['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['on_rsl']}}/download">
-          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['size']}})"></i> [{{v['size'}}]
+          <i class="fa fa-download fa-lg fa-fw" title="Download {{v['snapshot']}} ({{v['size']}})"></i> [{{v['size']}}]
+        </a>
+        {% else %}
+        <a href="mailto:bds006@sdsc.edu?subject=RSL%20data%20request:%20{{v['snapshot']}}%20from%20{{page.sim_name}}">
+        <i class="fa fa-download fa-lg fa-fw" title="Send Data Request"></i>request data
+        </a>
+        {% endif %}
+      </div>
+    </TD>
+    <TD>
+      <div id="action-list" style="text-align:center" class="fa">
+        {% if v['on_rsl'] %}
+        <a href="{{site.data.notebooks.download_url}}/{{v['on_rsl']}}/download">
+          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['size']}})"></i> [{{v['size']}}]
         </a>
         <a href="{{site.data.notebooks.notebook_url}}/{{v['on_rsl']}}">
           <i class="fa fa-external-link fa-lg fa-fw" title="Explore in Jupyter"></i>
