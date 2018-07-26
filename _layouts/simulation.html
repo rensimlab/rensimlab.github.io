@@ -67,7 +67,7 @@ layout: default
 <TABLE>
   <TR><TH>Redshift</TH>
       <TH>Halos</TH>
-      <TH>Snapshot</TH>
+      <TH>Snapshots</TH>
       <TH>Actions</TH>
   </TR>
 {% for v in site.data.simulations[page.sim_name] %}
@@ -81,7 +81,7 @@ layout: default
         </a>
         {% else %}
         <a href="mailto:bds006@sdsc.edu?subject=RSL%20data%20request:%20{{v['snapshot']}}%20from%20{{page.sim_name}}">
-        <i class="fa fa-download fa-lg fa-fw" title="Send Data Request"></i>request data
+        <i class="fa fa-download fa-lg fa-fw" title="Send Data Request"></i> request data
         </a>
         {% endif %}
       </div>
