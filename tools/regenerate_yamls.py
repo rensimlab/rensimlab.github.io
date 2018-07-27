@@ -93,11 +93,25 @@ def set_rsl_entry(rdict, item):
     rdict['on_rsl'] = item['_id']
     rdict['size'] = get_nice_size(item['size'])
 
+def do_for_rsl(entry):
+    global reset_rsl
+    return reset_rsl or not entry['on_rsl']
+
+def do_for_gp(entry):
+    global on_gp
+    global reset_hc
+    return on_gp and (reset_hc or entry['num_halos'] == 'N/A')
+
+global on_gp
 on_gp = socket.gethostname() == "galaxyportal"
 
-data_dir = '/mnt/data/renaissance'
-reset_hc = True
+global reset_hc
+reset_hc = False
 
+global reset_rsl
+reset_rsl = False
+
+data_dir = '/mnt/data/renaissance'
 rsl_page_root = os.environ.get(
     'RSL_PAGE_ROOT', '/home/xarth/codes/rensimlab/rensimlab.github.io')
 
@@ -107,16 +121,22 @@ gc = girder_client.GirderClient(apiUrl='https://girder.rensimlab.xyz/api/v1')
 server_paths = yaml.load(
     open(os.path.join(rsl_page_root, '_data', 'notebooks.yaml'), 'r'))
 simulation_data = yaml.load(
-    open(os.path.join(rsl_page_root, '_data', 'simulations_new.yaml'), 'r'))
+    open(os.path.join(rsl_page_root, '_data', 'simulations.yaml'), 'r'))
 
 for sim_name, sim in simulation_data.items():
-    print (sim_name)
-    sim_folder = get_folder(gc, sim_name)
-    set_rsl_entry(sim, sim_folder)
-    sim['size'] = get_nice_size(get_full_size(gc, sim_folder))
-    sim_listing = get_folder_listing(gc, sim_name, 'folders')
+    print ("Updating: ", sim_name)
+    if do_for_rsl(sim):
+        sim_folder = get_folder(gc, sim_name)
+        set_rsl_entry(sim, sim_folder)
+        sim['size'] = get_nice_size(get_full_size(gc, sim_folder))    
 
     hc_listing = get_folder_listing(gc, os.path.join("halo_catalogs", sim_name), 'folders')
+    binary_folder = hc_listing.get('binary')
+    if binary_folder is not None:
+        binary_listing = get_listing(gc, binary_folder['_id'], 'folders')
+    else:
+        binary_listing = {}
+
     ascii_folder = hc_listing.get("ascii")
     set_rsl_entry(sim["ascii_halo_catalogs"], ascii_folder)
     if ascii_folder is not None:
@@ -124,9 +144,10 @@ for sim_name, sim in simulation_data.items():
     else:
         ascii_listing = {}
 
-    binary_folder = hc_listing.get("binary")
-    set_rsl_entry(sim["binary_halo_catalogs"], binary_folder)
-    sim['binary_halo_catalogs']['size'] = get_nice_size(get_full_size(gc, binary_folder))
+    if do_for_rsl(sim["binary_halo_catalogs"]):
+        set_rsl_entry(sim["binary_halo_catalogs"], binary_folder)
+        sim['binary_halo_catalogs']['size'] = \
+          get_nice_size(get_full_size(gc, binary_folder))
 
     mt_folder = get_folder(gc, os.path.join("merger_trees", sim_name))
     mt_folders = get_listing(gc, mt_folder['_id'], 'folders')
@@ -137,12 +158,16 @@ for sim_name, sim in simulation_data.items():
     set_rsl_entry(sim['ct_merger_trees'], ct_mt)
 
     sim_snaps = sim['snapshots']
+    sim_listing = get_folder_listing(gc, sim_name, 'folders')
     for isnap, ds in enumerate(sim_snaps):
         snap_folder = sim_listing.get(ds['name'])
         set_rsl_entry(ds['snapshot'], snap_folder)
 
-        hc_snap_folder = hc_listing.get(ds['name'])
-        set_rsl_entry(ds['binary_halo_catalogs'], hc_snap_folder)
+        if do_for_rsl(ds['binary_halo_catalogs']):
+            hc_snap_folder = binary_listing.get(ds['name'])
+            set_rsl_entry(ds['binary_halo_catalogs'], hc_snap_folder)
+            ds['binary_halo_catalogs']['size'] = \
+              get_nice_size(get_full_size(gc, hc_snap_folder))
 
         my_ascii = "out_%d.list" % isnap
         my_file = ascii_listing.get(my_ascii)
@@ -157,7 +182,7 @@ for sim_name, sim in simulation_data.items():
 
 yaml.dump(
     simulation_data,
-    open(os.path.join(rsl_page_root, '_data', 'simulations_new.yaml'), 'w'))
+    open(os.path.join(rsl_page_root, '_data', 'simulations.yaml'), 'w'))
 
 rafts = [
     {'id': _['_id'], 'name': _['name'], 'description': _['description']}
