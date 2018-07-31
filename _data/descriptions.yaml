@@ -1,0 +1,35 @@
+Rarepeak:
+  LWB: no
+  Pop_III_LW: yes
+  Pop_II_LW: underestimated
+  comments: None
+Rarepeak_LW:
+  LWB: no
+  Pop_III_LW: yes
+  Pop_II_LW: yes
+  comments: None
+Rarepeak_LWB:
+  LWB: yes
+  Pop_III_LW: yes
+  Pop_II_LW: yes
+  comments: LWB from Wise & Abel (2005) with updated cosmology
+Normal_BG:
+  LWB: unknown
+  Pop_III_LW: yes
+  Pop_II_LW: unknown
+  comments: None
+Normal_BG1:
+  LWB: unknown
+  Pop_III_LW: yes
+  Pop_II_LW: unknown
+  comments: None
+Void:
+  LWB: no
+  Pop_III_LW: yes
+  Pop_II_LW: unknown
+  comments: None
+Void_BG1:
+  LWB: yes, from Normal simulation
+  Pop_III_LW: yes
+  Pop_II_LW: unknown
+  comments: None
