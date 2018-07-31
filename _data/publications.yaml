@@ -1,0 +1,159 @@
+ - title: "Population III Stars and Remnants in High Redshift Galaxies"
+   url: http://adsabs.harvard.edu/abs/2013ApJ...773...83X
+   authors: Xu, H., Wise, J.H., & Norman, M.L.
+   year: 2013
+   journal: ApJ, 773, 83
+   simulations:
+     Rarepeak:
+       redshift-list:
+       - 25
+       - 17.9
+       - 15
+ - title: "Heating the Intergalactic Medium by X-Rays from Population III Binaries in High-redshift Galaxies"
+   url: http://adsabs.harvard.edu/abs/2014ApJ...791..110X
+   authors: Xu, H., Ahn, K., Wise, J.H., Norman, M.L., & O'Shea, B.W.
+   year: 2014
+   journal: ApJ, 791, 110
+   simulations:
+     Rarepeak:
+       redshift-list:
+       - 17.9
+       - 15
+ - title: "Scaling Relations for Galaxies Prior to Reionization"
+   url: http://adsabs.harvard.edu/abs/2014ApJ...795..144C
+   authors: Chen, P., Wise, J.H., Norman, M.L., Xu, H., & O'Shea, B.W.
+   year: 2014
+   journal: ApJ, 795, 144
+   simulations:
+     Rarepeak:
+       redshift-range:
+       - 18.4
+       - 15
+ - title: "Spatially Extended 21 cm Signal from Strongly Clustered Uv and X-Ray Sources in the Early Universe"
+   url: http://adsabs.harvard.edu/abs/2015ApJ...802....8A
+   authors: Ahn, K., Xu, H., Norman, M.L., Alvarez, M.A., & Wise, J.H.
+   year: 2015
+   journal: ApJ, 802, 8
+   simulations:
+     Rarepeak:
+       redshift-list:
+       - 19
+       - 17
+       - 15
+ - title: "Probing the Ultraviolet Luminosity Function of the Earliest Galaxies with the Renaissance Simulations"
+   url: http://adsabs.harvard.edu/abs/2015ApJ...807L..12O
+   authors: O'Shea, B.W., Wise, J.H., Xu, H., & Norman, M.L.
+   year: 2015
+   journal: ApJL, 807, L12
+   simulations:
+     Rarepeak_LWB:
+       redshift-list:
+       - 15
+     Normal_BG:
+       redshift-list:
+       - 18
+       - 16
+       - 15
+       - 14
+       - 12
+     Void:
+       redshift-list:
+       - 15
+       - 12
+       - 8
+ - title: "Late Pop III Star Formation During the Epoch of Reionization: Results from the Renaissance Simulations"
+   url: http://adsabs.harvard.edu/abs/2016ApJ...823..140X
+   authors: Xu, H., Norman, M.L., O'Shea, B.W., & Wise, J.H.
+   year: 2016
+   journal: ApJ, 823, 140
+   simulations:
+     Void:
+       redshift-range:
+       - 20
+       - 7.6
+     Void_BG1:
+       redshift-range:
+       - 20
+       - 9.9
+ - title: "X-Ray Background at High Redshifts from Pop III Remnants: Results from Pop III Star Formation Rates in the Renaissance Simulations"
+   url: http://adsabs.harvard.edu/abs/2016ApJ...832L...5X
+   authors: Xu, H., Ahn, K., Norman, M.L., Wise, J.H., & O'Shea, B.W.
+   year: 2016
+   journal: ApJL, 832, L5
+   simulations:
+     Rarepeak_LWB:
+       redshift-range:
+       - 25
+       - 15
+     Normal_BG:
+       redshift-range:
+       - 22
+       - 12
+     Void:
+       redshift-range:
+       - 20
+       - 7.6
+ - title: "Galaxy Properties and UV Escape Fractions during the Epoch of Reionization: Results from the Renaissance Simulations"
+   url: http://adsabs.harvard.edu/abs/2016ApJ...833...84X
+   authors: Xu, H., Wise, J.H., Norman, M.L., Ahn, K., & O'Shea, B.W.
+   year: 2016
+   journal: ApJ, 833, 84
+   simulations:
+     Rarepeak_LWB:
+       redshift-list:
+       - 18.5
+       - 15
+     Normal_BG1:
+       redshift-list:
+       - 15
+       - 12.5
+     Void:
+       redshift-list:
+       - 15
+       - 10
+       - 8
+ - title: "First light: exploring the spectra of high-redshift galaxies in the Renaissance Simulations"
+   url: http://adsabs.harvard.edu/abs/2017MNRAS.469.4863B
+   authors: Barrow, K.S.S., Wise, J.H., Norman, M.L., O'Shea, B.W., & Xu, H.
+   year: 2017
+   journal: MNRAS, 469, 4863
+   simulations:
+     Rarepeak_LWB:
+       redshift-list:
+       - 15
+ - title: "First light - II. Emission line extinction, population III stars, and X-ray binaries"
+   url: http://adsabs.harvard.edu/abs/2018MNRAS.474.2617B
+   authors: Barrow, K.S.S., Wise, J.H., Aykutalp, A., O'Shea, B.W., Norman, M.L., & Xu, H.
+   year: 2018
+   journal: MNRAS, 474, 2617
+   simulations:
+     Rarepeak_LWB:
+       redshift-list:
+       - 15
+ - title: "Fully Coupled Simulation of Cosmic Reionization. III. Stochastic Early Reionization by the Smallest Galaxies"
+   url: http://adsabs.harvard.edu/abs/2017arXiv170500026C
+   authors: Chen, P., Norman, M.L, Xu, H., & Wise, J.H.
+   year: 2018
+   journal: submitted to ApJ
+   simulations:
+     Normal_BG1:
+       redshift-list:
+       - 12.5
+ - title: "The Growth of Black Holes from Population III Remnants in the Renaissance Simulations"
+   url: http://adsabs.harvard.edu/abs/2018arXiv180406477S
+   authors: Smith, B., Regan, J., Downes, T., Norman, M., O'Shea, B., & Wise, J.
+   year: 2018
+   journal: accepted for publication in MNRAS
+   simulations:
+     Normal_BG1:
+       redshift-range:
+       - 25
+       - 11.6
+     Rarepeak_LWB:
+       redshift-range:
+       - 24
+       - 15
+     Void_BG1:
+       redshift-range:
+       - 25
+       - 9.9

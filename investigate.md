@@ -6,30 +6,29 @@ order: 3
 
 # Investigate
 
-Data from the Renaissance Simulations can be downloaded directly or analyzed with Jupyter notebooks here on the RSL.
+Describe!
 
 ## Available Data
 
-Simulation | z inital | z final | LWB | Pop III LW | Pop II LW | Publications | Comments
------------|----------|---------|-----|------------|-----------|--------------|---------
-[Rarepeak](simulations/rarepeak.html)         | 99 | 14.7 | no                    | yes | underestimated | |
-[Rarepeak_LW](simulations/rarepeak_lw.html)   | 99 | 15   | no                    | yes | yes            | 2?, 3? |
-[Rarepeak_LWB](simulations/rarepeak_lwb.html) | 99 | 15   | yes                   | yes | yes            | 2?, 3? | LWB from Wise & Abel (2005) with updated cosmology
-[Normal_BG](simulations/normal_bg.html)       | 99 | 11.9 |                     ? | yes |              ? | 2?, 3? | incorrect LW background
-[Normal_BG1](simulations/normal_bg1.html)     | 99 | 11.6 |                     ? | yes |              ? | 2?, 3? | self-consistent LW background
-[Void](simulations/void.html)                 | 99 |  7.6 | no                    | yes |              ? | 1, 2?, 3? |
-[Void_BG1](simulations/void_bg1.html)         | 99 |  9.9 | yes, from Normal sim. | yes |              ? | | LW background from Normal region
+<TABLE>
+  <TR>
+    <TH>Simulation</TH>
+    <TH>Final Redshift</TH>
+    <TH>Publications</TH>
+  </TR>
+{% for sim in site.data.simulations %}
+  <TR>
+    <TD><a href="simulations/{{ sim[0] | downcase }}.html">{{ sim[0] }}</a></TD>
+    <TD>{{ sim[1]['final_redshift'] }}</TD>
+    <TD></TD>
+  </TR>
+{% endfor %}
+</TABLE>
 
-References:
+## Publications
 
-1 - [Xu, H., Norman, M.L., O'Shea, B.W., & Wise, J.H. 2016, ApJ, 823, 140](http://adsabs.harvard.edu/abs/2016ApJ...823..140X)
-
-2 - [Xu, H., Ahn, K., Norman, M.L., Wise, J.H., & O'Shea, B.W. 2016, ApJL, 832, L5](http://adsabs.harvard.edu/abs/2016ApJ...832L...5X)
-
-3- [Xu, H., Wise, J.H., Norman, M.L., Ahn, K., & O'Shea, B.W. 2016, ApJ, 833, 84](http://adsabs.harvard.edu/abs/2016ApJ...833...84X)
-
-## Analyze on the RSL
-
-Begin your analysis [here](https://girder.rensimlab.xyz/#collection/59b04a0e38eed90001dcc45b).
-
-See [here](documentation.html) for documentation on running analysis on the RSL.
+<ol>
+{% for pub in site.data.publications %}
+<li><a href="{{ pub['url'] }}">"{{ pub['title'] }}"</a>, {{ pub['authors'] }}, {{ pub['year'] }}, {{pub['journal']}}.</li>
+{% endfor %}
+</ol>
