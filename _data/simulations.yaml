@@ -2,6 +2,7 @@ Normal_BG:
   ascii_halo_catalogs: {on_rsl: 5b5a0391fc25ce000198bf72, size: 501.97 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4914fc25ce000198d8ba, size: 3.24 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4ae, size: 523.44 MB}
+  final_redshift: '11.90'
   on_rsl: 5a83276d9f31db000178048a
   size: 1.12 TB
   snapshots:
@@ -442,6 +443,7 @@ Normal_BG1:
   ascii_halo_catalogs: {on_rsl: 5b5a038dfc25ce000198b9f1, size: 572.04 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4910fc25ce000198d3be, size: 3.72 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4a2, size: 653.89 MB}
+  final_redshift: '11.60'
   on_rsl: 5a8327679f31db000177fc84
   size: 509.41 GB
   snapshots:
@@ -900,6 +902,7 @@ Rarepeak:
   ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd07, size: 233.66 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4921fc25ce000198e67c, size: 1.42 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4ce, size: 262.01 MB}
+  final_redshift: '14.80'
   on_rsl: 5a83277b9f31db0001781773
   size: 1.02 TB
   snapshots:
@@ -914,13 +917,13 @@ Rarepeak:
     name: DD0001
     num_halos: 0
     snapshot: {on_rsl: false, size: N/A}
-    z: 45.2
+    z: 45.18
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd2f, size: 1.92 KB}
     binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e826, size: 6.12 KB}
     name: DD0002
     num_halos: 3
     snapshot: {on_rsl: false, size: N/A}
-    z: 31.6
+    z: 31.59
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd3b, size: 207.92 KB}
     binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e7e2, size: 933.88 KB}
     name: RD0001
@@ -932,19 +935,19 @@ Rarepeak:
     name: DD0003
     num_halos: 598
     snapshot: {on_rsl: false, size: N/A}
-    z: 25.0
+    z: 24.96
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd31, size: 239.98 KB}
     binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e77c, size: 1.05 MB}
     name: DD0004
     num_halos: 675
     snapshot: {on_rsl: false, size: N/A}
-    z: 24.8
+    z: 24.79
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd2b, size: 377.19 KB}
     binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e7c0, size: 1.68 MB}
     name: DD0005
     num_halos: 1062
     snapshot: {on_rsl: false, size: N/A}
-    z: 24.0
+    z: 24.05
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd23, size: 381.23 KB}
     binary_halo_catalogs: {on_rsl: 5b5a4921fc25ce000198e68e, size: 1.72 MB}
     name: DD0006
@@ -956,37 +959,37 @@ Rarepeak:
     name: DD0008
     num_halos: 14573
     snapshot: {on_rsl: 5ac4e4446fa68900010f2fdc, size: 137.13 GB}
-    z: 18.4
+    z: 18.43
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd2d, size: 6.30 MB}
     binary_halo_catalogs: {on_rsl: 5b5a4921fc25ce000198e705, size: 34.53 MB}
     name: DD0011
     num_halos: 18042
     snapshot: {on_rsl: 5ac4e43e6fa68900010f2615, size: 152.28 GB}
-    z: 17.9
+    z: 17.91
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd39, size: 7.45 MB}
     binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e76b, size: 42.02 MB}
     name: DD0026
     num_halos: 21348
     snapshot: {on_rsl: false, size: N/A}
-    z: 17.4
+    z: 17.45
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd37, size: 8.88 MB}
     binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e7af, size: 51.52 MB}
     name: DD0045
     num_halos: 25438
     snapshot: {on_rsl: 5ac4e4416fa68900010f2a3c, size: 137.84 GB}
-    z: 17.0
+    z: 16.99
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd35, size: 10.15 MB}
     binary_halo_catalogs: {on_rsl: 5b5a4921fc25ce000198e6c1, size: 59.87 MB}
     name: DD0066
     num_halos: 29050
     snapshot: {on_rsl: false, size: N/A}
-    z: 16.6
+    z: 16.59
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd0f, size: 12.34 MB}
     binary_halo_catalogs: {on_rsl: 5b5a4921fc25ce000198e6d2, size: 75.46 MB}
     name: DD0108
     num_halos: 35305
     snapshot: {on_rsl: false, size: N/A}
-    z: 16.0
+    z: 15.99
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd25, size: 12.78 MB}
     binary_halo_catalogs: {on_rsl: 5b5a4921fc25ce000198e6e3, size: 78.40 MB}
     name: DD0119
@@ -998,7 +1001,7 @@ Rarepeak:
     name: DD0124
     num_halos: 37700
     snapshot: {on_rsl: false, size: N/A}
-    z: 15.8
+    z: 15.81
   - ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd19, size: 13.56 MB}
     binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e815, size: 84.22 MB}
     name: DD0129
@@ -1064,6 +1067,7 @@ Rarepeak_LW:
   ascii_halo_catalogs: {on_rsl: 5b5a039dfc25ce000198cf7e, size: 378.90 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e837, size: 2.26 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4d8, size: 453.35 MB}
+  final_redshift: '15.00'
   on_rsl: 5a8327819f31db0001781f73
   size: 190.73 GB
   snapshots:
@@ -1318,6 +1322,7 @@ Rarepeak_LWB:
   ascii_halo_catalogs: {on_rsl: 5b5a0399fc25ce000198ca96, size: 378.12 MB}
   binary_halo_catalogs: {on_rsl: 5b5a491efc25ce000198e3d3, size: 2.31 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4c4, size: 435.65 MB}
+  final_redshift: '15.00'
   on_rsl: 5a8327779f31db000178122c
   size: 995.05 GB
   snapshots:
@@ -1566,6 +1571,7 @@ Void:
   ascii_halo_catalogs: {on_rsl: 5b5a038afc25ce000198b5bf, size: 357.86 MB}
   binary_halo_catalogs: {on_rsl: 5b5a490efc25ce000198d16a, size: 2.74 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b49f, size: 392.79 MB}
+  final_redshift: '7.60'
   on_rsl: 5a8327649f31db000177f974
   size: 887.70 GB
   snapshots:
@@ -1760,7 +1766,7 @@ Void:
     name: RD0031
     num_halos: 50068
     snapshot: {on_rsl: false, size: N/A}
-    z: 7.7
+    z: 7.75
   - ascii_halo_catalogs: {on_rsl: 5b5a038afc25ce000198b5cb, size: 17.67 MB}
     binary_halo_catalogs: {on_rsl: 5b5a490efc25ce000198d237, size: 151.93 MB}
     name: RD0032
@@ -1772,7 +1778,7 @@ Void:
     name: RD0033
     num_halos: 50950
     snapshot: {on_rsl: false, size: N/A}
-    z: 7.6
+    z: 7.65
   - ascii_halo_catalogs: {on_rsl: 5b5a038afc25ce000198b5f9, size: 17.81 MB}
     binary_halo_catalogs: {on_rsl: 5b5a490efc25ce000198d1d1, size: 155.86 MB}
     name: RD0034
@@ -1784,6 +1790,7 @@ Void_BG1:
   ascii_halo_catalogs: {on_rsl: 5b5a0396fc25ce000198c586, size: 288.42 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4919fc25ce000198dd83, size: 1.78 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4c1, size: 313.01 MB}
+  final_redshift: '9.90'
   on_rsl: 5a8327709f31db000178089a
   size: 472.26 GB
   snapshots:
@@ -2200,7 +2207,7 @@ Void_BG1:
     name: RD0068
     num_halos: 13256
     snapshot: {on_rsl: 5ac4e42a6fa68900010f0b7d, size: 119.57 GB}
-    z: 12.5
+    z: 12.46
   - ascii_halo_catalogs: {on_rsl: 5b5a0396fc25ce000198c5d4, size: 4.71 MB}
     binary_halo_catalogs: {on_rsl: 5b5a491afc25ce000198de50, size: 28.88 MB}
     name: RD0069

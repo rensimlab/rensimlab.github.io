@@ -9,7 +9,7 @@ data_dir = '/mnt/data/renaissance'
 rsl_page_root = os.environ.get(
     'RSL_PAGE_ROOT', '/home/britton/rensimlab.github.io')
 
-simyaml = os.path.join(rsl_page_root, '_data', 'simulations_new.yaml')
+simyaml = os.path.join(rsl_page_root, '_data', 'simulations.yaml')
 if os.path.exists(simyaml):
     simulation_data = yaml.load(open(simyaml, 'r'))
 else:
@@ -29,12 +29,13 @@ def_entry = {"num_halos": 'N/A',
              "ascii_halo_catalogs": copy.deepcopy(on_rsl_def),
              "snapshot": copy.deepcopy(on_rsl_def)}
 
-sim_entries = [{"z": float("%.1f" % z), "name": os.path.dirname(myfn)}
+sim_entries = [{"z": float("%.2f" % z), "name": os.path.dirname(myfn)}
                for z, myfn in zip(es.data["redshift"],
                                   es.data["filename"].astype(str))]
 for entry in sim_entries:
     entry.update(copy.deepcopy(def_entry))
 simulation_data[sim] = {}
+simulation_data[sim]["final_redshift"] = "%.2f" % es.data["redshift"][-1]
 simulation_data[sim]["ytree_merger_trees"] = copy.deepcopy(on_rsl_def)
 simulation_data[sim]["ct_merger_trees"] = copy.deepcopy(on_rsl_def)
 simulation_data[sim]["ascii_halo_catalogs"] = copy.deepcopy(on_rsl_def)
