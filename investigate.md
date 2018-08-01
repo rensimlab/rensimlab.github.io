@@ -20,7 +20,11 @@ Describe!
   <TR>
     <TD><a href="simulations/{{ sim[0] | downcase }}.html">{{ sim[0] }}</a></TD>
     <TD>{{ sim[1]['final_redshift'] }}</TD>
-    <TD></TD>
+    <TD>
+{% assign first = "true" %}
+{% for i in (0..site.data.publications.size) %}{% assign pub = site.data.publications[i] %}{% if pub['simulations'] contains sim[0] %}{% if first == "true" %}{{ i | plus: 1 }}{% assign first = "false" %}{% else %}, {{ i | plus: 1 }}
+{% endif %}{% endif %}{% endfor %}
+    </TD>
   </TR>
 {% endfor %}
 </TABLE>
