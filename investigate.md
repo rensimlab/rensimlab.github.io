@@ -6,9 +6,20 @@ order: 3
 
 # Investigate
 
-Describe!
+This is the place to access and analyze data from the Renaissance Simulations.
+Below is a table of all simulations comprising the Renaissance Simulation
+suite, including a list of all publications to make use of each data set. All
+simulations were initialized at redshift 99, but each was run down to a
+different final redshift, as indicated in the table.
 
-## Available Data
+Each link in the table will take you to a page containing further details of
+that particular simulation as well as links to download full snapshots, halo
+catalogs, and merger trees. The pages also contains links to launch Jupyter
+notebook sessions that will allow you to work with all available data using
+[yt](https://yt-project.org/) and [ytree](https://ytree.readthedocs.io/).
+You will be provided with persistent storage space with which to save
+analysis scripts and results. For more information on running analysis on
+the RSL, see the [User Guide](user_guide.html).
 
 <TABLE>
   <TR>
