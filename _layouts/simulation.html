@@ -80,10 +80,10 @@ layout: default
 </h4>
 
 <TABLE>
-  <TR><TH>Redshift</TH>
-      <TH>Halos</TH>
-      <TH>Snapshots</TH>
-      <TH>Halo Catalogs</TH>
+  <TR><TH align="center">Redshift</TH>
+      <TH align="center">Halos</TH>
+      <TH align="center">Snapshots</TH>
+      <TH colspan=2 align="center">Halo Catalogs</TH>
   </TR>
 {% for v in site.data.simulations[page.sim_name]['snapshots'] %}
 <TR><TD>{{v['z']}}</TD>
@@ -108,6 +108,10 @@ layout: default
           <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['binary_halo_catalogs']['size']}})"></i> ascii[{{v['binary_halo_catalogs']['size']}}]
         </a>
         {% endif %}
+      </div>
+    </TD>
+    <TD>
+      <div id="action-list" style="text-align:center" class="fa">
         {% if v['ascii_halo_catalogs']['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['ascii_halo_catalogs']['on_rsl']}}/download">
           <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['ascii_halo_catalogs']['size']}})"></i> binary[{{v['ascii_halo_catalogs']['size']}}]
