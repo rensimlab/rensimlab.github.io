@@ -58,66 +58,101 @@ layout: default
 
 <hr>
 
-<h4>{{page.sim_name}}: 
-<a href="https://girder.rensimlab.xyz/#frontend/{{site.data.notebooks.frontend}}/{{site.data.notebooks[page.sim_name]}}">
-  <i class="fa fa-external-link fa-lg fa-fw" title="Explore in Jupyter"></i>Explore in Jupyter</a>
-</h4>
-<h4>
-  Halo Catalogs: <a href="{{site.data.notebooks.download_url}}/{{site.data.simulations[page.sim_name]['binary_halo_catalogs']['on_rsl']}}/download">
-    <i class="fa fa-download fa-lg fa-fw" title="download all binary halo catalogs ({{site.data.simulations[page.sim_name]['binary_halo_catalogs']['size']}})">
-    </i>binary[{{site.data.simulations[page.sim_name]['binary_halo_catalogs']['size']}}]</a>
-  <a href="{{site.data.notebooks.download_url}}/{{site.data.simulations[page.sim_name]['ascii_halo_catalogs']['on_rsl']}}/download">
-    <i class="fa fa-download fa-lg fa-fw" title="download all ascii halo catalogs ({{site.data.simulations[page.sim_name]['ascii_halo_catalogs']['size']}})">
-    </i>ascii[{{site.data.simulations[page.sim_name]['ascii_halo_catalogs']['size']}}]</a>
-</h4>
-<h4>
-  Merger Trees: <a href="{{site.data.notebooks.download_url}}/{{site.data.simulations[page.sim_name]['ytree_merger_trees']['on_rsl']}}/download">
-    <i class="fa fa-download fa-lg fa-fw" title="download ytree merger trees ({{site.data.simulations[page.sim_name]['ytree_merger_trees']['size']}})">
-    </i>ytree[{{site.data.simulations[page.sim_name]['ytree_merger_trees']['size']}}]</a>
+<TABLE>
+  <TR>
+    <TH align="center">Analyze</TH>
+    <TD colspan=2 align="center">
+      <a href="https://girder.rensimlab.xyz/#frontend/{{site.data.notebooks.frontend}}/{{site.data.notebooks[page.sim_name]}}" target="_blank">
+        <i class="fa fa-external-link fa-lg fa-fw" title="Launch Jupyter"></i>Launch Jupyter (opens in new tab)</a>
+    </TD>
+  </TR>
+  <TR></TR>
+  <TR>
+    <TH align="center">Halo Catalogs</TH>
+    <TH align="center">ascii</TH>
+    <TH align="center">binary</TH>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">
+      <a href="{{site.data.notebooks.download_url}}/{{site.data.simulations[page.sim_name]['ascii_halo_catalogs']['on_rsl']}}/download">
+        <i class="fa fa-download fa-lg fa-fw" title="download all ascii halo catalogs ({{site.data.simulations[page.sim_name]['ascii_halo_catalogs']['size']}})">
+    </i> [{{site.data.simulations[page.sim_name]['ascii_halo_catalogs']['size']}}]</a>
+      </div>
+    </TD>
+    <TD align="center">
+      <a href="{{site.data.notebooks.download_url}}/{{site.data.simulations[page.sim_name]['binary_halo_catalogs']['on_rsl']}}/download">
+        <i class="fa fa-download fa-lg fa-fw" title="download all binary halo catalogs ({{site.data.simulations[page.sim_name]['binary_halo_catalogs']['size']}})">
+    </i> [{{site.data.simulations[page.sim_name]['binary_halo_catalogs']['size']}}]</a>
+    </TD>
+  </TR>
+  <TR>
+    <TH align="center">Merger Trees</TH>
+    <TH align="center">consistent-trees</TH>
+    <TH align="center">ytree</TH>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">
   <a href="{{site.data.notebooks.download_url}}/{{site.data.simulations[page.sim_name]['ct_merger_trees']['on_rsl']}}/download">
     <i class="fa fa-download fa-lg fa-fw" title="download consistent-trees merger trees ({{site.data.simulations[page.sim_name]['ct_merger_trees']['size']}})">
-    </i>consistent-trees[{{site.data.simulations[page.sim_name]['ct_merger_trees']['size']}}]</a>
-</h4>
+    </i> [{{site.data.simulations[page.sim_name]['ct_merger_trees']['size']}}]</a>
+    </TD>
+    <TD align="center">
+     <a href="{{site.data.notebooks.download_url}}/{{site.data.simulations[page.sim_name]['ytree_merger_trees']['on_rsl']}}/download">
+    <i class="fa fa-download fa-lg fa-fw" title="download ytree merger trees ({{site.data.simulations[page.sim_name]['ytree_merger_trees']['size']}})">
+    </i> [{{site.data.simulations[page.sim_name]['ytree_merger_trees']['size']}}]</a>
+    </TD>
+  </TR>
+</TABLE>
 
 <TABLE>
-  <TR><TH align="center">Redshift</TH>
-      <TH align="center">Halos</TH>
-      <TH align="center">Snapshots</TH>
-      <TH colspan=2 align="center">Halo Catalogs</TH>
+  <TR>
+    <TH colspan=2></TH>
+    <TH align="center">Snapshots</TH>
+    <TH colspan=2 align="center">Halo Catalogs</TH>
+  </TR>
+  <TR>
+    <TH align="center">Redshift</TH>
+    <TH align="center">Halos</TH>
+    <TH align="center">
+      {% assign i = 0 %}
+      {% for v in site.data.simulations[page.sim_name]['snapshots'] %}
+      {% if v['snapshot']['on_rsl'] %}
+      {% assign i = i | plus:1 %}
+      {% endif %}
+      {% endfor %}
+      (hosting {{ i }}/{{ site.data.simulations[page.sim_name]['snapshots'].size }})
+    </TH>
+    <TH align="center">ascii</TH>
+    <TH align="center">binary</TH>
   </TR>
 {% for v in site.data.simulations[page.sim_name]['snapshots'] %}
 <TR><TD>{{v['z']}}</TD>
     <TD>{{v['num_halos']}}</TD>
-    <TD>
-      <div id="action-list" style="text-align:center" class="fa">
+    <TD align="center">
         {% if v['snapshot']['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['snapshot']['on_rsl']}}/download">
           <i class="fa fa-download fa-lg fa-fw" title="Download {{v['name']}} ({{v['snapshot']['size']}})"></i> [{{v['snapshot']['size']}}]
         </a>
         {% else %}
         <a href="mailto:bds006@sdsc.edu?subject=RSL%20data%20request:%20{{v['name']}}%20from%20{{page.sim_name}}">
-        <i class="fa fa-download fa-lg fa-fw" title="Send Data Request"></i> request data
-        </a>
+        request data</a>
         {% endif %}
-      </div>
     </TD>
     <TD>
-      <div id="action-list" style="text-align:center" class="fa">
         {% if v['binary_halo_catalogs']['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['binary_halo_catalogs']['on_rsl']}}/download">
           <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['binary_halo_catalogs']['size']}})"></i> ascii[{{v['binary_halo_catalogs']['size']}}]
         </a>
         {% endif %}
-      </div>
     </TD>
     <TD>
-      <div id="action-list" style="text-align:center" class="fa">
         {% if v['ascii_halo_catalogs']['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['ascii_halo_catalogs']['on_rsl']}}/download">
           <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['ascii_halo_catalogs']['size']}})"></i> binary[{{v['ascii_halo_catalogs']['size']}}]
         </a>
         {% endif %}
-      </div>
     </TD>
 </TR>
 {% endfor %}
