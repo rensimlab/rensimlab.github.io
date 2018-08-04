@@ -143,14 +143,14 @@ layout: default
     <TD>
         {% if v['binary_halo_catalogs']['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['binary_halo_catalogs']['on_rsl']}}/download">
-          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['binary_halo_catalogs']['size']}})"></i> ascii[{{v['binary_halo_catalogs']['size']}}]
+          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['binary_halo_catalogs']['size']}})"></i> [{{v['binary_halo_catalogs']['size']}}]
         </a>
         {% endif %}
     </TD>
     <TD>
         {% if v['ascii_halo_catalogs']['on_rsl'] %}
         <a href="{{site.data.notebooks.download_url}}/{{v['ascii_halo_catalogs']['on_rsl']}}/download">
-          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['ascii_halo_catalogs']['size']}})"></i> binary[{{v['ascii_halo_catalogs']['size']}}]
+          <i class="fa fa-download fa-lg fa-fw" title="Download data ({{v['ascii_halo_catalogs']['size']}})"></i> [{{v['ascii_halo_catalogs']['size']}}]
         </a>
         {% endif %}
     </TD>
