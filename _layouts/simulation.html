@@ -61,9 +61,16 @@ layout: default
 <TABLE>
   <TR>
     <TH align="center">Analyze</TH>
-    <TD colspan=2 align="center">
+    <TD align="center">
       <a href="https://girder.rensimlab.xyz/#frontend/{{site.data.notebooks.frontend}}/{{site.data.notebooks[page.sim_name]}}" target="_blank">
         <i class="fa fa-external-link fa-lg fa-fw" title="Launch Jupyter"></i>Launch Jupyter (opens in new tab)</a>
+    </TD>
+    <TD>
+{% if site.data.welcome_rafts[page.sim_name] %}
+      <a href="{{site.data.notebooks.raft_url}}/{{site.data.welcome_rafts[page.sim_name]}}"
+ target="_blank">
+        <i class="fa fa-external-link fa-lg fa-fw" title="Explore in Jupyter"></i>Launch Tutorial</a>
+{% endif %}
     </TD>
   </TR>
   <TR></TR>

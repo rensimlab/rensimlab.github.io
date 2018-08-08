@@ -191,3 +191,11 @@ rafts = [
 yaml.dump(
     rafts,
     open(os.path.join(rsl_page_root, '_data', 'rafts.yaml'), 'w'))
+
+welcome_rafts = dict((sim, False) for sim in simulation_data)
+for sim in simulation_data:
+    for raft in rafts:
+        if raft['name'] == "Welcome to the %s Simulation" % sim:
+            welcome_rafts[sim] = raft['id']
+yaml.dump(welcome_rafts,
+          open(os.path.join(rsl_page_root, '_data', 'welcome_rafts.yaml'), 'w'))
