@@ -21,3 +21,15 @@
   id: 5a860be19f31db0001782590, name: Merger Tree Tutorial}
 - {description: A tutorial for working with the Normal_BG simulation on the RSL.,
   id: 5b6b2e3d93ebce0001fb98a0, name: Welcome to the Normal_BG Simulation}
+- {description: A tutorial for working with the Normal_BG1 simulation on the RSL.,
+  id: 5b6b391c93ebce0001fb98ae, name: Welcome to the Normal_BG1 Simulation}
+- {description: A tutorial for working with the Rarepeak simulation on the RSL., id: 5b6b395a93ebce0001fb98af,
+  name: Welcome to the Rarepeak Simulation}
+- {description: A tutorial for working with the Rarepeak_LW simulation on the RSL.,
+  id: 5b6b39a593ebce0001fb98b0, name: Welcome to the Rarepeak_LW Simulation}
+- {description: A tutorial for working with the Rarepeak_LWB simulation on the RSL.,
+  id: 5b6b39d693ebce0001fb98b1, name: Welcome to the Rarepeak_LWB Simulation}
+- {description: A tutorial for working with the Void simulation on the RSL., id: 5b6b3a0d93ebce0001fb98b2,
+  name: Welcome to the Void Simulation}
+- {description: A tutorial for working with the Void_BG1 simulation on the RSL., id: 5b6b3a4493ebce0001fb98b3,
+  name: Welcome to the Void_BG1 Simulation}
