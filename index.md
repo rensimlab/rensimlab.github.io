@@ -45,7 +45,7 @@ Rarepeak, Normal, and Void zoom-in regions.
 
 The Renaissance Simulations simulate high redshift galaxy formation in three zoom-in regions 
 within a single comoving volume 40 Mpc on a side: a high density region "Rarepeak", 
-a region of average density "Normal", and a low density region "Void". The image illustrates this. 
+a region of average density "Normal", and a low density region "Void". The image to the right illustrates this. 
 Multiple simulations of each region were carried out varying the treament of the Lyman-Werner 
 UV radiation which influences the molecular hydrogen chemistry and cooling in primordial minihalos. 
 The choices are:
