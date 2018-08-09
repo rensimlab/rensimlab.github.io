@@ -1,7 +1,6 @@
 ---
 layout: default
-mainpage: true
-order: 3
+mainpage: false
 ---
 # Simulation details
 
