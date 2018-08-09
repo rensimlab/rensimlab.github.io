@@ -23,7 +23,7 @@ use supercomputers to study them, and what this site enables you to do.
 <a href="somewhere">
 <img src="images/fig1.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-The Universe at t=13,800,000,000 yr (credit) (learn more)
+The Universe at t=13,800,000,000 yr (NASA) [learn more](https://en.wikipedia.org/wiki/Hubble_Ultra-Deep_Field)
 </figcaption>
 </figure>
 
