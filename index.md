@@ -43,8 +43,8 @@ The choices are:
 - LWB: Lyman-Werner background from Population III stars outside the simulated volume
 - LW3: Lyman-Werner radiation from Pop III stars inside the simulated volume
 - LW2: Lyman-Werner radiation from Population II star clusters inside the simulated volume
-The simulations are listed in the table, and use these options in combination as indicated.
 
+The simulations are listed in the table, and use these options in combination as indicated.
 All simulations were performed with the publicly available [Enzo code](http://enzo-project.org) on
 the [Blue Waters supercomputer](https://bluewaters.ncsa.illinois.edu/blue-waters-overview) over a 3-year period (2013-2015). 
 More technical details of the simulations can be found [here](sim_details.html)
