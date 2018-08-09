@@ -38,7 +38,8 @@ Here's what you'll find at the RSL:
 <a href="somewhere">
 <img src="images/ApJ_projection_all.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-
+Mass-weighted density projection of the (40 comoving Mpc)^3 survey volume, showing the locations of the 
+Rarepeak, Normal, and Void zoom-in regions. 
 </figcaption>
 </figure>
 
@@ -55,8 +56,5 @@ The choices are:
 The simulations are listed in the table, and use these options in combination as indicated.
 All simulations were performed with the publicly available [Enzo code](http://enzo-project.org) on
 the [Blue Waters supercomputer](https://bluewaters.ncsa.illinois.edu/blue-waters-overview) over a 3-year period (2013-2015). 
-More technical details of the simulations can be found [here](sim_details.html)
-
-Mass-weighted density projection of the (40 comoving Mpc)^3 survey volume, showing the locations of the 
-Rarepeak, Normal, and Void zoom-in regions. 
+More technical details of the simulations can be found [here](sim_details.html).
 
