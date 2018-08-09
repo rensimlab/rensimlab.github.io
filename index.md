@@ -51,7 +51,7 @@ More technical details of the simulations can be found [here](sim_details.html)
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
-<img src="images/ApJ_projection_all.png" width="320" style="float: right;"/></a>
+<img src="images/ApJ_projection_all.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 Mass-weighted density projection of the (40 comoving Mpc)^3 survey volume, showing the locations of the 
 Rarepeak, Normal, and Void zoom-in regions. 
