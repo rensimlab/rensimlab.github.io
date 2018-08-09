@@ -49,7 +49,8 @@ a region of average density "Normal", and a low density region "Void". The image
 Multiple simulations of each region were carried out varying the treament of the Lyman-Werner 
 UV radiation which influences the molecular hydrogen chemistry and cooling in primordial minihalos. 
 The choices are:
-- LWB: Lyman-Werner background from Population III stars outside the simulated volume
+- LWB: Lyman-Werner background from Population III stars outside the simulated volume based on the analytic model of Wise & Abel (2005)
+- LWB1: Lyman-Werner background from Population III stars outside the simulated volume based on an integration over the Pop III stars in the Normal simulation
 - LW3: Lyman-Werner radiation from Pop III stars inside the simulated volume
 - LW2: Lyman-Werner radiation from Population II star clusters inside the simulated volume
 
