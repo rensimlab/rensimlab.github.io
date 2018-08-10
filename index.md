@@ -34,3 +34,28 @@ Here's what you'll find at the RSL:
    on how to access and analyze Renaissance Simulation data.
 
 ## About the Renaissance Simulations
+<figure style="display: table; float: right; margin: 0 0 20px 20px;">
+<a href="somewhere">
+<img src="images/ApJ_projection_all.PNG" width="320" style="float: right;"/></a>
+<figcaption style="display: table-caption; caption-side: bottom;">
+Mass-weighted density projection of the (40 comoving Mpc)^3 survey volume, showing the locations of the 
+Rarepeak, Normal, and Void zoom-in regions. 
+</figcaption>
+</figure>
+
+The Renaissance Simulations simulate high redshift galaxy formation in three zoom-in regions 
+within a single comoving volume 40 Mpc on a side: a high density region "Rarepeak", 
+a region of average density "Normal", and a low density region "Void". The image to the right illustrates this. 
+Multiple simulations of each region were carried out varying the treament of the Lyman-Werner 
+UV radiation which influences the molecular hydrogen chemistry and cooling in primordial minihalos. 
+The choices are:
+- LWB: Lyman-Werner background from Population III stars outside the simulated volume based on the analytic model of Wise & Abel (2005)
+- LWB1: Lyman-Werner background from Population III stars outside the simulated volume based on an integration over the Pop III stars in the Normal simulation
+- LW3: Lyman-Werner radiation from Pop III stars inside the simulated volume
+- LW2: Lyman-Werner radiation from Population II star clusters inside the simulated volume
+
+The simulations are listed in the table, and use these options in combination as indicated.
+All simulations were performed with the publicly available [Enzo code](http://enzo-project.org) on
+the [Blue Waters supercomputer](https://bluewaters.ncsa.illinois.edu/blue-waters-overview) over a 3-year period (2013-2015). 
+More technical details of the simulations can be found [here](sim_details.html).
+

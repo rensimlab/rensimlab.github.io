@@ -23,22 +23,24 @@ use supercomputers to study them, and what this site enables you to do.
 <a href="somewhere">
 <img src="images/fig1.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-The Universe at t=13,800,000,000 yr (credit) (learn more)
+The Universe at t=13,800,000,000 yr. (NASA) 
 </figcaption>
 </figure>
+
 
 The universe is filled with countless galaxies today. But there was a time not
 long after the big bang when there were no galaxies at all—just tiny
 fluctuations in the density of matter. How does a featureless universe “grow
-galaxies”? And how do they differ from modern galaxies like the Milky Way?
+galaxies”? And how do they differ from modern galaxies like the Milky Way? 
+[learn more](https://en.wikipedia.org/wiki/Hubble_Ultra-Deep_Field)
 
 <figure style="display: table; float: left;">
 <a href="somewhereelse">
 <img src="images/fig2.png" width="250"></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-The Universe at t=380,000,000 yr (credit) (learn more)
-</figcaption>
+The Universe at t=380,000,000 yr. (ESA and Planck Collaboration)
 </figure>
+ [learn more](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
 
 ## Growing Galaxies
 
@@ -46,7 +48,8 @@ The Universe at t=380,000,000 yr (credit) (learn more)
 <a href="somewhere">
 <img src="images/fig3.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+Simplified diagram showing hierarchical assembly of galaxies starting from small fluctuations in the density distribution of the early universe. 
+(Australia Telescope National Facility)
 </figcaption>
 </figure>
 
@@ -58,6 +61,7 @@ have a variety of galaxy types and sizes. These include large spiral galaxies
 like the Milky Way, and large elliptical galaxies, like M87. Thus, galaxies are
 said to grow hierarchically, with large modern galaxies representing the
 assembly of thousands of protogalaxies which are much smaller.
+[learn more](http://www.atnf.csiro.au/outreach/education/senior/cosmicengine/galaxy_formation.html)
 
 ## Observing the First Galaxies
 
@@ -65,7 +69,9 @@ assembly of thousands of protogalaxies which are much smaller.
 <a href="somewhere">
 <img src="images/fig4.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+Conceptual diagram showing how the Hubble Space Telescope looks back
+into time at the earliest galaxies. The relative depth of the Hubble Deep Field
+and the Hubble Ultra-Deep Field is shown. (Wikipedia) 
 </figcaption>
 </figure>
 
@@ -73,9 +79,12 @@ Can we observe the first galaxies directly? No. They are too small and too faint
 for the Hubble Space Telescope (HST) to detect them. However the HST can detect
 very faint, distant galaxies which are likely second and third generation
 galaxies. The graphic at right shows how deep the HST has been able to probe.
-The Hubble Ultra Deep Field  has detected galaxies when the universe was only6400-700 million years old, which is only a few percent of its present agThe James Webb Space Telescope, to be launched by NASA in 2018, should be able
+The Hubble Ultra Deep Field  has detected galaxies when the universe was only 
+6400-700 million years old, which is only a few percent of its present age.
+The James Webb Space Telescope, to be launched by NASA in 2018, should be able
 to observe even younger galaxies, pushing into the realm of truly first
 galaxies.
+[learn more](https://en.wikipedia.org/wiki/Hubble_Ultra-Deep_Field)
 
 ## Faint Red Blobs at the Edge of the Universe
 
@@ -83,7 +92,7 @@ galaxies.
 <a href="somewhere">
 <img src="images/fig5.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+Composite of high redshift galaxies imaged by the Hubble Space Telescope. The galaxies appear red due to cosmological redshift. (Space Telescope Science Institute) 
 </figcaption>
 </figure>
 
@@ -93,7 +102,8 @@ Hubble Ultra Deep Field. They are red because the expansion of the universe has
 redshifted their starlight into the red part of the visible spectrum. They are
 faint because they are distant. And they are very small compared to the Milky
 Way galaxy. A typical size is about 500 parsec, which is 1/50 the size of the
-Milky Way galaxy.
+Milky Way galaxy. 
+[learn more](https://en.wikipedia.org/wiki/Redshift). 
 
 # How we use supercomputers to study the first galaxies
 
@@ -105,24 +115,24 @@ to cover some basics.
 <a href="somewhere">
 <img src="images/fig6.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+The Blue Waters Sustained Petascale Supercomputer at the University of Illinois, Urbana-Champaign. 
+(M. Norman) 
 </figcaption>
 </figure>
 
 Supercomputers are large clusters of processing “nodes” all connected together by 
-
 a fast network so that it can act like a single, very powerful computer. Each node 
 can have dozens of processing “cores”. For example, The Blue Waters supercomputer, 
 used for the Renaissance Simulations, has over 22,640 nodes, each with 16 cores, for 
-a total of 362,240  processing elements. 
+a total of 362,240  processing elements. [learn more](https://en.wikipedia.org/wiki/Blue_Waters)
 
 ## Parallel computing
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig7.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
-
+Parallel computing subdivides the problem domain into many smaller domains, which are
+calculated simulateneously on many processors of a supercomputer. (M. Norman)
 </figcaption>
 </figure>
 
@@ -133,13 +143,15 @@ to one of the computing cores or nodes. All these smaller problems are computed
 simultaneously, or “in parallel”, with information about their state being continuously 
 communicated to neighboring processors in order to maintain physical correctness and 
 synchronicity. Typically, the subdivision of the big problem into many smaller problems 
-is done using domain decomposition, illustrated at right.  
+is done using domain decomposition, illustrated at right. [learn more](https://en.wikipedia.org/wiki/Parallel_computing) 
 
 ## Coping with an infinite universe
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig8.jpg" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">1(credit) (learn more)
+<figcaption style="display: table-caption; caption-side: bottom;"> 
+Simulation of cosmic structure is performed in a cubic volume assuming periodic boundary conditions
+in all 3 directions. (G. Bryan & M. Norman) 
 </figcaption>
 </figure>
 
@@ -159,7 +171,8 @@ the box we are simulating.
 <a href="somewhere">
 <img src="images/fig9.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+The expansion of the universe is removed from the simulation through the comoving coordinate transformation.
+(M. Norman) 
 </figcaption>
 </figure>
 
@@ -167,7 +180,6 @@ Hubble discovered the universe is expanding in 1929. What that means is that eve
 the universe is moving away from every other point in the universe with uniform speed. That 
 speed varies with time, and also depends on how far apart the two points are. While this 
 seems a little boggling, just think about the raisins in a lump of raisin bread dough. As the 
-
 dough rises, the raisins behave just as described above. But how to simulate a cube of matter 
 embedded in an expanding universe? Easy. We simulate a cube of the universe that expands at 
 exactly the rate of the expanding universe. We say we simulate a co-moving volume of the universe. 
@@ -177,7 +189,8 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
 <a href="somewhere">
  <img src="images/fig10.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+Matter fluctuations consistent with CMB measurements are used to initialize the
+cosmology simulation. (M. Norman) 
 </figcaption>
 </figure>
 
@@ -196,7 +209,8 @@ we are able to adjust the amplitude accordingly, however the power spectrum rema
 <a href="somewhere">
 <img src="images/fig11.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+The matter fluctuations grow in amplitude, forming the characteristic cosmic web
+large scale structure of the universe. (M. Norman)
 </figcaption>
 </figure>
 
@@ -204,14 +218,15 @@ Fortunately, the physical laws that governs what happens next are well understoo
 these physical laws into a parallel computer program, and step the physical state of the universe 
 along in a number of discrete steps, called timesteps. A cosmological simulation can have anywhere 
 from a few thousand timesteps to over 100,000 timesteps, depending on how far into cosmic history 
-you want to simulate, and how finely resolved the simulation is. 
+you want to simulate, and how finely resolved the simulation is. [learn more](https://en.wikipedia.org/wiki/Observable_universe#Large-scale_structure)
 
 ## What physical laws are programmed?
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig12.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-(credit) (learn more)
+Equations of cosmological hydrodynamics. 
+(M. Norman) 
 </figcaption>
 </figure>
 
@@ -225,6 +240,8 @@ the simulation. Specifically, the following processes are included:
 * Feedback of energy, radiation, and heavy elements from stars 
 * Feedback of high energy radiation from accreting stellar remnants 
 * Transport of photoionizing and photodissociating radiation
+
+[learn more](http://adsabs.harvard.edu/abs/1997NewA....2..209A)
 
 ## Ok, so what happens?
 The narrated animation below shows what happens when all this physics is put into a 
