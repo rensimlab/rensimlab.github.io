@@ -8,6 +8,9 @@ order: 5
 ## Media featuring the Renaissance Simulations
 <iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe> 
 
+### First Light in Renaissance Simulations
+A 4-minute narrated scientific visualization of one of the Renaissance Simulations
+
 ### Seeing the Beginning of Time
 A 48-minute science documentary directed by Tom Lucas. Available on Amazon Prime Video.
 
