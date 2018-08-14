@@ -12,7 +12,7 @@ The Renaissance Simulations are a series of highly sophisticated computer
 simulations of galaxy formation in the early Universe. These simulations
 were run on the [Blue Waters](https://bluewaters.ncsa.illinois.edu/)
 supercomputer at the [National Center for Supercomputing
-Applications](http://www.ncsa.illinois.edu/) and produced more than 50 TB
+Applications](http://www.ncsa.illinois.edu/) and produced more than 70 TB
 of raw data and other data products, such as halo catalogs, merger trees,
 and mock observations. The Renaissance Simulation Laboratory (RSL) provides
 open access to all of this data, through both direct download and live
