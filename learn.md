@@ -5,7 +5,6 @@ order: 1
 ---
 
 # Learn
-<iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe> 
 
 This is where you can learn about the first galaxies in the universe, how we can
 use supercomputers to study them, and what this site enables you to do.
@@ -15,6 +14,9 @@ use supercomputers to study them, and what this site enables you to do.
  * [Learn about how we use supercomputers to study them](https://rensimlab.github.io/learn.html#how-we-use-supercomputers-to-study-the-first-galaxies)
 
  * [Learn about the Renaissance Simulations Laboratory](https://rensimlab.github.io/learn.html#about-the-renaissance-simulations-laboratory-rsl)
+ 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe> 
+
 
 # The first galaxies in the universe
 
