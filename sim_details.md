@@ -10,17 +10,17 @@ mainpage: false
 
 
 
-## initial conditions
+## Initial Conditions
 All of the Renaissance Simulations are performed in the same
 comoving volume of (40 Mpc)^3. The initial conditions for this
-volume are generated using MUSIC (Hahn & Abel 2011) with
+volume are generated using MUSIC [Hahn & Abel 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2101H) with
 second-order Lagrangian perturbations at z=99 using a 512^3
 root grid resolution. We use the cosmological parameters from
-the seven-year WMAP ΛCDM+SZ+LENS best fit (Komatsu
-et al. 2011): Ω_M=0.266, Ω_Λ=0.734, Ω_b=0.0449, h=0.71,
+the seven-year WMAP ΛCDM+SZ+LENS best fit [Komatsu
+et al. 2011](http://adsabs.harvard.edu/abs/2011ApJS..192...18K): Ω_M=0.266, Ω_Λ=0.734, Ω_b=0.0449, h=0.71,
 σ_8=0.81, and n=0.963.
 
-## zoom-in regions
+## Zoom-in Regions
 It is computationally prohibitive to have the necessary
 parsec-scale spatial resolution (and accompanying mass
 resolution), which is required to marginally resolve star-forming
@@ -33,9 +33,10 @@ z=6. We then select an overdense region (“Rarepeak”), a
 nearly mean density region (“Normal”) and an underdense
 region (“Void”), which are displayed in Figure 1. The selection
 of the survey volume and detailed setup of the Rarepeak have
-been described in Xu et al. (2013), which is centered on two
+been described in [Xu et al. (2013)](http://adsabs.harvard.edu/abs/2013ApJ...773...83X), 
+which is centered on two
 3×10^10M_sun halos at z=6 with a survey volume of
-(3.8 × 5.4 × 6.6) Mpc**3. For both the Normal and Void runs,
+(3.8 × 5.4 × 6.6) Mpc^3. For both the Normal and Void runs,
 we select comoving volumes of (6.0 × 6.0 × 6.125) Mpc^3 as
 the survey volumes. We then re-initialize all simulations,
 having the survey volume at the center, with threemore static
@@ -44,13 +45,13 @@ effective dark matter mass resolution of 2.9×10^4
 M_sun inside the highest static nested grid that encompasses the survey
 volume.
 
-## adaptive mesh refinement
+## Adaptive Mesh Refinement
 During the course of the simulation, we allow a
 maximum refinement level ofl=12, resulting in a maximal
 resolution of 19 comoving parsecs. The refinement criteria
-employed are the same as in Wise et al. (2012b), refining on
+employed are the same as in [Wise et al. (2012b](http://adsabs.harvard.edu/abs/2012MNRAS.427..311W), refining on
 baryon and dark matter overdensities of fourand local Jeans
-length by at least fourcells (Truelove et al. 1998) and is
+length by at least fourcells [Truelove et al. 1997](http://adsabs.harvard.edu/abs/1997ApJ...489L.179T) and is
 restricted to the survey volumes. While the Rarepeak simulation
 adjusts the survey volume size during the simulation to
 contain only the highest resolution dark matter particles of the
@@ -62,7 +63,22 @@ Thus, we simplify the simulation setup by restricting grid
 refinement to occur in the initial high-resolution grid instead of
 its Lagrangian region.
 
-## stopping redshifts
+## Lyman-Werner Radiation
+A total of 7 Renaissance Simulations were performed with different 
+treatments for the inclusion of Lyman-Werner UV radiation (10.2-13.6 eV) 
+which photodissociates molecular hydrogen, the primary coolant of 
+primordial gas. In various combinations, they employ 2 different models for local
+sources of LW radiation, and 2 different models for the Lyman-Werner radiation
+background:
+
+Model | Description
+------|------------
+LS1 | Lyman-Werner radiation from Pop III stars inside the simulated volume, geometrically attenuated.
+LS2 | Lyman-Werner radiation from Pop III stars and metal-enriched star clusters inside the simulated volume, geometrically attenuated.
+BG | Lyman-Werner background from early generations of Pop III stars based on the analytic model of [Wise & Abel (2005)](http://adsabs.harvard.edu/abs/2005ApJ...629..615W), as updated in [Wise et al. (2012)](http://adsabs.harvard.edu/abs/2012ApJ...745...50W).
+BG1 | Lyman-Werner background is self-consistently computed from Pop III and metal-enriched stellar sources formed in the Normal simulation, as described in [Xu et al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...833...84X).
+
+## Stopping Redshifts
 We stop the simulations of the Rarepeak,
 Normal, and Void regions at z=(15, 12.5, 8), respectively,
 because of the high computational cost of the radiative transfer.
