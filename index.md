@@ -34,8 +34,6 @@ Here's what you'll find at the RSL:
    on how to access and analyze Renaissance Simulation data.
 
 ## About the Renaissance Simulations
-<iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe>
-
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/ApJ_projection_all.PNG" width="320" style="float: right;"/></a>
