@@ -5,6 +5,13 @@ order: 5
 
 # Showcase
 
+## Media featuring the Renaissance Simulations
+<iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe> 
+
+### Seeing the Beginning of Time
+A 48-minute science documentary directed by Tom Lucas. Available on Amazon Prime Video.
+
+
 ## Publications using the Renaissance Simulations
 
 ### 1. POPULATION III STARS AND REMNANTS IN HIGH-REDSHIFT GALAXIES
