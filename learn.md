@@ -25,7 +25,7 @@ use supercomputers to study them, and what this site enables you to do.
 <a href="somewhere">
 <img src="images/fig1.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-The Universe at t=13,800,000,000 yr. (NASA) 
+The Universe at t=13,800,000,000 yr. (NASA and Space Telescope Science Institute) 
 </figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ to cover some basics.
 <img src="images/fig6.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 The Blue Waters Sustained Petascale Supercomputer at the University of Illinois, Urbana-Champaign. 
-(M. Norman) 
+(M. Norman, UCSD) 
 </figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ a total of 362,240  processing elements. [learn more](https://en.wikipedia.org/w
 <img src="images/fig7.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 Parallel computing subdivides the problem domain into many smaller domains, which are
-calculated simulateneously on many processors of a supercomputer. (M. Norman)
+calculated simulateneously on many processors of a supercomputer. (M. Norman, UCSD)
 </figcaption>
 </figure>
 
@@ -153,7 +153,7 @@ is done using domain decomposition, illustrated at right. [learn more](https://e
 <img src="images/fig8.jpg" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;"> 
 Simulation of cosmic structure is performed in a cubic volume assuming periodic boundary conditions
-in all 3 directions. (G. Bryan & M. Norman) 
+in all 3 directions. (G. Bryan, Columbia & M. Norman, UCSD) 
 </figcaption>
 </figure>
 
@@ -174,7 +174,7 @@ the box we are simulating.
 <img src="images/fig9.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 The expansion of the universe is removed from the simulation through the comoving coordinate transformation.
-(M. Norman) 
+(M. Norman, UCSD) 
 </figcaption>
 </figure>
 
@@ -192,7 +192,7 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
  <img src="images/fig10.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 Matter fluctuations consistent with CMB measurements are used to initialize the
-cosmology simulation. (M. Norman) 
+cosmology simulation. (M. Norman, UCSD) 
 </figcaption>
 </figure>
 
@@ -212,7 +212,7 @@ we are able to adjust the amplitude accordingly, however the power spectrum rema
 <img src="images/fig11.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 The matter fluctuations grow in amplitude, forming the characteristic cosmic web
-large scale structure of the universe. (M. Norman)
+large scale structure of the universe. (M. Norman, UCSD)
 </figcaption>
 </figure>
 
@@ -228,7 +228,7 @@ you want to simulate, and how finely resolved the simulation is. [learn more](ht
 <img src="images/fig12.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 Equations of cosmological hydrodynamics. 
-(M. Norman) 
+(M. Norman, UCSD) 
 </figcaption>
 </figure>
 
