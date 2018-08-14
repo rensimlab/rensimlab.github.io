@@ -4,9 +4,8 @@ mainpage: true
 order: 1
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe> 
-
 # Learn
+<iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe> 
 
 This is where you can learn about the first galaxies in the universe, how we can
 use supercomputers to study them, and what this site enables you to do.
