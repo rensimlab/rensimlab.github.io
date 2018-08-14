@@ -64,8 +64,8 @@ refinement to occur in the initial high-resolution grid instead of
 its Lagrangian region.
 
 ## Lyman-Werner Radiation
-A total of 7 Renaissance Simulations were performed with different 
-treatments for the inclusion of Lyman-Werner UV radiation (10.2-13.6 eV) 
+A total of 7 Renaissance Simulations listed on the [Investigate](investigate.html) page 
+were performed with different treatments for the inclusion of Lyman-Werner UV radiation (10.2-13.6 eV) 
 which photodissociates molecular hydrogen, the primary coolant of 
 primordial gas. In various combinations, they employ 2 different models for local
 sources of LW radiation, and 2 different models for the Lyman-Werner radiation
