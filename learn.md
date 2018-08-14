@@ -262,11 +262,9 @@ The RSL is open data resource where the Renaissance Simulations data can be brow
 ## How to use
 The RSL is organized into 5 departments according to your goals: 
  * [LEARN](https://rensimlab.github.io/learn.html) – learn about the first galaxies, how we use supercomputers to understand them, and the purpose and uses for the RSL
- * [EXPLORE](https://rensimlab.github.io/explore.html) – visually explore the Renaissance Simulations using a set of pre-built tools
- * [INVESTIGATE](https://rensimlab.github.io/investigate.html) – download or analyze the data using the yt tookit
- * [DEVELOP](https://rensimlab.github.io/develop.html) – add new data or tools to the RSL
+ * [INVESTIGATE](https://rensimlab.github.io/investigate.html) – download or analyze the data using the yt tookit in a Jupyter notebook
  * [SHOWCASE](https://rensimlab.github.io/showcase.html) – showcase your results through image galleries, animations, or publications
-Click on any link to go there. General documentation can be found here.
+Click on any link to go there. General documentation can be found [here](https://rensimlab.github.io/documentation.html).
 
 # Acknowledgements 
 The RSL is partially supported by NSF CDS&E grant 1615848, with additional resources provided by the [San Diego Supercomputer Center](http://www.sdsc.edu) and the [National Center for Supercomputing Applications](http://www.ncsa.illinois.edu). 
