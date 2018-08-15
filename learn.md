@@ -42,6 +42,7 @@ galaxies”? And how do they differ from modern galaxies like the Milky Way?
 <img src="images/fig2.png" width="250"></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 The Universe at t=380,000,000 yr. (ESA and Planck Collaboration)
+</figcaption>
 </figure>
  [learn more](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
 
