@@ -38,7 +38,7 @@ Here's what you'll find at the RSL:
 <a href="somewhere">
 <img src="images/ApJ_projection_all.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
-Mass-weighted density projection of the (40 comoving Mpc)^3 survey volume, showing the locations of the 
+Mass-weighted density projection of the (40 comoving Mpc)<sup>3</sup> survey volume, showing the locations of the
 Rarepeak, Normal, and Void zoom-in regions. 
 </figcaption>
 </figure>
