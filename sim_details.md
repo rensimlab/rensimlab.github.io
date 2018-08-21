@@ -63,7 +63,7 @@ Thus, we simplify the simulation setup by restricting grid
 refinement to occur in the initial high-resolution grid instead of
 its Lagrangian region.
 
-## Lyman-Werner Radiation
+<h2 id="lwr">Lyman-Werner Radiation</h2>
 A total of 7 Renaissance Simulations listed on the [Investigate](investigate.html) page 
 were performed with different treatments for the inclusion of Lyman-Werner UV radiation (10.2-13.6 eV)
 which photodissociates molecular hydrogen, the primary coolant of 
