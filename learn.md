@@ -259,7 +259,7 @@ to form the first galaxies in the universe. Voila!
 # About the Renaissance Simulations Laboratory (RSL)
 
 ## Purpose
-The RSL is open data resource where the Renaissance Simulations data can be browsed, accessed, and analyzed. The site supports visual data exploration, data download, as well as interactive analysis through the use of Jupyter notebooks. The site is also a place for sharing your scientific analysis and results. 
+The RSL is an open data resource where the Renaissance Simulations data can be browsed, accessed, and analyzed. The site supports visual data exploration, data download, as well as interactive analysis through the use of Jupyter notebooks. The site is also a place for sharing your scientific analysis and results. 
 
 ## How to use
 The RSL is organized into 4 departments according to your goals: 
