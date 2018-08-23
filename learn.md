@@ -251,7 +251,7 @@ the simulation. Specifically, the following processes are included:
 The narrated animation below shows what happens when all this physics is put into a 
 supercomputer, and let loose for hundreds of millions of cosmic years, and millions of 
 computer-hours. First stars form, which explode as supernovae after a few million years, 
-setting the stage for the formation of protogalactic building bocks. The merge due to gravity 
+setting the stage for the formation of protogalactic building bocks. They merge due to gravity 
 to form the first galaxies in the universe. Voila! 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/js6KGG9hJ1I" frameborder="0" allowfullscreen></iframe>
