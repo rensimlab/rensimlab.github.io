@@ -80,8 +80,8 @@ BG1 | Lyman-Werner background is self-consistently computed from Pop III and met
 
 ## Stopping Redshifts
 We stop the simulations of the Rarepeak,
-Normal, and Void regions at z=(15, 12.5, 8), respectively,
-because of the high computational cost of the radiative transfer.
+Normal, and Void regions at approximately z=(15, 12, 8), respectively,
+because of the high computational cost of the radiative transfer once a substantial fraction of the volume becomes ionized.
 The Renaissance simulations were run on the Blue Waters
 system at NCSA. Each simulation used approximately eight
 million core-hours.
