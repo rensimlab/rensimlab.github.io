@@ -28,7 +28,7 @@ molecular clouds, throughout the entire simulation
 volume. We perform zoom-in simulations on three selected
 regions, ranging from 220 to 430 comoving Mpc<sup>3</sup> with
 different overdensities, providing a mixture of large-scale
-environments. We first run a 5123 N-body only simulation to
+environments. We first run a 512<sup>3</sup> N-body only simulation to
 z = 6. We then select an overdense region (“Rarepeak”), a
 nearly mean density region (“Normal”) and an underdense
 region (“Void”), which are displayed in Figure 1. The selection
