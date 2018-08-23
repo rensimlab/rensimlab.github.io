@@ -122,9 +122,12 @@ server_paths = yaml.load(
     open(os.path.join(rsl_page_root, '_data', 'notebooks.yaml'), 'r'))
 simulation_data = yaml.load(
     open(os.path.join(rsl_page_root, '_data', 'simulations.yaml'), 'r'))
+description_data = yaml.load(
+    open(os.path.join(rsl_page_root, '_data', 'descriptions.yaml'), 'r'))
 
 for sim_name, sim in simulation_data.items():
     print ("Updating: ", sim_name)
+    sim.update(description_data[sim_name])
     if do_for_rsl(sim):
         sim_folder = get_folder(gc, sim_name)
         set_rsl_entry(sim, sim_folder)

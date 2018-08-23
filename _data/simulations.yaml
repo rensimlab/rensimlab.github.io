@@ -1,4 +1,5 @@
 Normal_BG:
+  Lyman-Werner: {background: BG, local: LS2}
   ascii_halo_catalogs: {on_rsl: 5b5a0391fc25ce000198bf72, size: 501.97 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4914fc25ce000198d8ba, size: 3.24 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4ae, size: 523.44 MB}
@@ -440,6 +441,7 @@ Normal_BG:
     z: 11.9
   ytree_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4af, size: 598.83 MB}
 Normal_BG1:
+  Lyman-Werner: {background: BG1, local: LS2}
   ascii_halo_catalogs: {on_rsl: 5b5a038dfc25ce000198b9f1, size: 572.04 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4910fc25ce000198d3be, size: 3.72 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4a2, size: 653.89 MB}
@@ -899,6 +901,7 @@ Normal_BG1:
     z: 11.6
   ytree_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4a3, size: 710.37 MB}
 Rarepeak:
+  Lyman-Werner: {background: None, local: LS1}
   ascii_halo_catalogs: {on_rsl: 5b5a039bfc25ce000198cd07, size: 233.66 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4921fc25ce000198e67c, size: 1.42 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4ce, size: 262.01 MB}
@@ -1064,6 +1067,7 @@ Rarepeak:
     z: 14.8
   ytree_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4cf, size: 310.42 MB}
 Rarepeak_LW:
+  Lyman-Werner: {background: None, local: LS2}
   ascii_halo_catalogs: {on_rsl: 5b5a039dfc25ce000198cf7e, size: 378.90 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4922fc25ce000198e837, size: 2.26 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4d8, size: 453.35 MB}
@@ -1319,6 +1323,7 @@ Rarepeak_LW:
     z: 15.0
   ytree_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4d9, size: 523.71 MB}
 Rarepeak_LWB:
+  Lyman-Werner: {background: BG, local: LS2}
   ascii_halo_catalogs: {on_rsl: 5b5a0399fc25ce000198ca96, size: 378.12 MB}
   binary_halo_catalogs: {on_rsl: 5b5a491efc25ce000198e3d3, size: 2.31 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4c4, size: 435.65 MB}
@@ -1568,6 +1573,7 @@ Rarepeak_LWB:
     z: 15.0
   ytree_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4c5, size: 484.27 MB}
 Void:
+  Lyman-Werner: {background: None, local: LS2}
   ascii_halo_catalogs: {on_rsl: 5b5a038afc25ce000198b5bf, size: 357.86 MB}
   binary_halo_catalogs: {on_rsl: 5b5a490efc25ce000198d16a, size: 2.74 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b49f, size: 392.79 MB}
@@ -1787,6 +1793,7 @@ Void:
     z: 7.6
   ytree_merger_trees: {on_rsl: 5b5a0389fc25ce000198b497, size: 452.71 MB}
 Void_BG1:
+  Lyman-Werner: {background: BG1, local: LS2}
   ascii_halo_catalogs: {on_rsl: 5b5a0396fc25ce000198c586, size: 288.42 MB}
   binary_halo_catalogs: {on_rsl: 5b5a4919fc25ce000198dd83, size: 1.78 GB}
   ct_merger_trees: {on_rsl: 5b5a0389fc25ce000198b4c1, size: 313.01 MB}

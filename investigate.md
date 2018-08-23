@@ -37,8 +37,8 @@ the RSL, see the [User Guide](user_guide.html).
 {% for sim in site.data.simulations %}
   <TR>
     <TD><a href="simulations/{{ sim[0] | downcase }}.html">{{ sim[0] }}</a></TD>
-    <TD>{{ site.data.descriptions[sim[0]]['local'] }}</TD>
-    <TD>{{ site.data.descriptions[sim[0]]['background'] }}</TD>
+    <TD>{{ sim[1]['Lyman-Werner']['local'] }}</TD>
+    <TD>{{ sim[1]['Lyman-Werner']['background'] }}</TD>
     <TD>{{ sim[1]['final_redshift'] }}</TD>
     <TD>
 {% assign first = "true" %}{% for i in (0..site.data.publications.size) %}{% assign pub = site.data.publications[i] %}{% if pub['simulations'] contains sim[0] %}{% if first == "true" %}{{ i | plus: 1 }}{% assign first = "false" %}{% else %}, {{ i | plus: 1 }}{% endif %}{% endif %}{% endfor %}

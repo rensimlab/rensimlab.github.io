@@ -1,21 +1,28 @@
 Rarepeak:
-  local: LS1
-  background: None
+  Lyman-Werner:
+    local: LS1
+    background: None
 Rarepeak_LW:
-  local: LS2
-  background: None
+  Lyman-Werner:
+    local: LS2
+    background: None
 Rarepeak_LWB:
-  local: LS2
-  background: BG
+  Lyman-Werner:
+    local: LS2
+    background: BG
 Normal_BG:
-  local: LS2
-  background: BG
+  Lyman-Werner:
+    local: LS2
+    background: BG
 Normal_BG1:
-  local: LS2
-  background: BG1
+  Lyman-Werner:
+    local: LS2
+    background: BG1
 Void:
-  local: LS2
-  background: None
+  Lyman-Werner:
+    local: LS2
+    background: None
 Void_BG1:
-  local: LS2
-  background: BG1
+  Lyman-Werner:
+    local: LS2
+    background: BG1
