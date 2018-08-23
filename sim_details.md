@@ -17,7 +17,7 @@ volume are generated using MUSIC [Hahn & Abel 2011](http://adsabs.harvard.edu/ab
 second-order Lagrangian perturbations at z=99 using a 512<sup>3</sup>
 root grid resolution. We use the cosmological parameters from
 the seven-year WMAP ΛCDM+SZ+LENS best fit [Komatsu
-et al. 2011](http://adsabs.harvard.edu/abs/2011ApJS..192...18K): Ω<sub>M</sub>=0.266, Ω<sub>Λ<sub>=0.734,
+et al. 2011](http://adsabs.harvard.edu/abs/2011ApJS..192...18K): Ω<sub>M</sub>=0.266, Ω<sub></sub>=0.734,
 Ω<sub>b</sub>=0.0449, h=0.71, σ<sub>8</sub>=0.81, and n=0.963.
 
 ## Zoom-in Regions
