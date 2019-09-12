@@ -113,7 +113,7 @@ reset_rsl = False
 
 data_dir = '/mnt/data/renaissance'
 rsl_page_root = os.environ.get(
-    'RSL_PAGE_ROOT', '/home/xarth/codes/rensimlab/rensimlab.github.io')
+    'RSL_PAGE_ROOT', os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 collectionPath = '/collection/Renaissance Simulations'
 gc = girder_client.GirderClient(apiUrl='https://girder.rensimlab.xyz/api/v1')
