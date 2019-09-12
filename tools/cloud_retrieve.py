@@ -10,7 +10,7 @@ import yaml
 import yt
 
 rsl_page_root = os.environ.get(
-    'RSL_PAGE_ROOT', '/home/britton/rensimlab.github.io')
+    'RSL_PAGE_ROOT', os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def calculate_datasets(es, field, val_list, val_range, file_list):
     all_vals = es.data[field]
