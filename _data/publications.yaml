@@ -157,23 +157,23 @@
        redshift-range:
        - 25
        - 9.9
- - title: "Simulating the Cosmic Dawn With Enzo "
+ - title: "Simulating the Cosmic Dawn With Enzo"
    url: https://ui.adsabs.harvard.edu/abs/2018FrASS...5...34N/abstract
    authors: Norman, M., Smith, B., & Bordner, J. 
    year: 2018
    journal: Frontiers in Astronomy and Space Sciences, 5, 34
    simulations:
    
- - title: "Simulating the Cosmic Dawn With Enzo "
-   url: https://ui.adsabs.harvard.edu/abs/2018FrASS...5...34N/abstract
-   authors: Norman, M., Smith, B., & Bordner, J. 
-   year: 2018
-   journal: Frontiers in Astronomy and Space Sciences, 5, 34
+ - title: "Formation of massive black holes in rapidly growing pre-galactic gas clouds"
+   url: https://ui.adsabs.harvard.edu/abs/2019Natur.566...85W/abstract
+   authors: Wise, J., Regan, J., O'Shea, B., Norman, M., Downes, T., & Xu, H.
+   year: 2019
+   journal: Nature, Volume 566, Issue 7742, p.85-88
    simulations: 
    
- - title: "Simulating the Cosmic Dawn With Enzo "
-   url: https://ui.adsabs.harvard.edu/abs/2018FrASS...5...34N/abstract
-   authors: Norman, M., Smith, B., & Bordner, J. 
-   year: 2018
-   journal: Frontiers in Astronomy and Space Sciences, 5, 34
+ - title: "The Emergence of the First Star-free Atomic Cooling Haloes in the Universe"
+   url: https://ui.adsabs.harvard.edu/abs/2019arXiv190802823R/abstract
+   authors: Regan, J., Wise, J., O'Shea, B., & Norman, M.
+   year: 2019
+   journal: Submitted to MNRAS
    simulations: 
