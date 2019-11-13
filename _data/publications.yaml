@@ -143,7 +143,7 @@
    url: http://adsabs.harvard.edu/abs/2018arXiv180406477S
    authors: Smith, B., Regan, J., Downes, T., Norman, M., O'Shea, B., & Wise, J.
    year: 2018
-   journal: accepted for publication in MNRAS
+   journal: MNRAS, 480, 3762
    simulations:
      Normal_BG1:
        redshift-range:
