@@ -134,7 +134,7 @@
    url: http://adsabs.harvard.edu/abs/2017arXiv170500026C
    authors: Chen, P., Norman, M.L, Xu, H., & Wise, J.H.
    year: 2018
-   journal: submitted to ApJ
+   journal: ApJ, 867, 27
    simulations:
      Normal_BG1:
        redshift-list:
