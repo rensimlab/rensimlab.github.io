@@ -37,7 +37,7 @@ fluctuations in the density of matter. How does a featureless universe “grow
 galaxies”? And how do they differ from modern galaxies like the Milky Way? 
 [learn more](https://en.wikipedia.org/wiki/Hubble_Ultra-Deep_Field)
 
-<figure style="display: table; float: left;">
+<figure style="display: table; float: left; margin: 0 0 20px 20px">
 <a href="somewhereelse">
 <img src="images/fig2.png" width="250"></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size:12px;">
