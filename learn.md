@@ -25,7 +25,7 @@ use supercomputers to study them, and what this site enables you to do.
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig1.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The Universe at t=13,800,000,000 yr. (NASA and Space Telescope Science Institute) 
 </figcaption>
 </figure>
@@ -40,18 +40,19 @@ galaxies”? And how do they differ from modern galaxies like the Milky Way?
 <figure style="display: table; float: left;">
 <a href="somewhereelse">
 <img src="images/fig2.png" width="250"></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size:12px;">
 The Universe at t=380,000,000 yr. (ESA and Planck Collaboration)
+<a href="https://en.wikipedia.org/wiki/Cosmic_microwave_background">learn
+more</a>
 </figcaption>
 </figure>
- [learn more](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
 
 ## Growing Galaxies
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig3.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size:12px;">
 Simplified diagram showing hierarchical assembly of galaxies starting from small fluctuations in the density distribution of the early universe. 
 (Australia Telescope National Facility)
 </figcaption>
@@ -72,7 +73,7 @@ assembly of thousands of protogalaxies which are much smaller.
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig4.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Conceptual diagram showing how the Hubble Space Telescope looks back
 into time at the earliest galaxies. The relative depth of the Hubble Deep Field
 and the Hubble Ultra-Deep Field is shown. (Wikipedia) 
@@ -95,7 +96,7 @@ galaxies.
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig5.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Composite of high redshift galaxies imaged by the Hubble Space Telescope. The galaxies appear red due to cosmological redshift. (Space Telescope Science Institute) 
 </figcaption>
 </figure>
@@ -115,10 +116,11 @@ Before we delve into how we use supercomputers to study the first galaxies, we n
 to cover some basics. 
 
 ## Supercomputers
+
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig6.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The Blue Waters Sustained Petascale Supercomputer at the University of Illinois, Urbana-Champaign. 
 (M. Norman, UCSD) 
 </figcaption>
@@ -131,10 +133,11 @@ used for the Renaissance Simulations, has over 22,640 nodes, each with 16 cores,
 a total of 362,240  processing elements. [learn more](https://en.wikipedia.org/wiki/Blue_Waters)
 
 ## Parallel computing
+
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig7.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Parallel computing subdivides the problem domain into many smaller domains, which are
 calculated simulateneously on many processors of a supercomputer. (M. Norman, UCSD)
 </figcaption>
@@ -150,10 +153,11 @@ synchronicity. Typically, the subdivision of the big problem into many smaller p
 is done using domain decomposition, illustrated at right. [learn more](https://en.wikipedia.org/wiki/Parallel_computing) 
 
 ## Coping with an infinite universe
+
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig8.jpg" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;"> 
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Simulation of cosmic structure is performed in a cubic volume assuming periodic boundary conditions
 in all 3 directions. (G. Bryan, Columbia & M. Norman, UCSD) 
 </figcaption>
@@ -174,7 +178,7 @@ the box we are simulating.
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig9.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The expansion of the universe is removed from the simulation through the comoving coordinate transformation.
 (M. Norman, UCSD) 
 </figcaption>
@@ -192,7 +196,7 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
  <img src="images/fig10.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Matter fluctuations consistent with CMB measurements are used to initialize the
 cosmology simulation. (M. Norman, UCSD) 
 </figcaption>
@@ -212,7 +216,7 @@ we are able to adjust the amplitude accordingly, however the power spectrum rema
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig11.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The matter fluctuations grow in amplitude, forming the characteristic cosmic web
 large scale structure of the universe. (M. Norman, UCSD)
 </figcaption>
@@ -228,7 +232,7 @@ you want to simulate, and how finely resolved the simulation is. [learn more](ht
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/fig12.png" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Equations of cosmological hydrodynamics. 
 (M. Norman, UCSD) 
 </figcaption>
