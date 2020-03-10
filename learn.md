@@ -23,7 +23,6 @@ use supercomputers to study them, and what this site enables you to do.
 ## Then and now
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig1.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The Universe at t=13,800,000,000 yr. (NASA and Space Telescope Science Institute) 
@@ -38,7 +37,6 @@ galaxies”? And how do they differ from modern galaxies like the Milky Way?
 [learn more](https://en.wikipedia.org/wiki/Hubble_Ultra-Deep_Field)
 
 <figure style="display: table; float: left; margin: 0 0 20px 20px">
-<a href="somewhereelse">
 <img src="images/fig2.png" width="250"></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size:12px;">
 The Universe at t=380,000,000 yr. (ESA and Planck Collaboration)
@@ -50,7 +48,6 @@ more</a>
 ## Growing Galaxies
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig3.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size:12px;">
 Simplified diagram showing hierarchical assembly of galaxies starting from small fluctuations in the density distribution of the early universe. 
@@ -71,7 +68,6 @@ assembly of thousands of protogalaxies which are much smaller.
 ## Observing the First Galaxies
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig4.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Conceptual diagram showing how the Hubble Space Telescope looks back
@@ -94,7 +90,6 @@ galaxies.
 ## Faint Red Blobs at the Edge of the Universe
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig5.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Composite of high redshift galaxies imaged by the Hubble Space Telescope. The galaxies appear red due to cosmological redshift. (Space Telescope Science Institute) 
@@ -123,7 +118,6 @@ to cover some basics.
 ## Supercomputers
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig6.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The Blue Waters Sustained Petascale Supercomputer at the University of Illinois, Urbana-Champaign. 
@@ -144,7 +138,6 @@ a total of 362,240  processing elements. [learn more](https://en.wikipedia.org/w
 ## Parallel computing
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig7.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Parallel computing subdivides the problem domain into many smaller domains, which are
@@ -168,7 +161,6 @@ is done using domain decomposition, illustrated at right. [learn more](https://e
 ## Coping with an infinite universe
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig8.jpg" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Simulation of cosmic structure is performed in a cubic volume assuming periodic boundary conditions
@@ -189,7 +181,6 @@ the box we are simulating.
 ## Coping with an expanding universe
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig9.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The expansion of the universe is removed from the simulation through the comoving coordinate transformation.
@@ -207,7 +198,6 @@ exactly the rate of the expanding universe. We say we simulate a co-moving volum
 
 ## Initializing the simulation
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
  <img src="images/fig10.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Matter fluctuations consistent with CMB measurements are used to initialize the
@@ -227,7 +217,6 @@ we are able to adjust the amplitude accordingly, however the power spectrum rema
 
 ## Computing what happens next
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig11.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 The matter fluctuations grow in amplitude, forming the characteristic cosmic web
@@ -243,7 +232,6 @@ you want to simulate, and how finely resolved the simulation is. [learn more](ht
 
 ## What physical laws are programmed?
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/fig12.png" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Equations of cosmological hydrodynamics. 

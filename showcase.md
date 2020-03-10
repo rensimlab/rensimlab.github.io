@@ -22,7 +22,6 @@ A 47-minute science documentary directed by Tom Lucas. Available on [Amazon Prim
 #### Hao Xu, John H. Wise, and Michael L. Norman, ApJ, 773:83, 2013
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg1.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -34,7 +33,6 @@ In [Xu et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...773...83X) the Rarep
 #### Hao Xu, Kyungjin Ahn, John H. Wise, Michael L. Norman, and Brian W. O’Shea, ApJ, 791:110, 2014
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg2.PNG" width="320" style="float: left;"/></a>
 </figure>
 
@@ -47,7 +45,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Pengfei Chen, John H. Wise, Michael L. Norman, Hao Xu, and Brian W. O’Shea, ApJ, 795:144, 2014
 
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg3.PNG" width="320" style="float: right;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -61,7 +58,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Brian W. O’Shea, John H. Wise, Hao Xu, and Michael L. Norman, ApJLett, 807:L12, 2015
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg4.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -73,7 +69,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Kyungjin Ahn, Hao Xu, Michael L. Norman, Marcelo A. Alvarez, and John H. Wise, ApJ, 802:8, 2015
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg5.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -87,7 +82,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Hao Xu, Michael L. Norman, Brian W. O'Shea, and John H. Wise, ApJ, 823:140, 2016
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg6.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -99,7 +93,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Hao Xu, Kyungjin Ahn, Michael L. Norman, John H. Wise, and Brian W. O'Shea, ApJLett, 832:L5, 2016
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg7.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -112,7 +105,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Hao Xu, John H. Wise, Michael L. Norman, Kyungjin Ahn, and Brian W. O'Shea, ApJ, 833:84, 2016
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg8.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -126,7 +118,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Kirk S. S. Barrow, John H. Wise, Michael L. Norman, Brian W. O'Shea, Hao Xu , MNRAS, 469:4863, 2017
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg9.PNG" width="320" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -140,7 +131,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Kirk S S Barrow, John H Wise, Aycin Aykutalp, Brian W O'Shea, Michael L Norman, Hao Xu, MNRAS, 474:2617, 2018
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg10.PNG" width="240" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
@@ -154,7 +144,6 @@ If one assumes a fraction of Pop III stellar remnants high mass x-ray binaries [
 #### Britton Smith, John Regan, Turlough Downes, Michael Norman, Brian O'Shea, John Wise, MNRAS, submitted, 2018
 
 <figure style="display: table; float: left; margin: 0 20px 20px 20px;">
-<a href="somewhere">
 <img src="images/RSimg11.PNG" width="240" style="float: left;"/></a>
 <figcaption style="display: table-caption; caption-side: bottom;">
 </figcaption>
