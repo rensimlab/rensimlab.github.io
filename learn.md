@@ -109,6 +109,11 @@ faint because they are distant. And they are very small compared to the Milky
 Way galaxy. A typical size is about 500 parsec, which is 1/50 the size of the
 Milky Way galaxy. 
 [learn more](https://en.wikipedia.org/wiki/Redshift). 
+<br />
+<br />
+<br />
+<br />
+<br />
 
 # How we use supercomputers to study the first galaxies
 
@@ -131,6 +136,10 @@ a fast network so that it can act like a single, very powerful computer. Each no
 can have dozens of processing “cores”. For example, The Blue Waters supercomputer, 
 used for the Renaissance Simulations, has over 22,640 nodes, each with 16 cores, for 
 a total of 362,240  processing elements. [learn more](https://en.wikipedia.org/wiki/Blue_Waters)
+<br />
+<br />
+<br />
+<br />
 
 ## Parallel computing
 
@@ -151,6 +160,10 @@ simultaneously, or “in parallel”, with information about their state being c
 communicated to neighboring processors in order to maintain physical correctness and 
 synchronicity. Typically, the subdivision of the big problem into many smaller problems 
 is done using domain decomposition, illustrated at right. [learn more](https://en.wikipedia.org/wiki/Parallel_computing) 
+<br />
+<br />
+<br />
+<br />
 
 ## Coping with an infinite universe
 
