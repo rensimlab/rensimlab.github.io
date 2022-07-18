@@ -46,7 +46,7 @@ The content of this page is editable via `investigate.md`.
 
 #### Simulations
 
-All of the information displayed about the data within each simulation is determined by a set of automatically generated YAML files available in the `_data` directory. Upon adding any new data to the RSL's servers, these can be updated by running `tools/regenerate_yamls.py`. The pages will change dynamically due to templating.
+All of the information displayed about the data within each simulation is determined by a set of automatically generated YAML files available in the `_data` directory. Upon adding any new data to the RSL's servers, these can be updated by running `tools/regenerate_yamls.py` and committing the changes. The pages will change dynamically due to templating.
 
 ### Showcase
 
