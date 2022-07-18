@@ -2,6 +2,8 @@
 
 # Installation
 
+
+
 # Components
 
 ## RSL Website (rensimlab.github.io)
@@ -40,19 +42,45 @@ This page is a portal to access the 4 key components of each individual simulati
     - PHX256-1
     - PHX256-2
 
+The content of this page is editable via `investigate.md`.
+
 ### Showcase
 
 ### User Guide
 
 ## Jupyter Notebooks
 
-
-
 ## Server (galaxyportal.sdsc.edu)
 
 All RSL data is stored physically on `galaxyportal`. The server can be accessed by any authorized users via SSH and currently runs Ubuntu 18.04.5.
 
+Any data from the Renaissance Simulations suite available for download on [rensimlab.github.io](rensimlab.github.io) are stored in `/mnt/data/renaissance`. For each simulation there exists an individual directory under its name that mimics the following file structure, where `X` is a placeholder for incremental numerical values:
+
+```
+Sim_Name/
+├─ merger_trees/
+│  ├─ sim_name/
+│  │  ├─ sim_name_XXXX.h5
+│  │  ├─ sim_name.h5
+├─ RDXXXX
+├─ rockstar_halos/
+│  ├─ auto_rockstar.cfg
+│  ├─ halos_RDXXXX.X.bin
+│  ├─ halos_RDXXXX.X.particles
+│  ├─ out_X.list
+│  ├─ restart.cfg
+│  ├─ rockstar.cfg
+│  ├─ trees/
+│  │  ├─ forests.list
+│  │  ├─ locations.dat
+│  │  ├─ tree_0_0_0.dat
+├─ rs_sim_name.h5
+
+```
+
 ## Girder ([girder.rensimlab.xyz](girder.rensimlab.xyz))
+
+
 
 ## SDSC Cloud
 
