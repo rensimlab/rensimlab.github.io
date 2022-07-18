@@ -12,12 +12,8 @@ The RSL website is an interactive online "laboratory" hosted on GitHub Pages. It
 
 ### Rendering
 
-The contents of each subpage are stored in individual markdown files at the root directory of the [GitHub repository](https://github.com/rensimlab/rensimlab.github.io). At build, these are merged with the layout specified at the top of each document using Jekyll. For example, to serve the page `index.html` using the default layout, the following segment has been included at the start of `index.md`:
-```
----
-layout: default
----
-```
+The contents of each subpage are stored in individual markdown files at the root directory of the [GitHub repository](https://github.com/rensimlab/rensimlab.github.io). At build, these are merged with the layout specified at the top of each document using Jekyll. For example, to specify that we want to serve the page `index.html` using the default layout, the line `layout: default` has been included at the start of `index.md`.
+
 Layouts allow the website's universal static components, such as the vertical navigation panel and footer, to be displayed in a modular fashion alongside the custom page content specified in the markdown files. All layouts are available as HTML files with Liquid templating in the `/_layouts` directory. Learn more about the Liquid template language [here](https://shopify.github.io/liquid/).
 
 Jekyll's behavior can be configured via `_config.yml`.
@@ -46,11 +42,17 @@ The content of this page is editable via `investigate.md`.
 
 #### Simulations
 
+Each simulation has a page that arranges all of the corresponding data in a table. From here, users can click a link to access either the blank Jupyter Notebook workspace or the tutorials.
+
 All of the information displayed about the data within each simulation is determined by a set of automatically generated YAML files available in the `_data` directory. Upon adding any new data to the RSL's servers, these can be updated by running `tools/regenerate_yamls.py` and committing the changes. The pages will change dynamically due to templating.
 
 ### Showcase
 
+This page describes various publications and pieces of media related to the Renaissance Simulations. The content of this page is editable via `showcase.md`.
+
 ### User Guide
+
+This page describes background information that all users will need to effectively understand, navigate, and utilize both the data hosted on the RSL and the Jupyter analytics platform. The content of this page is editable via `user_guide.md`.
 
 ## Jupyter Notebooks
 
