@@ -44,6 +44,10 @@ This page is a portal to access the 4 key components of each individual simulati
 
 The content of this page is editable via `investigate.md`.
 
+#### Simulations
+
+All of the information displayed about the data within each simulation is determined by a set of automatically generated YAML files available in the `_data` directory. Upon adding any new data to the RSL's servers, these can be updated by running `tools/regenerate_yamls.py`. The pages will change dynamically due to templating.
+
 ### Showcase
 
 ### User Guide
@@ -77,16 +81,19 @@ Sim_Name/
 ├─ rs_sim_name.h5
 ```
 
-The Girder setup is also running on the physical server. See the next section for additional details. To start Girder, run the following:
+The Girder setup is also running on the physical server. See the next section for additional details.
+
+
+
+## Girder ([girder.rensimlab.xyz](girder.rensimlab.xyz))
+
+To start Girder, run the following:
 
 ```
 $ sudo su - fido
 $ cd ~/hub
 $ docker-compose up -d
 ```
-
-## Girder ([girder.rensimlab.xyz](girder.rensimlab.xyz))
-
 
 
 ## SDSC Cloud
