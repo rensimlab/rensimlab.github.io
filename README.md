@@ -60,34 +60,11 @@ This page describes background information that all users will need to effective
 
 All RSL data is stored physically on `galaxyportal`. The server can be accessed by any authorized users via SSH and currently runs Ubuntu 18.04.5.
 
-Any data from the Renaissance Simulations suite available for download on [rensimlab.github.io](rensimlab.github.io) is stored in `/mnt/data/renaissance`. For each simulation there exists an individual directory under its name that mimics the following file structure, where `X` is a placeholder for incremental numerical values:
+Any data from the Renaissance Simulations suite available for download on [rensimlab.github.io](rensimlab.github.io) is stored in `/mnt/data/renaissance`. For each simulation there exists an individual directory under its name containing the corresponding halo catalogs, merger trees, and redshift dumps.
 
-```
-Sim_Name/
-├─ merger_trees/
-│  ├─ sim_name/
-│  │  ├─ sim_name_XXXX.h5
-│  │  ├─ sim_name.h5
-├─ RDXXXX
-├─ rockstar_halos/
-│  ├─ auto_rockstar.cfg
-│  ├─ halos_RDXXXX.X.bin
-│  ├─ halos_RDXXXX.X.particles
-│  ├─ out_X.list
-│  ├─ restart.cfg
-│  ├─ rockstar.cfg
-│  ├─ trees/
-│  │  ├─ forests.list
-│  │  ├─ locations.dat
-│  │  ├─ tree_0_0_0.dat
-├─ rs_sim_name.h5
-```
+### Girder ([girder.rensimlab.xyz](girder.rensimlab.xyz))
 
-The Girder setup is also running on the physical server. See the next section for additional details.
-
-
-
-## Girder ([girder.rensimlab.xyz](girder.rensimlab.xyz))
+Girder is a data management platform that, for our purposes, serves as a middleman between user interactions with the RSL and the physical server's data. Girder creates a MongoDB representation of the files and structure in `galaxyportal` consisting of `Collections`, `Folders`, `Items`, and `Files` (listed in order of increasing specificity). `Items` are essentially pieces of complete data inside of the Girder database and thereby typically correspond to one `File`, with some exceptions. At the lowest level, Girder `Files` correspond to actual bytes in the physical server.
 
 To start Girder, run the following:
 
