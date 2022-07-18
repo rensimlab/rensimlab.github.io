@@ -54,7 +54,7 @@ The content of this page is editable via `investigate.md`.
 
 All RSL data is stored physically on `galaxyportal`. The server can be accessed by any authorized users via SSH and currently runs Ubuntu 18.04.5.
 
-Any data from the Renaissance Simulations suite available for download on [rensimlab.github.io](rensimlab.github.io) are stored in `/mnt/data/renaissance`. For each simulation there exists an individual directory under its name that mimics the following file structure, where `X` is a placeholder for incremental numerical values:
+Any data from the Renaissance Simulations suite available for download on [rensimlab.github.io](rensimlab.github.io) is stored in `/mnt/data/renaissance`. For each simulation there exists an individual directory under its name that mimics the following file structure, where `X` is a placeholder for incremental numerical values:
 
 ```
 Sim_Name/
@@ -75,7 +75,14 @@ Sim_Name/
 │  │  ├─ locations.dat
 │  │  ├─ tree_0_0_0.dat
 ├─ rs_sim_name.h5
+```
 
+The Girder setup is also running on the physical server. See the next section for additional details. To start Girder, run the following:
+
+```
+$ sudo su - fido
+$ cd ~/hub
+$ docker-compose up -d
 ```
 
 ## Girder ([girder.rensimlab.xyz](girder.rensimlab.xyz))
