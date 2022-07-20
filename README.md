@@ -24,7 +24,7 @@ This page describes the basic scientific premises that surround the Renaissance 
 
 ### Investigate
 
-This page is a portal to access the 4 key components of each individual simulation: Jupyter Notebook analytics, redshift dumps, halo catalogs, and merger trees. The following simulations' data is currently available for public use on the RSL:
+This page is a portal to access the 4 key components of each individual simulation: Jupyter Notebook analytics, redshift dumps, halo catalogs, and merger trees. The following simulations are currently available on the RSL:
 - **Renaissance Simulations**
     - [Normal_BG](https://rensimlab.github.io/simulations/normal_bg.html)
     - [Normal_BG1](https://rensimlab.github.io/simulations/normal_bg1.html)
