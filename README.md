@@ -2,7 +2,13 @@
 
 # Installation
 
+To start Girder, run the following:
 
+```
+$ sudo su - fido
+$ cd ~/hub
+$ docker-compose up -d
+```
 
 # Components
 
@@ -42,7 +48,7 @@ The content of this page is editable via `investigate.md`.
 
 #### Simulations
 
-Each simulation has a page that arranges all of the corresponding data in a table. From here, users can click a link to access either the blank Jupyter Notebook workspace or the tutorials. They are also able to download all of the data pertaining to this simulation available on `galaxyportal`.
+Each simulation has a page that arranges all of the corresponding data in a table. From here, users can click a link to access either the blank Jupyter Notebook workspace or the tutorials. They are also able to download ZIPs of all of the data pertaining to this simulation available on `galaxyportal`.
 
 All of the information displayed about the data within each simulation is determined by a set of automatically generated YAML files available in the `_data` directory. Upon adding any new data to the RSL's servers, these can be updated by running `tools/regenerate_yamls.py` and committing the changes. The pages will change dynamically due to templating.
 
@@ -68,19 +74,9 @@ Girder is a data management platform that, for our purposes, serves as a middlem
 
 There are several advantages to adopting this model of data management, the most prominent of which is the ease at which Girder Items can be manipulated wherever needed without directly accessing and changing the raw data. The primary RSL interactions that Girder facilitates between client and server are through Jupyter Notebooks, where users are able to perform analytics on RSL data live. When users attempt to read a file at some path in the Jupyter Notebook, the FUSE filesystem in use for RSL, `girderfs` (available [here](https://github.com/data-exp-lab/girderfs)), translates their request into the physical path that corresponds to the Girder Item and then serves that resource to the user.
 
-To start Girder, run the following:
-
-```
-$ sudo su - fido
-$ cd ~/hub
-$ docker-compose up -d
-```
-
-
 ## SDSC Cloud
 
-## Frontera
-
+## Frontera and Ranch
 
 
 
