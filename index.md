@@ -34,10 +34,11 @@ Here's what you'll find at the RSL:
    on how to access and analyze Renaissance Simulation data.
 
 ## About the Renaissance Simulations
+
 <figure style="display: table; float: right; margin: 0 0 20px 20px;">
 <a href="somewhere">
 <img src="images/ApJ_projection_all.PNG" width="320" style="float: right;"/></a>
-<figcaption style="display: table-caption; caption-side: bottom;">
+<figcaption style="display: table-caption; caption-side: bottom; font-size: 12px;">
 Mass-weighted density projection of the (40 comoving Mpc)<sup>3</sup> survey volume, showing the locations of the
 Rarepeak, Normal, and Void zoom-in regions. 
 </figcaption>
