@@ -1,4 +1,24 @@
-# Overview
+# Table of Contents
+
+- [INSTALLATION](#installation)  
+- [COMPONENTS](#components)  
+    - [RSL Website](#rsl-website)
+        - [Page Rendering](#page-rendering)
+        - [Learn](#learn)
+        - [Investigate](#investigate)
+            - [Simulations](#simulations)
+        - [Showcase](#showcase)
+        - [User Guide](#user-guide)
+    - [Jupyter Notebooks](#jupyter-notebooks)
+        - [Tutorials](#tutorials)
+    - [Server](#server-galaxyportalsdscedu)
+    - [Girder](#girder)
+- [ADDING DATASETS](#adding-datasets)
+    - [From SDSC Cloud](#from-sdsc-cloud)
+    - [From Frontera](#from-frontera)
+        - [Globus](#globus)
+        - [rsync + tmux](#rsync--tmux)
+
 
 # Installation
 
@@ -12,9 +32,9 @@ $ docker-compose up -d
 
 # Components
 
-## RSL Website (rensimlab.github.io)
+## RSL Website
 
-The RSL website is an interactive online "laboratory" hosted on GitHub Pages. It allows general user access to a limited amount of simulation data as well as the Jupyter analytics platform.
+The RSL website ([rensimlab.github.io](rensimlab.github.io)) is an interactive online "laboratory" hosted on GitHub Pages. It allows general user access to a limited amount of simulation data as well as the Jupyter analytics platform.
 
 ### Page Rendering
 
@@ -62,18 +82,21 @@ This page describes background information that all users will need to effective
 
 ## Jupyter Notebooks
 
+### Tutorials
+
 ## Server (galaxyportal.sdsc.edu)
 
 All RSL data is stored physically on `galaxyportal` (note that this is for administrative use only; regular users should access the RSL via the GitHub Pages site). The server can be accessed by authorized users via SSH and currently runs Ubuntu 18.04.5.
 
 Any data from the Renaissance Simulations suite available for download on [rensimlab.github.io](rensimlab.github.io) is stored in `/mnt/data/renaissance`. For each simulation there exists an individual directory under its name containing the corresponding halo catalogs, merger trees, and redshift dumps.
 
-### Girder
+## Girder
 
-Girder is a data management platform that, for our purposes, serves as a middleman between user interactions with the RSL and the physical server's data. There is a web interface accessible to RSL administrators available at [girder.rensimlab.xyz](girder.rensimlab.xyz). Girder creates a MongoDB representation of the files and structure in `galaxyportal` consisting of `Collections`, `Folders`, `Items`, and `Files` (listed in order of increasing specificity). Items are essentially pieces of complete data inside of the Girder database and thereby typically correspond to one File, with some exceptions. At the lowest level, Girder Files correspond to actual bytes in the physical server, albeit with some degree of abstraction. Girder `Assetstores` of type `Filesystem` represent a repository on the local filesystem of the physical server wherein the raw bytes of data are storto
+Girder is a data management platform that, for our purposes, serves as a middleman between user interactions with the RSL and the physical server's data. There is a web interface accessible to RSL administrators available at [girder.rensimlab.xyz](girder.rensimlab.xyz). Girder creates a MongoDB representation of the files and structure in `galaxyportal` consisting of `Collections`, `Folders`, `Items`, and `Files` (listed in order of increasing specificity). Items are essentially pieces of complete data inside of the Girder database and thereby typically correspond to one File, with some exceptions. At the lowest level, Girder Files correspond to actual bytes in the physical server, albeit with some degree of abstraction. Girder `Assetstores` of type `Filesystem` represent a repository on the local filesystem of the physical server wherein the raw bytes of data are stored.
+
 There are several advantages to adopting this model of data management, the most prominent of which is the ease at which Girder Items can be manipulated wherever needed without directly accessing and changing the raw data. The primary RSL interactions that Girder facilitates between client and server are through Jupyter Notebooks, where users are able to perform analytics on RSL data live. When users attempt to read a file at some path in the Jupyter Notebook, the FUSE filesystem in use for RSL, `girderfs` (available [here](https://github.com/data-exp-lab/girderfs)), translates their request into the physical path that corresponds to the Girder Item and then serves that resource to the user.
 
-## Adding Datasets to the RSL
+# Adding Datasets
 
 ### From SDSC Cloud
 
@@ -105,4 +128,4 @@ After that, run `cloud_retrieve.py` with the appropriate options to download the
 
 #### Globus
 
-#### `rsync` + `tmux`
+#### rsync + tmux
