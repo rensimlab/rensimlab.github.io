@@ -64,19 +64,45 @@ This page describes background information that all users will need to effective
 
 ## Server (galaxyportal.sdsc.edu)
 
-All RSL data is stored physically on `galaxyportal`. The server can be accessed by any authorized users via SSH and currently runs Ubuntu 18.04.5.
+All RSL data is stored physically on `galaxyportal` (note that this is for administrative use only; regular users should access the RSL via the GitHub Pages site). The server can be accessed by authorized users via SSH and currently runs Ubuntu 18.04.5.
 
 Any data from the Renaissance Simulations suite available for download on [rensimlab.github.io](rensimlab.github.io) is stored in `/mnt/data/renaissance`. For each simulation there exists an individual directory under its name containing the corresponding halo catalogs, merger trees, and redshift dumps.
 
-### Girder ([girder.rensimlab.xyz](girder.rensimlab.xyz))
+### Girder
 
-Girder is a data management platform that, for our purposes, serves as a middleman between user interactions with the RSL and the physical server's data. Girder creates a MongoDB representation of the files and structure in `galaxyportal` consisting of `Collections`, `Folders`, `Items`, and `Files` (listed in order of increasing specificity). Items are essentially pieces of complete data inside of the Girder database and thereby typically correspond to one File, with some exceptions. At the lowest level, Girder Files correspond to actual bytes in the physical server, albeit with some degree of abstraction. Girder `Assetstores` of type `Filesystem` represent a repository on the local filesystem of the physical server wherein the raw bytes of data are stored.
-
+Girder is a data management platform that, for our purposes, serves as a middleman between user interactions with the RSL and the physical server's data. There is a web interface accessible to RSL administrators available at [girder.rensimlab.xyz](girder.rensimlab.xyz). Girder creates a MongoDB representation of the files and structure in `galaxyportal` consisting of `Collections`, `Folders`, `Items`, and `Files` (listed in order of increasing specificity). Items are essentially pieces of complete data inside of the Girder database and thereby typically correspond to one File, with some exceptions. At the lowest level, Girder Files correspond to actual bytes in the physical server, albeit with some degree of abstraction. Girder `Assetstores` of type `Filesystem` represent a repository on the local filesystem of the physical server wherein the raw bytes of data are storto
 There are several advantages to adopting this model of data management, the most prominent of which is the ease at which Girder Items can be manipulated wherever needed without directly accessing and changing the raw data. The primary RSL interactions that Girder facilitates between client and server are through Jupyter Notebooks, where users are able to perform analytics on RSL data live. When users attempt to read a file at some path in the Jupyter Notebook, the FUSE filesystem in use for RSL, `girderfs` (available [here](https://github.com/data-exp-lab/girderfs)), translates their request into the physical path that corresponds to the Girder Item and then serves that resource to the user.
 
-## SDSC Cloud
+## Adding Datasets to the RSL
 
-## Frontera and Ranch
+### From SDSC Cloud
+
+<!---
+
+All data for the Renaissance Simulations is stored in the SDSC cloud in the following places:
+- [Voids](https://object.cloud.sdsc.edu/v1/AUTH_normanlab/Renaissance/)
+- [Normal regions](https://object.cloud.sdsc.edu/v1/AUTH_normanlab/Renaissance_Normal/)
+- [Rarepeaks](https://object.cloud.sdsc.edu/v1/AUTH_normanlab/Renaissance_Rarepeak/)
+
+It is not recommended to use the web interface to retrieve data. SDSC cloud has a default maximum filesize, above which a file is segmented into multiple parts. Segmented files cannot be downloaded via the web interface. Instead, the [swift](https://github.com/openstack/python-swiftclient) client provides a command-line interface. Within the [rensimlab.github.io](https://rensimlab.github.io/rensimlab.github.io) repository, there is a script that can be run from `galaxyportal.sdsc.edu` to automatically download datasets from SDSC cloud and put them in the correct place.
 
 
+```
+$ cd rensimlab.github.io/tools
+$ python cloud_retrieve.py -h
+```
 
+Before running the `cloud_retrieve` script, you will need to be authenticated on SDSC cloud. The SDSC cloud admins should have provided you with a bash script to run to get authenticated. You'll need to run this everytime you login to `galaxyportal` to download data.
+
+```
+$ source normanlab-openrc.sh
+Please enter your OpenStack Password for project normanlab as user USERNAME
+```
+After that, run `cloud_retrieve.py` with the appropriate options to download the data you want. Data will be downloaded to a temporary directory and then moved automatically to the correct location. Downloading a single dataset takes roughly 20 minutes.
+--->
+
+### From Frontera
+
+#### Globus
+
+#### `rsync` + `tmux`

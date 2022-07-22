@@ -54,7 +54,7 @@ $ wget https://raw.githubusercontent.com/rensimlab/rensimlab.github.io/master/to
 $ girder-shell
 ```
 The last command will start a Python interpreter. In there,  do the following:
-```
+```galaxyportal
 In [1]: from syncer import sync
 In [2]: sync()
 ```
