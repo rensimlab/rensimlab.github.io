@@ -1,28 +1,19 @@
 # Table of Contents
 
-- [INSTALLATION](#installation)  
+- [SETUP](#setup)
 - [COMPONENTS](#components)  
     - [RSL Website](#rsl-website)
-        - [Page Rendering](#page-rendering)
-        - [Learn](#learn)
-        - [Investigate](#investigate)
-            - [Simulations](#simulations)
-        - [Showcase](#showcase)
-        - [User Guide](#user-guide)
     - [Jupyter Notebooks](#jupyter-notebooks)
-        - [Tutorials](#tutorials)
     - [Server](#server-galaxyportalsdscedu)
     - [Girder](#girder)
 - [ADDING DATASETS](#adding-datasets)
     - [From SDSC Cloud](#from-sdsc-cloud)
     - [From Frontera](#from-frontera)
-        - [Globus](#globus)
-        - [rsync + tmux](#rsync--tmux)
 
 
-# Installation
+# Setup
 
-To start Girder, run the following:
+To start Girder, SSH into `galaxyportal` and run the following:
 
 ```
 $ sudo su - fido
@@ -100,32 +91,12 @@ There are several advantages to adopting this model of data management, the most
 
 ### From SDSC Cloud
 
-<!---
-
-All data for the Renaissance Simulations is stored in the SDSC cloud in the following places:
-- [Voids](https://object.cloud.sdsc.edu/v1/AUTH_normanlab/Renaissance/)
-- [Normal regions](https://object.cloud.sdsc.edu/v1/AUTH_normanlab/Renaissance_Normal/)
-- [Rarepeaks](https://object.cloud.sdsc.edu/v1/AUTH_normanlab/Renaissance_Rarepeak/)
-
-It is not recommended to use the web interface to retrieve data. SDSC cloud has a default maximum filesize, above which a file is segmented into multiple parts. Segmented files cannot be downloaded via the web interface. Instead, the [swift](https://github.com/openstack/python-swiftclient) client provides a command-line interface. Within the [rensimlab.github.io](https://rensimlab.github.io/rensimlab.github.io) repository, there is a script that can be run from `galaxyportal.sdsc.edu` to automatically download datasets from SDSC cloud and put them in the correct place.
-
-
-```
-$ cd rensimlab.github.io/tools
-$ python cloud_retrieve.py -h
-```
-
-Before running the `cloud_retrieve` script, you will need to be authenticated on SDSC cloud. The SDSC cloud admins should have provided you with a bash script to run to get authenticated. You'll need to run this everytime you login to `galaxyportal` to download data.
-
-```
-$ source normanlab-openrc.sh
-Please enter your OpenStack Password for project normanlab as user USERNAME
-```
-After that, run `cloud_retrieve.py` with the appropriate options to download the data you want. Data will be downloaded to a temporary directory and then moved automatically to the correct location. Downloading a single dataset takes roughly 20 minutes.
---->
-
 ### From Frontera
 
 #### Globus
 
-#### rsync + tmux
+This is the recommended method for data retrieval.
+
+#### rsync
+
+`rsync` is suboptimal for this use case because it has substantially longer download times, cannot easily transfer files between two remote hosts, and has a tendency to fail if the connection is somehow interrupted. However, should Globus be unavailable, we can adequately increase its utility with a terminal multiplexer like `tmux`. This will prevent `rsync` from terminating the transfer upon a network drop.
