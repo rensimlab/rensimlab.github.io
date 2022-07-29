@@ -93,10 +93,46 @@ There are several advantages to adopting this model of data management, the most
 
 ### From Frontera
 
-#### Globus
+#### 1. Globus
 
 This is the recommended method for data retrieval.
 
-#### rsync
+#### scp + tmux
 
-`rsync` is suboptimal for this use case because it has substantially longer download times, cannot easily transfer files between two remote hosts, and has a tendency to fail if the connection is somehow interrupted. However, should Globus be unavailable, we can adequately increase its utility with a terminal multiplexer like `tmux`. This will prevent `rsync` from terminating the transfer upon a network drop.
+`scp` is suboptimal for this use case because it has substantially longer download times and has a tendency to fail if the connection is somehow interrupted. However, `galaxyportal` is unfortunately not connected to Globus as an endpoint, so it's best to increase `scp`'s utility with a terminal multiplexer like `tmux`. This will help in two ways: first, it will prevent `scp` from terminating the transfer upon a network drop, and second, you will be able to conduct multiple transfers at once. You can also use `rsync` in place of `scp` if you prefer.
+
+Before you can begin the transfers, you need a way to log into `galaxyportal`, which uses authorized SSH keys for each user rather than a password. Since the transfer will be running directly on Expanse, you will need to transfer your public and private keys, located in `~/.ssh`, from your local machine into your Expanse home directory.
+
+Next, open the Expanse web portal and `cd` to the scratch directory where your redshift dumps are stored. Start up `tmux`. There are a few shortcuts that will be helpful in navigating the tui.
+
+- `CTRL-B C`: Create a new window.
+- `CTRL-B W`: List all windows.
+- `CTRL-B N`: Go to the next window.
+- `CTRL-B P`: Go to the previous window.
+- `CTRL-B &`: Kill window.
+
+Open up a new window for each transfer that you want to run in tandem. In each, you can start the process by using the following format:
+
+```
+scp -i "/path/to/sshkey" "/path/to/RDXXXX.tar" username@galaxyportal.sdsc.edu:/home/username/"
+```
+
+Since you need `sudo` permissions to write to `/mnt/data`, it is best to begin by transferring all items into your home directory on `galaxyportal` and then moving them from there.
+
+For example:
+
+```
+scp -i "/home/melindac/.ssh/id_rsa" "/expanse/lustre/scratch/melindac/temp_project/RD1250.tar" melindac@galaxyportal.sdsc.edu:/home/melindac/"
+```
+
+You may encounter the following error:
+```
+Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
+It is recommended that your private key files are NOT accessible by others.
+This private key will be ignored.
+```
+If this occurs, you will need to change the permissions on your SSH keys so that no one else on the system has RW access.
+
+```
+chmod 600 ~/.ssh/id_rsa
+```
