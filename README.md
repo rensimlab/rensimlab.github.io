@@ -91,15 +91,17 @@ There are several advantages to adopting this model of data management, the most
 
 ### From SDSC Cloud
 
+Please read `internal.md` for instructions on how to transfer datasets from SDSC Cloud.
+
 ### From Frontera
 
 #### 1. Globus
 
-This is the recommended method for data retrieval.
+To successfully authenticate with Globus, follow [this guide](https://portal.tacc.utexas.edu/tutorials/globus) before proceeding.
 
-#### scp + tmux
+#### rsync + tmux
 
-`scp` is suboptimal for this use case because it has substantially longer download times and has a tendency to fail if the connection is somehow interrupted. However, `galaxyportal` is unfortunately not connected to Globus as an endpoint, so it's best to increase `scp`'s utility with a terminal multiplexer like `tmux`. This will help in two ways: first, it will prevent `scp` from terminating the transfer upon a network drop, and second, you will be able to conduct multiple transfers at once. You can also use `rsync` in place of `scp` if you prefer.
+`rsync` is suboptimal for this use case because it has substantially longer download times and has a tendency to fail if the connection is somehow interrupted. However, `galaxyportal` is not connected to Globus as an endpoint, so it's best to increase `rsync`'s utility with a terminal multiplexer like `tmux`. This will help in two ways: first, it will prevent `rsync` from terminating the transfer upon a network drop, and second, you will be able to conduct multiple transfers in parallel. You can also use `scp` in place of `rsync` if you prefer; this will likely be the slower choice in terms of transfer speeds.
 
 Before you can begin the transfers, you need a way to log into `galaxyportal`, which uses authorized SSH keys for each user rather than a password. Since the transfer will be running directly on Expanse, you will need to transfer your public and private keys, located in `~/.ssh`, from your local machine into your Expanse home directory.
 
@@ -111,7 +113,27 @@ Next, open the Expanse web portal and `cd` to the scratch directory where your r
 - `CTRL-B P`: Go to the previous window.
 - `CTRL-B &`: Kill window.
 
-Open up a new window for each transfer that you want to run in tandem. In each, you can start the process by using the following format:
+Open up a new window for each transfer that you want to run in tandem. In each, you can start the process by using the following command:
+
+<!-- === New method === -->
+
+```
+$ rsync -r --info=progress2 --info=name0 "/path/to/RDXXXX.tar" username@galaxyportal.sdsc.edu:/home/username/"
+```
+
+`rsync` typically works silently. The additional flags will give you some verbosity, including a progress percentage and human-readable transfer speeds.
+
+Since you need `sudo` permissions to write to `/mnt/data`, it is best to begin by transferring all items into your home directory on `galaxyportal`. For example:
+
+```
+$ rsync -r --info=progress2 --info=name0 /expanse/lustre/scratch/melindac/temp_project/phx_256_ic1/RD1250.tar melindac@galaxyportal.sdsc.edu:/home/melindac/PHX256_IC1/
+```
+
+If you are notified that the authenticity of host `galaxyportal.sdsc.edu` cannot be established, ignore this warning and enter `yes`. You will be prompted for your password and to verify a DUO push for MFA purposes. After this is completed, the transfer will begin. Keep in mind that speeds will be slower the more transfers you have running in parallel.
+
+<!-- 
+
+=== NOTE: As of 07/29/2022, this older method no longer works due to galaxyportal's new security upgrades. ===
 
 ```
 scp -i "/path/to/sshkey" "/path/to/RDXXXX.tar" username@galaxyportal.sdsc.edu:/home/username/"
@@ -136,3 +158,5 @@ If this occurs, you will need to change the permissions on your SSH keys so that
 ```
 chmod 600 ~/.ssh/id_rsa
 ```
+
+The downloads will run in parallel in each of your `tmux` windows. -->
